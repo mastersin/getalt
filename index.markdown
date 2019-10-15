@@ -17,10 +17,11 @@ layout: home
 </h2>
     <div>
       {% for loc in distrib.members %}
-        <li>
+        <div style="border: 1px solid yellow; float: left; width: 40%; margin: 20px; padding: 10px; height: 40px;">
           {{ loc.name }} 
-        </li>
+        </div>
       {% endfor %}
+<div style="clear: both;"></div>
     </div>
   </div>
 {% endfor %}
