@@ -1,0 +1,32 @@
+name: Cloud
+members:
+ - name: cloud/alt-p9-cloud-i586.img
+
+ - name: cloud/alt-p9-cloud-i586.qcow2
+
+ - name: cloud/alt-p9-cloud-x86_64.img
+
+ - name: cloud/alt-p9-cloud-x86_64.qcow2
+
+ - name: cloud/alt-p9-opennebula-i586.qcow2
+
+ - name: cloud/alt-p9-opennebula-x86_64.qcow2
+
+ - name: cloud/alt-p9-rootfs-minimal-aarch64.tar.xz
+
+ - name: cloud/alt-p9-rootfs-minimal-i586.tar.xz
+
+ - name: cloud/alt-p9-rootfs-minimal-ppc64le.tar.xz
+
+ - name: cloud/alt-p9-rootfs-minimal-x86_64.tar.xz
+
+ - name: cloud/alt-p9-rootfs-systemd-aarch64.tar.xz
+
+ - name: cloud/alt-p9-rootfs-systemd-i586.tar.xz
+
+ - name: cloud/alt-p9-rootfs-systemd-ppc64le.tar.xz
+
+ - name: cloud/alt-p9-rootfs-systemd-x86_64.tar.xz
+
+ - name: cloud/alt-workstation-cloud-8.940-x86_64.qcow2c
+

@@ -1,0 +1,16 @@
+username: djkf
+name: workstation
+members:
+ - name: aarch64/alt-workstation-8.990_rc1-aarch64.iso
+ - name: aarch64/alt-workstation-8.990_rc1-aarch64.qcow2c
+ - name: aarch64/alt-workstation-8.990_rc1-aarch64.tar.xz
+ - name: aarch64/alt-workstation-8.991_rc2-aarch64.iso
+ - name: aarch64/alt-workstation-8.991_rc2-aarch64.tar.xz
+ - name: aarch64/alt-workstation-tegra-8.990_rc1-aarch64.tar.xz
+ - name: aarch64/alt-workstation-tegra-8.991_rc2-aarch64.tar.xz
+ - name: i586/alt-workstation-8.990_rc1-i586.iso
+ - name: i586/alt-workstation-8.991_rc2-i586.iso
+ - name: mipsel/tavolga-alt-workstation-8.910_beta1-mipsel.recovery.tar
+ - name: mipsel/tavolga-alt-workstation-8.920_beta2-mipsel.recovery.tar
+ - name: x86_64/alt-workstation-8.990_rc1-x86_64.iso
+ - name: x86_64/alt-workstation-8.991_rc2-x86_64.iso

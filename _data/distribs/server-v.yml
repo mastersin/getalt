@@ -1,0 +1,7 @@
+name: Server-V
+members:
+ - name: aarch64/alt-server-v-9.0beta1-20190821-aarch64.iso
+ - name: ppc64le/alt-server-v-9.0beta1-20190821-ppc64le.iso
+ - name: x86_64/alt-server-v-20190711_alpha1-x86_64.iso
+ - name: x86_64/alt-server-v-9.0beta1-20190724-x86_64.iso
+ - name: x86_64/alt-server-v-9.0beta2-20190821-x86_64.iso
