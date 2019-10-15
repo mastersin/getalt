@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: BaseAlt
-email: veshetu@gmail.com
+email: info@basealt.ru
 description: >- # this means to ignore newlines until "baseurl:"
   Компания «Базальт СПО» – разработчик российских операционных систем «Альт». Опыт разработки программного обеспечения составляет более 20 лет.
 

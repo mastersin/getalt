@@ -24,4 +24,3 @@ layout: home
     </div>
   </div>
 {% endfor %}
-</ul>
