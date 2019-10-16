@@ -20,12 +20,13 @@
 
 title: BaseAlt
 email: info@basealt.ru
-description: >- # this means to ignore newlines until "baseurl:"
+description_ru: >- # this means to ignore newlines until "baseurl:"
   Компания «Базальт СПО» – разработчик российских операционных систем «Альт». Опыт разработки программного обеспечения составляет более 20 лет.
 
   В штате компании – более 120 разработчиков, программистов и технических специалистов.
 
   Компания имеет лицензии ФСТЭК на деятельность по разработке и производству средств защиты конфиденциальной информации, а также на деятельность по технической защите конфиденциальной информации (рег. № 1612 и 3025 от 16 сентября 2016 года). Лицензии действуют бессрочно.
+description_en: test test test
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: basealt

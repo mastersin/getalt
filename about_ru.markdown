@@ -1,7 +1,8 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: default_ru
+title: О компании
+permalink: /ru/about/
+lang: ru
 ---
 
 О компании

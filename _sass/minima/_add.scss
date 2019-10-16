@@ -1,0 +1,17 @@
+
+
+.distrib {
+border: 1px solid yellow; 
+float: left; 
+width: 40%; 
+margin: 20px; 
+padding: 10px; 
+min-height: 40px;
+}
+
+@media screen and (max-width: 700px) {
+.distrib {
+width: 90%;
+}
+
+}
