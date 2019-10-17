@@ -1,0 +1,14 @@
+name_en: Architectures
+name_ru: Архитектуры
+members:
+ - name: i586
+   name_ru: x86 32bit
+   name_en: x86 32bit
+   descr_ru: Это такой ix86...
+   descr_en: This is ix86...
+
+ - name: x86_64
+   name_ru: x86 64bit
+   name_en: x86 64bit
+   descr_ru: Это такой x86_64...
+   descr_en: This is x86_64...

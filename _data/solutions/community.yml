@@ -1,0 +1,14 @@
+name_en: Community
+name_ru: Сообщество
+members:
+ - name: starterkits
+   name_ru: Стартовые наборы
+   name_en: Starter Kits
+   descr_ru: Это такие наборы...
+   descr_en: This is kits...
+
+ - name: regulars
+   name_ru: Разработка
+   name_en: Developing
+   descr_ru: Это такая разработка...
+   descr_en: This is developing...

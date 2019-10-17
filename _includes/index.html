@@ -1,18 +1,25 @@
-{% for distrib_hash in site.data.distribs %}
+{% for solution_hash in site.data.solutions %}
   <div>
-    {% assign distrib = distrib_hash[1] %}
+    {% assign solution = solution_hash[1] %}
       <h2 style="text-align: center;">
         {%- if layout.lang == 'en' -%}
-          {{ distrib.name_ru }}
+          {{ solution.name_ru }}
         {%- else -%}
-          {{ distrib.name_en }}
+          {{ solution.name_en }}
         {%- endif -%}
       </h2>
       <div>
-        {% for loc in distrib.members %}
-          <div class="distrib">
-            <a href="/{{ include.lang }}/distribs/{{ loc.n | default:1 }}.html">{{ loc.name }}</a>
-	    <br>
+        {% for loc in solution.members %}
+          <div class="solution">
+            <a href="/{{ include.lang }}/{{ loc.name }}">
+            {%- if layout.lang == 'en' -%}
+              {{ loc.name_ru }}
+            {%- endif -%}
+            {%- if layout.lang == 'ru' -%}
+              {{ loc.name_en }}
+            {%- endif -%}
+            </a>
+            <br>
             {%- if layout.lang == 'en' -%}
               {{ loc.descr_ru }}
             {%- endif -%}

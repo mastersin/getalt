@@ -1,0 +1,14 @@
+name_en: Client solutions
+name_ru: Клиентские решения
+members:
+ - name: workstation
+   name_ru: Рабочая станция
+   name_en: Workstation
+   descr_ru: Это такая станция...
+   descr_en: This is stantion...
+
+ - name: education
+   name_ru: Образование
+   name_en: Education
+   descr_ru: Это такое образование...
+   descr_en: This is education...
