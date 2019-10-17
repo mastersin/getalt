@@ -1,18 +1,30 @@
-name: Cloud
+name_en: Cloud
+name_ru: Облачные решения
 members:
  - name: cloud/alt-p9-cloud-i586.img 
+   code: 1
    descr_ru: тест1 тесте2 ru ru ru 
    descr_en: test1 test2
+   links:
+       link: 1
+       link: 5
+       link: 6
+
 
  - name: cloud/alt-p9-cloud-i586.qcow2
+   code: 2
    descr_ru: тест1 тесте2
    descr_en: test1 test2
 
 
- - name: cloud/alt-p9-cloud-x86_64.img
+ - name: cloud/alt-p9-cloud-x86_64.img-----------
+   code: 3
    descr_ru: тест1 тесте2
    descr_en: test1 test2
-
+   links:
+    - link: 1
+    - link: 2
+    - link: 3
 
  - name: cloud/alt-p9-cloud-x86_64.qcow2
    descr_ru: тест1 тесте2

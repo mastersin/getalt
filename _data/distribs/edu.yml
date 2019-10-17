@@ -1,4 +1,5 @@
-name: Education
+name_en: Education
+name_ru: Образование
 members:
  - name: education/aarch64/alt-education-9.0beta1-20190722-aarch64.tar.xz
  - name: education/aarch64/alt-education-9.0beta1-20190726-aarch64.iso

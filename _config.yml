@@ -56,8 +56,11 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#collections_dir: _col
 collections:
-  authors:
+  dsen:
+    permalink: /en/distribs/:name
     output: true
-  ds:
+  dsru:
+    permalink: /ru/distribs/:name
     output: true

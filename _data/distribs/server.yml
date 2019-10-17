@@ -1,5 +1,5 @@
-username: djkf
-name: Server
+name_en: Server
+name_ru: Сервер
 members:
  - name: alt-server-20191003_rc3-aarch64.iso
  - name: alt-server-20191003_rc3-ppc64le.iso

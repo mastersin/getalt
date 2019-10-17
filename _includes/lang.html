@@ -1,18 +1,13 @@
-    {%- if layout.lang == 'en' -%}
+{%- if layout.lang == 'en' -%}
+  <a href="/ru/">Ru</a>
+  /
+  <a href="/en/"><b>En</b></a>
+{%- endif -%}
 
-<a href="/ru/">Ru</a>
-/
-<a href="/en/"><b>En</b></a>
+{%- if layout.lang == 'ru' -%}
+  <a href="/ru/"><b>Ru</b></a>
+  /
+  <a href="/en/">En</a>
+{%- endif -%}
+{{ page.relative_path }}
 
-    {%- endif -%}
-
-    {%- if layout.lang == 'ru' -%}
-
-<a href="/ru/"><b>Ru</b></a>
-/
-<a href="/en/">En</a>
-
-    {%- endif -%}
-
-
-- {{ layout.lang }}

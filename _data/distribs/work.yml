@@ -1,5 +1,5 @@
-username: djkf
-name: workstation
+name_en: Workstation
+name_ru: Рабочая станция
 members:
  - name: aarch64/alt-workstation-8.990_rc1-aarch64.iso
  - name: aarch64/alt-workstation-8.990_rc1-aarch64.qcow2c

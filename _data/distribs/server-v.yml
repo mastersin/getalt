@@ -1,4 +1,5 @@
-name: Server-V
+name_en: Server-V
+name_ru: Server-V
 members:
  - name: aarch64/alt-server-v-9.0beta1-20190821-aarch64.iso
  - name: ppc64le/alt-server-v-9.0beta1-20190821-ppc64le.iso

@@ -3,4 +3,4 @@ layout: default_en
 permalink: /en/
 lang: en
 ---
-{%- include index.html -%}
+{%- include index.html lang="en" -%}

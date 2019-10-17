@@ -1,25 +1,27 @@
 {% for distrib_hash in site.data.distribs %}
-<div>
-  {% assign distrib = distrib_hash[1] %}
-	<h2 style="text-align: center;">
-    <a href="https://github.com/{{ org.username }}">
-      {{ distrib.name }}
-    </a>
-</h2>
-    <div>
-      {% for loc in distrib.members %}
-        <div class="distrib">
-          <a href="/{{ layout.lang }}/product/">{{ loc.name }}</a>
-	  <br>
-          {%- if layout.lang == 'en' -%}
-            {{ loc.descr_ru }}
-          {%- endif -%}
-          {%- if layout.lang == 'ru' -%}
-            {{ loc.descr_en }}
-          {%- endif -%}
-        </div>
-      {% endfor %}
-<div style="clear: both;"></div>
+  <div>
+    {% assign distrib = distrib_hash[1] %}
+      <h2 style="text-align: center;">
+        {%- if layout.lang == 'en' -%}
+          {{ distrib.name_ru }}
+        {%- else -%}
+          {{ distrib.name_en }}
+        {%- endif -%}
+      </h2>
+      <div>
+        {% for loc in distrib.members %}
+          <div class="distrib">
+            <a href="/{{ include.lang }}/distribs/{{ loc.n | default:1 }}.html">{{ loc.name }}</a>
+	    <br>
+            {%- if layout.lang == 'en' -%}
+              {{ loc.descr_ru }}
+            {%- endif -%}
+            {%- if layout.lang == 'ru' -%}
+              {{ loc.descr_en }}
+            {%- endif -%}
+          </div>
+        {% endfor %}
+        <div style="clear: both;"></div>
     </div>
   </div>
 {% endfor %}
