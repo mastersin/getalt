@@ -8,9 +8,13 @@
     {% endif %}
   </h1>
   {%- for loc in section.members -%}
-    <div style="width: 40%; border: 1px solid black; float: left; padding: 10px;margin: 20px;">
+    <div style="width: 46%; border: 1px solid black; float: left; paddingi-bottom: 10px;margin: 1%;">
+  <img src="/logo.png" width=100 align=top style="float: left; margin-right: 10px;"/>
+
+<div style="padding: 10px;">
       <b>{{ loc.name_en }}</b>
 	<p>
+
     {% if layout.lang == 'en'%}
 {{ loc.descr_ru }}
     {% else %}
@@ -18,6 +22,8 @@
     {% endif %}
 
 </p>
+</div>
+<a href="/en/sections/1.html">Link</a>
     </div>
   {%- endfor -%}
 {% endfor %}

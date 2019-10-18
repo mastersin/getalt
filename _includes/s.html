@@ -1,0 +1,38 @@
+<div>
+{%- for section_hash in site.data.distribs -%}
+  {%- assign section = section_hash[1] -%}
+
+  {%- for loc in section.members -%}
+    {%- assign  loc_hash = loc[1] -%}
+
+    {%- if loc.code == page.code -%}
+      <h1>
+        {%- if layout.lang == 'en' -%}
+	  {{ section.name_ru }}
+        {%- else --%}
+	  {{ section.name_en }}
+        {%- endif -%}
+      </h1>
+      <div>
+          <h2>{{ loc.name }}</h2>
+          <br>
+          {%- if layout.lang == 'en' -%}
+            {{ loc.descr_ru }}
+          {%- endif -%}
+          {%- if layout.lang == 'ru' -%}
+            {{ loc.descr_en }}
+          {%- endif -%}
+{{loc.links}}
+          <ul>
+            {% for link_hash in loc.links %}
+              {% assign link = link_hash[1] %}
+              <li><a href="{{ link }}">{{ link_hash }}</a></li>
+            {% endfor %}
+          </ul>
+        <div style="clear: both;"></div>
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+</div>

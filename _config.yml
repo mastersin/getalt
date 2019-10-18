@@ -64,3 +64,9 @@ collections:
   dsru:
     permalink: /ru/distribs/:name
     output: true
+  sen:
+    permalink: /en/sections/:name
+    output: true
+  sru:
+    permalink: /ru/sections/:name
+    output: true

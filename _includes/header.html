@@ -1,18 +1,15 @@
 <header class="site-header" role="banner">
 
-  <div class="wrapper">
+  <div class="wrapper" style="">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
     {%- if layout.lang == 'en' -%}
-      <a class="site-title" rel="author" href="{{ "/en/" | relative_url }}">{{ site.title | escape }}</a>
+      <a class="site-title" rel="author" href="{{ "/en/" | relative_url }}"><img src="/logo.png" width="90"></a>
     {%- endif -%}
     {%- if layout.lang == 'ru' -%}
       <a class="site-title" rel="author" href="{{ "/ru/" | relative_url }}">{{ site.title | escape }}</a>
     {%- endif -%}
-
-
-
 
     {%- if page_paths -%}
       {%- include paths.html -%}
