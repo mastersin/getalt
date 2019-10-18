@@ -58,15 +58,15 @@ plugins:
 #   - vendor/ruby/
 #collections_dir: _col
 collections:
-  dsen:
-    permalink: /en/distribs/:name
+  solutions_sen:
+    permalink: /en/solutions/:name
     output: true
-  dsru:
-    permalink: /ru/distribs/:name
+  solutions_ru:
+    permalink: /ru/solutions/:name
     output: true
-  sen:
+  sections_en:
     permalink: /en/sections/:name
     output: true
-  sru:
+  sections_ru:
     permalink: /ru/sections/:name
     output: true

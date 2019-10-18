@@ -1,6 +1,7 @@
 name: Server
 name_en: Servers solutions
 name_ru: Серверные решения
+order: 2
 members:
  - name: server
    name_ru: Сервер

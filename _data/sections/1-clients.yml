@@ -1,6 +1,7 @@
 code: clients
 name_en: Client solutions
 name_ru: Клиентские решения
+order: 1
 members:
  - code: workstation
    name_en: Workstation

@@ -1,5 +1,6 @@
 name_en: Community
 name_ru: Сообщество
+order: 3
 members:
  - name: starterkits
    name_ru: Стартовые наборы
