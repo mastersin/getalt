@@ -1,0 +1,16 @@
+name: Server
+name_en: Servers solutions
+name_ru: Серверные решения
+members:
+ - name: server
+   name_ru: Сервер
+   name_en: Server
+   descr_ru: Это такой сервер...
+   descr_en: This is server...
+
+ - name: v-server
+   name_ru: Сервер виртуализации
+   name_en: Virtual server
+   descr_ru: Это такая виртуализация...
+   descr_en: This is virtualization...
+

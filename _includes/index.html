@@ -1,27 +1,26 @@
-{% for distrib_hash in site.data.distribs %}
-  <div>
-    {% assign distrib = distrib_hash[1] %}
-      <h2 style="text-align: center;">
-        {%- if layout.lang == 'en' -%}
-          {{ distrib.name_ru }}
-        {%- else -%}
-          {{ distrib.name_en }}
-        {%- endif -%}
-      </h2>
-      <div>
-        {% for loc in distrib.members %}
-          <div class="distrib">
-            <a href="/{{ include.lang }}/distribs/{{ loc.n | default:1 }}.html">{{ loc.name }}</a>
-	    <br>
-            {%- if layout.lang == 'en' -%}
-              {{ loc.descr_ru }}
-            {%- endif -%}
-            {%- if layout.lang == 'ru' -%}
-              {{ loc.descr_en }}
-            {%- endif -%}
-          </div>
-        {% endfor %}
-        <div style="clear: both;"></div>
+
+{% for section_hash in site.data.sections %}
+  {% assign section = section_hash[1] %}
+  <h1 style="text-align: center">
+    {% if layout.lang == 'en'%}
+{{ section.name_en }}
+    {% else %}
+{{ section.name_ru }}
+    {% endif %}
+  </h1>
+  {%- for loc in section.members -%}
+    <div style="width: 40%; border: 1px solid black; float: left; padding: 10px;margin: 20px;">
+      <b>{{ loc.name_en }}</b>
+	<p>
+    {% if layout.lang == 'en'%}
+{{ loc.descr_en }}
+    {% else %}
+{{ loc.descr_ru }}
+    {% endif %}
+
+</p>
     </div>
-  </div>
+  {%- endfor -%}
 {% endfor %}
+
+
