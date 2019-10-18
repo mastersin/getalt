@@ -1,9 +1,15 @@
+code: workstation
 name_en: Workstation
 name_ru: Work
 members:
- - name: Workstation
-   name_en: Workstatio
+ - code: workstation
+   name_en: Workstation
    name_ru: Work
- - name: Edu
+   descr_ru: W
+   descr_en: W
+ - code: edu
    name_en: Eduction
    name_ru: Edu
+   descr_ru: e
+   descr_en: e
+ 
