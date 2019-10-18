@@ -13,7 +13,9 @@
   </h1>
   {%- for loc in section.members -%}
     <div class="section" tyle="width: 46%; border: 1px solid black; float: left; paddingi-bottom: 10px;margin: 1%;">
-      <img src="/i/logo/{{loc.img | default:"default" }}.jpg" width=100 align=top style="float: left; margin-right: 10px; padding: 5px;"/>
+<a href="/en/sections/1.html">
+
+      <img src="/i/logo/{{loc.img | default:"1" }}.jpg" width=100 align=top style="float: left; margin-right: 10px; padding: 5px;"/>
 
       <div style="padding: 10px;">
         <b>{{ loc.name_en }}</b>
@@ -27,7 +29,7 @@
 
         </p>
       </div>
-      <a href="/en/sections/1.html">Link</a>
+      </a>
     </div>
   {%- endfor -%}
   <div style="clear: both;"></div>

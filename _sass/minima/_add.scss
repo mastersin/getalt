@@ -1,18 +1,29 @@
-
-
 .section {
-border: 1px solid yellow; 
-float: left; 
-width: 40%; 
-margin: 20px; 
-padding: 10px; 
-min-height: 40px;
-width: 46%; border: 1px solid black; float: left; paddingi-bottom: 10px;margin: 1%;
+  width: 46%; 
+  border: 1px solid black; 
+  float: left; 
+  paddingi-bottom: 10px;
+  margin: 1%;
+  height: 160px;
 }
 
-@media screen and (max-width: 1000px) {
-.section {
-width: 90%;
+@media screen and (max-width: 1150px) {
+  .section {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .sss{
+    text-align: center;
+  }
 }
 
+.header-title {
+  margin-left: 10px;
+  padding-top: 20px;
+  float: left;
+}
+
+
+a {
+	color: #000 !important
 }
