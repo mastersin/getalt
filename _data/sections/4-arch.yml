@@ -21,6 +21,18 @@ members:
      old model of computer - ALT Linux distributions for this
      architecture may fit you.
 
+   descr_full_ru: |
+     Все мы слышали или пользовались компьютерами с архитектурой x86.
+     Ещё 10 лет назад это были самые распространённые компьютеры в
+     пользовательском сегменте. Если Вы являетесь обладателем компьютера
+     не самой последней модели то может оказаться, что дистрибутивы
+     этой архитектуры как раз для Вас.
+   descr_full_en: |
+     Everyone heard about x86 computer architecture. 10 years ago it were
+     most widespread computers in end-user market. In case you have
+     old model of computer - ALT Linux distributions for this
+     architecture may fit you.
+
  - name: x86_64
    code: x86-64
    name_ru: x86 64bit
@@ -31,6 +43,17 @@ members:
      персональный компьютер куплен в последние 10 лет - дистрибутивы
      этой архитектуры могут быть Вашим выбором.
    descr_en: |
+     x86_64 architecture, also frequently called AMD64, is the most
+     popular nowadays. In case your computer was bought in last ten
+     years - ALT Linux distributions for this architecture might be
+     your choice.
+
+   descr_full_ru: |
+     Архитектура x86_64, также зачастую именуемая как AMD64, является
+     наиболее популярной и распространённой на данный момент. Если Ваш
+     персональный компьютер куплен в последние 10 лет - дистрибутивы
+     этой архитектуры могут быть Вашим выбором.
+   descr_full_en: |
      x86_64 architecture, also frequently called AMD64, is the most
      popular nowadays. In case your computer was bought in last ten
      years - ALT Linux distributions for this architecture might be
@@ -52,6 +75,18 @@ members:
      clusters. CPUs of this architecture are famous for its reliability,
      performance and high price.
 
+   descr_full_ru: |
+     Компьютеры редкой в наше время архитектуры PowerPC часто можно
+     встретить в дата-центрах банковских систем или в
+     высокопроизводительных кластерах. Процессоры данной архитектуры
+     известны своей надёжностью, хорошей производительностью и
+     дороговизной.
+   descr_full_en: |
+     Computers with PowerPC architecture CPUs might be frequently
+     encountered in data-centers of large bank structures or in HPC
+     clusters. CPUs of this architecture are famous for its reliability,
+     performance and high price.
+
  - name: aarch64
    code: aarch64
    name_ru: ARM 64bit ru
@@ -61,6 +96,14 @@ members:
      в телефонах, роутерах, ПЛК, устройствах IoT (Internet of Things -
      Интернет вещей) и "умный дом".
    descr_en: |
+     Devices with CPUs of ARM architecture are everywhere nowadays -
+     in smartphones, routers, PLCs, IoT and smart home devices.
+
+   descr_full_ru: |
+     Устройства архитектуры ARM на сегодняшний день окружают нас повсюду -
+     в телефонах, роутерах, ПЛК, устройствах IoT (Internet of Things -
+     Интернет вещей) и "умный дом".
+   descr_full_en: |
      Devices with CPUs of ARM architecture are everywhere nowadays -
      in smartphones, routers, PLCs, IoT and smart home devices.
 
@@ -79,6 +122,17 @@ members:
      appliances designed to work in aggressive environment or having
      high demands for reliability and security of data processing.
 
+   descr_full_ru: |
+     e2k - отечественная закрытая архитектура, разработанная Московским
+     Центром Спарк Технологий. Такие компьютеры можно встретить в
+     специальной технике, рассчитаной на работу в тяжёлых условиях или
+     с высокими требованиями к надёжности обработки данных.
+   descr_full_en: |
+     e2k is Russian closed architecture developed by Moscow Center of
+     SPARC Technologies. You may encounter these computers in special
+     appliances designed to work in aggressive environment or having
+     high demands for reliability and security of data processing.
+
  - name: mipsel
    code: mipsel
    name_ru: MIPSel
@@ -87,6 +141,13 @@ members:
      MIPS и OpenMIPS - популярные с давних времён архитектуры, которые
      наибольшее своё распространение получили в сетевом оборудовании.
    descr_en: |
+     MIPS and OpenMIPS are old, popular and well-known architectures
+     which are widely used in network equipment.
+
+   descr_full_ru: |
+     MIPS и OpenMIPS - популярные с давних времён архитектуры, которые
+     наибольшее своё распространение получили в сетевом оборудовании.
+   descr_full_en: |
      MIPS and OpenMIPS are old, popular and well-known architectures
      which are widely used in network equipment.
 

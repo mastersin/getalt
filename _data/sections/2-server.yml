@@ -20,6 +20,15 @@ members:
      organization and control of enterprise infrastructure and services
      of any scale.
    img: arm
+   descr_full_ru: |
+     Решение ALT Linux Server предназначено как центральный инструмент
+     для организации и управления инфраструктурой и сервисами
+     предприятий любого масштаба.
+   descr_full_en: |
+     ALT Linux Server solution is designed as a core instrument for
+     organization and control of enterprise infrastructure and services
+     of any scale.
+   img: arm
 
  - name: server-v
    code: server-v
@@ -30,6 +39,13 @@ members:
      серверного решения ALT Linux, нацеленного на управление облачной
      инфраструктурой предприятий.
    descr_en: |
+     ALT Linux Virtualization Server solution is a variant of ALT Linux
+     Server designed for enterprise cloud infrastructure.
+   descr_full_ru: |
+     Решение ALT Linux Virtualization Server является вариантом
+     серверного решения ALT Linux, нацеленного на управление облачной
+     инфраструктурой предприятий.
+   descr_full_en: |
      ALT Linux Virtualization Server solution is a variant of ALT Linux
      Server designed for enterprise cloud infrastructure.
    img: e

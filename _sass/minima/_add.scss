@@ -1,3 +1,27 @@
+.ss {
+margin: 20px;
+width: 350px
+}
+
+.link {
+background-color: #888; 
+margin: 10px; 
+padding: 10px; 
+text-align: justify; 
+height: 40px; 
+border-radius: 5px;
+}
+
+.links {
+background-color: #ccc; 
+float: right; 
+width: 45%; 
+padding: 10px; 
+height: auto; 
+border-radius: 5px;
+margin-left: 10px;
+}
+
 .dload {
 float: right;
 text-align: center;

@@ -1,19 +1,18 @@
-<div style="background-color: #ccc; float: right; width: 45%; padding: 10px; height: 250px; margin: 0 10px;">
-
-<h2>
-{% if lyaout.lang == "en" or 1%}
-Additional links
-{% endif %}
-{% if lyaout.lang == "en" or 1%}
-Additional links
-{% endif %}
-
-</h2>
-<div>
-  {% for loc in site.data.images.images %}
-    {% if loc.arch == include.arch and loc.solution == page.code %}
-	{% include solution/links.html %}
+<div class="links">
+  <h2>
+    {% if lyaout.lang == "en"%}
+      Additional downloads
     {% endif %}
-  {%- endfor -%}
-</div>
+    {% if layout.lang == "ru" %}
+      Дополнительные загрузки
+    {% endif %}
+  </h2>
+
+  <div>
+    {% for loc in site.data.images.images %}
+      {% if loc.arch == include.arch and loc.solution == page.code %}
+        {% include solution/links.html %}
+      {% endif %}
+    {%- endfor -%}
+  </div>
 </div>

@@ -10,15 +10,14 @@
     {%- if layout.lang == 'ru' -%}
       <a class="site-title" rel="author" href="{{ "/ru/" | relative_url }}"><img src="/i/logo.png" width="90"></a>
     {%- endif -%}
-<div class="header-title">
-    {%- if layout.lang == 'ru' -%}
-
-Российский разработчик <br/> операционных систем "Альт"
-    {%- endif -%}
-    {%- if layout.lang == 'en' -%}    
-ALT operation systems <br>russian developer company
-    {%- endif -%}
-</div>
+    <div class="header-title">
+        {%- if layout.lang == 'ru' -%}
+          Российский разработчик <br/> операционных систем "Альт"
+        {%- endif -%}
+        {%- if layout.lang == 'en' -%}    
+          ALT operation systems <br>russian developer company
+        {%- endif -%}
+    </div>
     {%- if page_paths -%}
       {%- include paths.html -%}
     {%- endif -%}

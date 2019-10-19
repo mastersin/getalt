@@ -1,14 +1,18 @@
-<div style="background-color: #ccc; float: right; width: 45%; padding: 10px; height: 250px">
-
-<h2>
-Main links
-</h2>
-<div>
-  {% for loc in site.data.images.images %}
-    {% if loc.importance == 1 and (loc.arch == page.code or loc.solution == page.code) %}
-      {% include solution/links.html %}
-
+<div class="links">
+  <h2>
+    {% if layout.lang == "en"%}
+       Main downloads
     {% endif %}
-  {%- endfor -%}
-</div>
+    {% if layout.lang == "ru"%}
+      Основные загрузки
+    {% endif %}
+  </h2>
+
+  <div>
+    {% for loc in site.data.images.images %}
+      {% if loc.importance == 1 and (loc.arch == page.code or loc.solution == page.code) %}
+        {% include solution/links.html %}
+      {% endif %}
+    {%- endfor -%}
+  </div>
 </div>
