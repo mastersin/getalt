@@ -107,31 +107,23 @@ members:
      Devices with CPUs of ARM architecture are everywhere nowadays -
      in smartphones, routers, PLCs, IoT and smart home devices.
 
- - name: e2k
-   code: e2k
-   name_ru: Эльбрус e2k
-   name_en: Elbrus e2k
+ - name: riscv
+   code: riscv
+   name_ru: RiscV
+   name_en: RiscV
    descr_ru: |
-     e2k - отечественная закрытая архитектура, разработанная Московским
-     Центром Спарк Технологий. Такие компьютеры можно встретить в
-     специальной технике, рассчитаной на работу в тяжёлых условиях или
-     с высокими требованиями к надёжности обработки данных.
+     открытая и свободная система команд и процессорная архитектура на
+     основе концепции RISC для микропроцессоров и микроконтроллеров.
    descr_en: |
-     e2k is Russian closed architecture developed by Moscow Center of
-     SPARC Technologies. You may encounter these computers in special
-     appliances designed to work in aggressive environment or having
-     high demands for reliability and security of data processing.
+     RiscV is an open-source hardware instruction set architecture
+     based on established reduced instruction set computer principles.
 
    descr_full_ru: |
-     e2k - отечественная закрытая архитектура, разработанная Московским
-     Центром Спарк Технологий. Такие компьютеры можно встретить в
-     специальной технике, рассчитаной на работу в тяжёлых условиях или
-     с высокими требованиями к надёжности обработки данных.
+     открытая и свободная система команд и процессорная архитектура на
+     основе концепции RISC для микропроцессоров и микроконтроллеров.
    descr_full_en: |
-     e2k is Russian closed architecture developed by Moscow Center of
-     SPARC Technologies. You may encounter these computers in special
-     appliances designed to work in aggressive environment or having
-     high demands for reliability and security of data processing.
+     RiscV is an open-source hardware instruction set architecture
+     based on established reduced instruction set computer principles.
 
  - name: mipsel
    code: mipsel

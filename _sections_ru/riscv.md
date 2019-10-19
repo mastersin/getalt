@@ -1,6 +1,6 @@
 ---
 layout: default_ru
 lang: ru
-code: e2k
+code: riscv
 ---
 {% include solution.html %}

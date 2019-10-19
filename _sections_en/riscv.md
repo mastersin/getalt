@@ -1,7 +1,6 @@
 ---
 layout: default_en
 lang: en
-code: e2k
-name: work
+code: riscv
 ---
 {% include solution.html %}
