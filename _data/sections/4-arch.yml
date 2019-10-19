@@ -2,37 +2,50 @@ name_en: Architectures
 name_ru: Архитектуры
 members:
  - name: i586
+   code: i586
    name_ru: x86 32bit
    name_en: x86 32bit
    descr_ru: Это такой ix86...
    descr_en: This is ix86...
 
  - name: x86_64
+   code: x86-64
    name_ru: x86 64bit
    name_en: x86 64bit
    descr_ru: Это такой x86_64...
    descr_en: This is x86_64...
 
  - name: ppc64el
+   code: ppc64el
    name_ru: PowerPC
    name_en: PowerPC
    descr_ru: Это такой PowerPC...
    descr_en: This is PowerPC...
 
  - name: aarch64
-   name_ru: ARM 64bit
-   name_en: ARM 64bit
+   code: aarch64
+   name_ru: ARM 64bit ru
+   name_en: ARM 64bit en
    descr_ru: Это такой ARM64...
    descr_en: This is ARM64...
 
  - name: e2k
+   code: e2k
    name_ru: Эльбрус
    name_en: Elbrus
    descr_ru: Это такой Эльбрус...
    descr_en: This is Elbrus...
 
  - name: mipsel
+   code: mipsel
    name_ru: MIPSel
    name_en: MIPSel
-   descr_ru: Это такой MIPSel...
-   descr_en: This is MIPSel...
+   descr_ru: |
+     MIPS и OpenMIPS - популярные с давних времён архитектуры, которые
+     наибольшее своё распространение получили в сетевом оборудовании.
+   descr_en: |
+     MIPS and OpenMIPS are old, popular and well-known architectures
+     which are widely used in network equipment.
+
+
+

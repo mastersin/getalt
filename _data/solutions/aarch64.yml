@@ -1,6 +1,6 @@
-name_en: Workstation
-name_ru: Рабочая станция
-code: workstation
+name_en: ARM64 en 423
+name_ru: ARM64 ru 123
+code: aarch64
 members:
  - name: aarch64/alt-workstation-8.990_rc1-aarch64.iso
    code: workstation

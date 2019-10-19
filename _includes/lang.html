@@ -1,12 +1,18 @@
+<div>
+{% assign lurl = page.url | slice: 3, 100 %}
+{% if lurl != "/" %}
+  {% assign lurl = lurl | append: '.html' %}
+{% endif %}
+
 {%- if layout.lang == 'en' -%}
-  <a href="/ru/">Ru</a>
+  <a href="/ru{{lurl}}">Ru</a>
   /
-  <a href="/en/"><b>En</b></a>
+  <a href="/en{{lurl}}"><b>En</b></a>
 {%- endif -%}
 
 {%- if layout.lang == 'ru' -%}
-  <a href="/ru/"><b>Ru</b></a>
+  <a href="/ru{{lurl}}"><b>Ru</b></a>
   /
-  <a href="/en/">En</a>
+  <a href="/en{{lurl}}">En</a>
 {%- endif -%}
-
+</div>

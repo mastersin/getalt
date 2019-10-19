@@ -5,6 +5,7 @@ members:
  - name: starterkits
    name_ru: Стартовые наборы
    name_en: Starter Kits
+   code: starterkits
    descr_ru: |
      Стартовые наборы формируются на базе еженедельных срезов
      репозитория Sisyphus и предназначены для опытных разработчиков
@@ -12,9 +13,10 @@ members:
    descr_en: |
      Starter kits are based on weekly Sisyphus repository slices and
      are designed for experienced Sisyphus and ALT Linux developers.
-   img: 5
+   img: e2k
 
  - name: regulars
+   code: regulars
    name_ru: Разработка
    name_en: Developing
    descr_ru: |
@@ -25,4 +27,4 @@ members:
      Regular builds are based on weekly stable repository branches and
      are designed for experienced developers of integrated solutions
      for ALT Linux.
-   img: 6
+   img: powerpc

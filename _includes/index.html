@@ -1,27 +1,35 @@
 
 {% assign sorted = (site.data.sections | sort: order) %}
 
-
+<div style="borde: 1px solid red; text-align: justify; width: 100%; padding: 0; margin: 0; ">
 {% for section_hash in sorted %}
   {% assign section = section_hash[1] %}
   <h1 style="text-align: center">
-    {% if layout.lang == 'en'%}
+    {% if page.lang == 'en'%}
 {{ section.name_en }}
-    {% else %}
+    {% endif %}
+    {% if page.lang == 'ru'%}
 {{ section.name_ru }}
     {% endif %}
   </h1>
   {%- for loc in section.members -%}
-    <div class="section" tyle="width: 46%; border: 1px solid black; float: left; paddingi-bottom: 10px;margin: 1%;">
-<a href="/en/sections/1.html">
-
-      <img src="/i/logo/{{loc.img | default:"1" }}.jpg" width=100 align=top style="float: left; margin-right: 10px; padding: 5px;"/>
-
+    <div class="section">
+      <a href="/{{ page.lang }}/sections/{{ loc.code }}.html">
+<div style="height: 100%; float: left; vertical-alig: 50%; borde: 1px solid red">
+      <img src="/i/logo/{{loc.img | default:"edu" }}.jpg" width=100 align=top  style="display: inline-block; float: left; margin-right: 10px; padding: 5px; borde: 1px solid green"/>
+</div>
       <div style="padding: 10px;">
-        <b>{{ loc.name_en }}</b>
+        <b>
+          {% if page.lang == 'ru'%}
+            {{ loc.name_ru }}
+          {% else %}
+            {{ loc.name_en }}
+          {% endif %}
+       </b>
+
 	<p>
 
-          {% if layout.lang == 'en'%}
+          {% if page.lang == 'ru'%}
             {{ loc.descr_ru }}
           {% else %}
             {{ loc.descr_en }}
@@ -36,3 +44,4 @@
 {% endfor %}
 
 
+</div>

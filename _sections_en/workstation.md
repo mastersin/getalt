@@ -1,7 +1,7 @@
 ---
 layout: default_en
 lang: en
-code: 1
+code: workstation
 name: work
 ---
-{% include d.html %}
+{% include solution.html %}

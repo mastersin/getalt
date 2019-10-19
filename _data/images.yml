@@ -1,0 +1,297 @@
+images:
+ - link: ./cloud/alt-p9-cloud-i586.img
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-cloud-i586.qcow2
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-cloud-x86_64.img
+   arch: x86
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-cloud-i586.img
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-cloud-i586.qcow2
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-cloud-x86_64.img
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-cloud-x86_64.qcow2
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-opennebula-i586.qcow2
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-opennebula-x86_64.qcow2
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-rootfs-minimal-aarch64.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-rootfs-minimal-i586.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-rootfs-minimal-ppc64le.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-rootfs-minimal-x86_64.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-rootfs-systemd-aarch64.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-rootfs-systemd-i586.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-rootfs-systemd-ppc64le.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-p9-rootfs-systemd-x86_64.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./cloud/alt-workstation-cloud-8.940-x86_64.qcow2c
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./education/aarch64/alt-education-9.0beta1-20190722-aarch64.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./education/aarch64/alt-education-9.0beta1-20190726-aarch64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./education/aarch64/alt-education-9.0rc-20191010-aarch64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./education/aarch64/alt-education-9.0rc-20191010-aarch64.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./education/aarch64/alt-education-tegra-9.0beta1-20190723-aarch64.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./education/aarch64/alt-education-tegra-9.0rc-20191010-aarch64.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./education/i586/alt-education-9.0beta1-20190722-i586.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./education/i586/alt-education-9.0beta2-20190821-i586.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./education/i586/alt-education-9.0rc-20191010-i586.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./education/x86_64/alt-education-9.0beta1-20190722-x86_64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./education/x86_64/alt-education-9.0beta2-20190821-x86_64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./education/x86_64/alt-education-9.0rc-20191010-x86_64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./kworkstation/x86_64/alt-kworkstation-8.90-beta20190805-install-x86_64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./kworkstation/x86_64/alt-kworkstation-8.90-beta20190805-live-x86_64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./kworkstation/x86_64/alt-kworkstation-8.92-beta20190828-install-x86_64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./kworkstation/x86_64/alt-kworkstation-8.92-beta20190828-live-x86_64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./server/alt-server-20191003_rc3-aarch64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./server/alt-server-20191003_rc3-ppc64le.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./server/alt-server-20191003_rc3-x86_64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./server/alt-server-20191009_rc4-aarch64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./server/alt-server-20191009_rc4-ppc64le.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./server/alt-server-20191009_rc4-x86_64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./server/ppc64le/alt-server-20190905-alpha2-ppc64le.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./server-v/aarch64/alt-server-v-9.0beta1-20190821-aarch64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./server-v/ppc64le/alt-server-v-9.0beta1-20190821-ppc64le.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./server-v/x86_64/alt-server-v-20190711_alpha1-x86_64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./server-v/x86_64/alt-server-v-9.0beta1-20190724-x86_64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./server-v/x86_64/alt-server-v-9.0beta2-20190821-x86_64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./workstation/aarch64/alt-workstation-8.990_rc1-aarch64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./workstation/aarch64/alt-workstation-8.990_rc1-aarch64.qcow2c
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./workstation/aarch64/alt-workstation-8.990_rc1-aarch64.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./workstation/aarch64/alt-workstation-8.991_rc2-aarch64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./workstation/aarch64/alt-workstation-8.991_rc2-aarch64.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./workstation/aarch64/alt-workstation-tegra-8.990_rc1-aarch64.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./workstation/aarch64/alt-workstation-tegra-8.991_rc2-aarch64.tar.xz
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./workstation/i586/alt-workstation-8.990_rc1-i586.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./workstation/i586/alt-workstation-8.991_rc2-i586.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./workstation/mipsel/tavolga-alt-workstation-8.910_beta1-mipsel.recovery.tar
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./workstation/mipsel/tavolga-alt-workstation-8.920_beta2-mipsel.recovery.tar
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./workstation/x86_64/alt-workstation-8.990_rc1-x86_64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ - link: ./workstation/x86_64/alt-workstation-8.991_rc2-x86_64.iso
+   arch: i586
+   solution: cloud
+   importance: 1
+   platform: p9
+ 

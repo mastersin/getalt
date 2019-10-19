@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body style="border: 1px solid black;">
     {%- if layout.lang == 'en' -%}
       {%- include header_en.html -%}
     {%- endif -%}
@@ -12,7 +12,7 @@
       {%- include header_ru.html -%}
     {%- endif -%}
 
-    <main class="page-content" aria-label="Content" style="">
+    <main class="page-content" aria-label="Content" style="borde: 1px solid black">
       <div class="wrapper" style="padding: 0; margin: auto; text-align: enter; borde: 1px solid black;;">
         {{ content }}
       </div>

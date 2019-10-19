@@ -1,6 +1,6 @@
-name_en: Workstation
-name_ru: Рабочая станция
-code: workstation
+name_en: PPC64eL
+name_ru: PPC64El
+code: ppc64el
 members:
  - name: aarch64/alt-workstation-8.990_rc1-aarch64.iso
    code: workstation

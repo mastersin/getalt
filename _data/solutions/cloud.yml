@@ -1,5 +1,6 @@
 name_en: Cloud
 name_ru: Облачные решения
+code: cloud
 members:
  - name: cloud/alt-p9-cloud-i586.img 
    code: 1

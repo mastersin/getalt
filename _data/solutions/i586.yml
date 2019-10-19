@@ -1,6 +1,6 @@
-name_en: Workstation
-name_ru: Рабочая станция
-code: workstation
+name_en: i586
+name_ru: i586
+code: i586
 members:
  - name: aarch64/alt-workstation-8.990_rc1-aarch64.iso
    code: workstation
