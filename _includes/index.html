@@ -4,13 +4,13 @@
   {% for section_hash in sorted %}
     {% assign section = section_hash[1] %}
      <div style="background-color: #{{ section.bgcolor}}">
-     <div style="margin: 0 auto; display: table; width: 1200px;">
+     <div style="margin: 0 auto; display: table; width: 1200px; padding: 40xp 0;">
       {% include index/name.html %}
       {%- for loc in section.members -%}
         <div class="section" style="border-radius: 5px; background-color: #{{section.bgcolor1}}; border-color: #{{section.bordercolor}}">
           <a href="/{{ page.lang }}/sections/{{ loc.code }}.html">
-            <div style="height: 100%; float: left; vertical-alig: 50%; borde: 1px solid red">
-              <img src="/i/logo/{{loc.img | default:"edu" }}.jpg" width="100" align="top" style="margin: 10px 10px;">
+            <div style="heigh: 100%; float: left; vertical-alig: 50%; borde: 1px solid red">
+              <img src="/i/logo/{{loc.img | default:"edu" }}.jpg" width="100" align="top" style="margin: 20px;">
             </div>
             <div style="padding: 0 10px; borde: 1px solid black; vertical-align: top">
               {% include index/descr.html %}

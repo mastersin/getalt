@@ -25,14 +25,15 @@ margin-left: 10px;
 .dload {
 float: right;
 text-align: center;
-background-color: #99f;
+
+background-color: #ddf;
 width: 100px;
 padding: 10px;
 border-radius: 5px;
 }
 
 a:hover {
-background-color: #ddf;
+background-color: #99f;
 color: green;
 }
 
@@ -42,16 +43,16 @@ color: green;
   float: left; 
   padding-bottom: 10px;
   margin: 1%;
-  height: 200px;
+  height: 260px;
 text-align: left;
 padding-bottom: 10px;
-margin: 10px 10px; 
+margin: 30px 10px; 
 width: calc(30% - 23px); 
 width: 500px;
 padding: 10px; 
 max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
 max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-
+font-size: 1.2rem;
 }
 
 @media screen and (max-width: 1150px) {

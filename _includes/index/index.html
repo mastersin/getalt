@@ -16,7 +16,7 @@
     <div class="section">
       <a href="/{{ page.lang }}/sections/{{ loc.code }}.html">
       <div style="height: 100%; float: left; vertical-alig: 50%; borde: 1px solid red">
-        <img src="/i/logo/{{loc.img | default:"edu" }}.jpg" width="100" align="top" >
+        <img src="/i/logo/{{loc.img | default:"edu" }}.jpg" width="100" align="top" style="margin: 200px;">
       </div>
       <div style="padding: 10px;">
         <b>
@@ -27,7 +27,7 @@
           {% endif %}
        </b>
 
-	<p>
+        <p>
 
           {% if page.lang == 'ru'%}
             {{ loc.descr_ru }}
