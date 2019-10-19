@@ -6,5 +6,4 @@ name: work
 arch: i586
 ---
 {% include solution.html %}
-1
 {% include solution/links_add.html %}

@@ -3,6 +3,8 @@ name_en: Client solutions
 name_ru: Клиентские решения
 order: 1
 bgcolor: ccc
+bgcolor1: ddd
+bordercolor: fff
 members:
  - code: workstation
    name_en: Workstation

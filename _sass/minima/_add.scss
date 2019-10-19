@@ -14,28 +14,28 @@ color: green;
 
 
 .section {
-  width: 46%; 
   border: 1px solid black; 
   float: left; 
-  paddingi-bottom: 10px;
+  padding-bottom: 10px;
   margin: 1%;
   height: 200px;
-
-borde: 1px solid black; 
-float: lft; 
+text-align: left;
 padding-bottom: 10px;
-margin: 10px; 
-width: calc(50% - 23px); 
-padding: 0; 
-margin-left: 10px;
+margin: 10px 10px; 
+width: calc(30% - 23px); 
+width: 500px;
+padding: 10px; 
+max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
 
 }
 
 @media screen and (max-width: 1150px) {
   .section {
-    width: 90%;
+    width: 100%;
     margin: 10px auto;
     padding: 0;
+    text-align: left;
   }
   .sss{
     text-align: center;
@@ -64,4 +64,8 @@ margin-left: 10px;
 
 a {
 	color: #000 !important
+}
+
+header {
+width: 1100px;
 }

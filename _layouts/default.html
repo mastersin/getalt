@@ -4,6 +4,7 @@
   {%- include head.html -%}
 
   <body style="border: 1px solid black;">
+    <div style="width: 1000px; text-align; center; margin: auto;">
     {%- if layout.lang == 'en' -%}
       {%- include header_en.html -%}
     {%- endif -%}
@@ -11,9 +12,9 @@
     {%- if layout.lang == 'ru' -%}
       {%- include header_ru.html -%}
     {%- endif -%}
-
-    <main class="page-content" aria-label="Content" style="borde: 1px solid black">
-      <div class="wrapper" style="padding: 0; margin: auto; text-align: enter; borde: 1px solid black;;">
+    </div>
+    <main class="page-content" aria-label="Content" style="borde: 1px solid black; widt: 100%">
+      <div class="wrapper" style="padding: 0; margin: 0 auto; text-align: enter; borde: 1px solid black;;">
         {{ content }}
       </div>
     </main>

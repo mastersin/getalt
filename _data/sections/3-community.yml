@@ -2,6 +2,9 @@ name_en: Community
 name_ru: Сообщество
 order: 3
 bgcolor: 99f
+bgcolor1: ffd
+bordercolor: fff
+
 members:
  - name: starterkits
    name_ru: Стартовые наборы
