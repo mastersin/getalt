@@ -15,9 +15,9 @@
   {%- for loc in section.members -%}
     <div class="section">
       <a href="/{{ page.lang }}/sections/{{ loc.code }}.html">
-<div style="height: 100%; float: left; vertical-alig: 50%; borde: 1px solid red">
-      <img src="/i/logo/{{loc.img | default:"edu" }}.jpg" width=100 align=top  style="display: inline-block; float: left; margin-right: 10px; padding: 5px; borde: 1px solid green"/>
-</div>
+      <div style="height: 100%; float: left; vertical-alig: 50%; borde: 1px solid red">
+        <img src="/i/logo/{{loc.img | default:"edu" }}.jpg" width="100" align="top" >
+      </div>
       <div style="padding: 10px;">
         <b>
           {% if page.lang == 'ru'%}
