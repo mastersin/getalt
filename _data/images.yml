@@ -1,70 +1,73 @@
 images:
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/rc/alt-education-9.0-aarch64.iso
-   arch: p9
+   platform: p9
    solution: education
    importance: 0
    arch: aarch64
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/rc/alt-education-9.0-aarch64.tar.xz
-   arch: p9
+   platform: p9
    solution: education
    importance: 0
    arch: aarch64
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/rc/alt-education-9.0-tegra-aarch64.tar.xz
-   arch: p9
+   platform: p9
    solution: education
    importance: 0
+   type: tar.xz
+   board: tegra
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/i586/rc/alt-education-9.0-i586.iso
-   arch: p9
+   platform: p9
    solution: education
    importance: 1
    arch: i586
+   type: DVD ISO
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/alt-server-20191009_rc4-aarch64.iso
-   arch: p9
+   platform: p9
    solution: server
    importance: 1
    arch: aarch64
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/alt-server-20191009_rc4-ppc64le.iso
-   arch: p9
+   platform: p9
    solution: server
    importance: 1
    arch: ppc64le
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/alt-server-20191009_rc4-x86_64.iso
-   arch: p9
+   platform: p9
    solution: server
    importance: 1
    arch: x86_64
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server-v/x86_64/alt-server-v-9.0beta2-20190821-x86_64.iso
-   arch: p9
+   platform: p9
    solution: server-v
    importance: 1
    arch: x86_64
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/aarch64/alt-workstation-8.991_rc2-aarch64.iso
-   arch: p9
+   platform: p9
    solution: workstation
    importance: 0
    arch: aarch64
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/aarch64/alt-workstation-8.991_rc2-aarch64.tar.xz
-   arch: p9
+   platform: p9
    solution: workstation
    importance: 0
    arch: aarch64
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/aarch64/alt-workstation-tegra-8.991_rc2-aarch64.tar.xz
-   arch: p9
+   platform: p9
    solution: workstation
    importance: 0
    arch: aarch64
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/i586/alt-workstation-8.991_rc2-i586.iso
-   arch: p9
+   platform: p9
    solution: workstation
    importance: 1
    arch: i586
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/mipsel/tavolga-alt-workstation-8.920_beta2-mipsel.recovery.tar
-   arch: p9
+   platform: p9
    solution: workstation
    importance: 0
    arch: mipsel
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/x86_64/alt-workstation-8.990_rc1-x86_64.iso
-   arch: p9
+   platform: p9
    solution: workstation
    importance: 1
    arch: x86_64
