@@ -1,0 +1,63 @@
+<div>
+{%- for solution_hash in site.data.solutions -%}
+  {%- assign solution = solution_hash[1] -%}
+
+  {%- if solution.code == page.code -%}
+      <h1>
+        {%- if layout.lang == 'en' -%}
+	  {{ solution.name_en }}
+        {%- else --%}
+	  {{ solution.name_ru }}
+        {%- endif -%}
+        123
+        {{layout.lang}}
+      </h1>
+      <p>
+        {%- for section_hash in site.data.sections -%}
+          {% assign section = section_hash[1] %}        
+          {%- for loc in section.members -%}
+            {% if loc.code == page.code %}
+              {% if layout.lang == "ru" %}
+                {{ loc.descr_ru }}
+                {% else %}
+                {{ loc.descr_en }}
+              {% endif %}
+            {% endif %}
+          {%- endfor -%}
+        {%- endfor -%}
+      </p>
+      <div>
+        <ul>
+          {% for loc in solution.members %}
+            {%- assign  loc_hash = loc[1] -%}
+            <b>{{ loc.name }}</b>
+            <br>
+            {%- if layout.lang == 'en' -%}
+              {{ loc.descr_ru }}
+            {%- endif -%}
+            {%- if layout.lang == 'ru' -%}
+              {{ loc.descr_en }}
+            {%- endif -%}
+            {{loc.links}}
+
+            {%- for link_hash in loc.links -%}
+              {% assign link = link_hash[1] %}
+              <li><a href="{{ link }}">{{ link_hash }}</a></li>
+            {% endfor %}
+        {%- endfor -%}
+      </ul>
+      <div style="clear: both;"></div>
+    </div>
+  {%- endif -%}
+{%- endfor -%}
+</div>
+
+<ul>
+  {% for loc in site.data.images.images %}
+    <li>
+      <ul>
+        {{loc.link}}
+      </ul>
+    </li>
+  {%- endfor -%}
+</ul>

@@ -1,0 +1,16 @@
+<div style="padding: 10px;">
+  <b>
+    {% if page.lang == 'ru'%}
+      {{ loc.name_ru }}
+    {% else %}
+      {{ loc.name_en }}
+    {% endif %}
+  </b>
+  <p>
+    {% if page.lang == 'ru'%}
+      {{ loc.descr_ru }}
+    {% else %}
+      {{ loc.descr_en }}
+    {% endif %}
+  </p>
+</div>

@@ -1,0 +1,12 @@
+{{ page.arch}}
+{{ include.arch}}
+
+<ul>
+  {% for loc in site.data.images.images %}
+    {% if (loc.arch == page.arch or loc.arch == include.arch) and loc.solution == page.code %}
+       <li>
+         {{ loc.link }}
+       </li>
+    {% endif %}
+  {%- endfor -%}
+</ul>

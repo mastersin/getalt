@@ -2,6 +2,7 @@ name: Server
 name_en: Servers solutions
 name_ru: Серверные решения
 order: 2
+bgcolor: a99
 members:
  - name: server
    code: server

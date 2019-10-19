@@ -1,0 +1,23 @@
+{%- for solution_hash in site.data.solutions -%}
+  {%- assign solution = solution_hash[1] -%}
+  {%- if solution.code == page.code -%}
+
+      <p>
+        {%- for section_hash in site.data.sections -%}
+          {% assign section = section_hash[1] %}        
+          {%- for loc in section.members -%}
+            {% if loc.code == page.code %}
+
+              {% if layout.lang == "ru" %}
+                {{ loc.descr_ru }}
+                {% else %}
+                {{ loc.descr_en }}
+              {% endif %}
+
+            {% endif %}
+          {%- endfor -%}
+        {%- endfor -%}
+      </p>
+
+  {%- endif -%}
+{%- endfor -%}

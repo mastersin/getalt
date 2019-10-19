@@ -1,5 +1,6 @@
 name_en: Architectures
 name_ru: Архитектуры
+bgcolor: 9d9
 members:
  - name: i586
    code: i586

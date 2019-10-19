@@ -2,10 +2,12 @@ code: clients
 name_en: Client solutions
 name_ru: Клиентские решения
 order: 1
+bgcolor: ccc
 members:
  - code: workstation
    name_en: Workstation
    name_ru: Рабочая станция
+
    descr_ru: |
      Решение ALT Linux Рабочая станция предназначено для организации
      рабочих мест конечных пользователей и подходит для применения как
@@ -18,6 +20,7 @@ members:
  - code: education
    name_en: ALT Education
    name_ru: Альт Образование
+   bgcolor: #a00   
    descr_ru: |
      Решение ALT Linux Образование предназначено для применения в
      образовательных учреждениях типа школ, колледжей и университетов и
