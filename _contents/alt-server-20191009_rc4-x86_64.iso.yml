@@ -1,0 +1,7 @@
+---
+
+url: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/alt-server-20191009_rc4-x86_64.iso
+arch: x86_64
+solution: server
+platform: p9
+

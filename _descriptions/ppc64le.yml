@@ -1,0 +1,13 @@
+---
+
+name: ppc64le
+image: /images/PowerPC.png
+
+header:
+  ru: PowerPC
+  en: PowerPC
+
+description:
+  ru: PowerPC
+  en: PowerPC
+

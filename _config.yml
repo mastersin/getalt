@@ -20,10 +20,11 @@
 
 title: BaseAlt
 email: info@basealt.ru
-description_ru: >- # this means to ignore newlines until "baseurl:"
-  Компания «Базальт СПО» – разработчик российских операционных систем «Альт».
-description_en: >-
-  BaseALT Ltd. - ALT operation systems russian developer company.
+description:
+  ru: >- # this means to ignore newlines until "baseurl:"
+    Компания «Базальт СПО» – разработчик российских операционных систем «Альт».
+  en: >-
+    BaseALT Ltd. - ALT operation systems russian developer company.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: altlinux
@@ -34,6 +35,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+empty_array: []
+
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
@@ -43,15 +46,8 @@ exclude:
 
 #collections_dir: _col
 collections:
-  solutions_sen:
-    permalink: /en/solutions/:name
+  contents:
+  descriptions:
+  download:
     output: true
-  solutions_ru:
-    permalink: /ru/solutions/:name
-    output: true
-  sections_en:
-    permalink: /en/sections/:name
-    output: true
-  sections_ru:
-    permalink: /ru/sections/:name
-    output: true
+

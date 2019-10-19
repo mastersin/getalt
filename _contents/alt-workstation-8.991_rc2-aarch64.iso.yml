@@ -1,0 +1,7 @@
+---
+
+url: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/aarch64/alt-workstation-8.991_rc2-aarch64.iso
+arch: aarch64
+solution: workstation
+platform: p9
+

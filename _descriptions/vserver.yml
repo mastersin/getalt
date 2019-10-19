@@ -1,0 +1,18 @@
+---
+
+name: vserver
+image: /img.png
+
+header:
+  ru: ALT Linux Сервер Виртуализации
+  en: ALT Linux Virtualization Server
+
+description:
+  ru: |
+     Решение ALT Linux Virtualization Server является вариантом
+     серверного решения ALT Linux, нацеленного на управление облачной
+     инфраструктурой предприятий.
+  en: |
+     ALT Linux Virtualization Server solution is a variant of ALT Linux
+     Server designed for enterprise cloud infrastructure.
+

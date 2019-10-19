@@ -1,0 +1,18 @@
+---
+
+name: starterkit
+image: /img.png
+
+header:
+  ru: Стартовый набор
+  en: Starter kit
+
+description:
+  ru: |
+    Стартовые наборы формируются на базе еженедельных срезов
+    репозитория Sisyphus и предназначены для опытных разработчиков
+    решений на базе репозитория Sisyphus и ALT Linux.
+  en: |
+    Starter kits are based on weekly Sisyphus repository slices and
+    are designed for experienced Sisyphus and ALT Linux developers.
+

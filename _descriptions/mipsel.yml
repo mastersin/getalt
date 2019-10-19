@@ -1,0 +1,17 @@
+---
+
+name: mipsel
+image: /images/mips-logo-blue.svg
+
+header:
+  ru: MIPS 32 LE
+  en: MIPS 32 LE
+
+description:
+  ru: |
+    MIPS и OpenMIPS - популярные с давних времён архитектуры, которые
+    наибольшее своё распространение получили в сетевом оборудовании.
+  en: |
+    MIPS and OpenMIPS are old, popular and well-known architectures
+    which are widely used in network equipment.
+

@@ -4,13 +4,7 @@
   {%- include head.html -%}
 
   <body>
-    {%- if layout.lang == 'en' -%}
-      {%- include header_en.html -%}
-    {%- endif -%}
-
-    {%- if layout.lang == 'ru' -%}
-      {%- include header_ru.html -%}
-    {%- endif -%}
+    {%- include header.html -%}
 
     <main class="page-content" aria-label="Content" style="">
       <div class="wrapper" style="padding: 0; margin: auto; text-align: enter; borde: 1px solid black;;">
@@ -18,13 +12,6 @@
       </div>
     </main>
 
-    {%- if layout.lang == 'en' -%}
-      {%- include footer_en.html -%}
-    {%- endif -%}
-
-    {%- if layout.lang == 'ru' -%}
-      {%- include footer_ru.html -%}
-    {%- endif -%}
-
+    {%- include footer.html -%}
   </body>
 </html>

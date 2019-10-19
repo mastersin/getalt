@@ -1,0 +1,19 @@
+---
+
+name: regular
+image: /img.png
+
+header:
+  ru: Регулярная сборка
+  en: Regular build
+
+description:
+  ru: |
+    Регулярные сборки формируются на базе еженедельных срезов
+    стабильной ветки и предназначены для опытных разработчиков
+    интегрированных решений на базе репозитория ALT Linux.
+  en: |
+    Regular builds are based on weekly stable repository branches and
+    are designed for experienced developers of integrated solutions
+    for ALT Linux.
+

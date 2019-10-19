@@ -1,6 +1,6 @@
 ---
-layout: default_en
+layout: main
 permalink: /en/
 lang: en
 ---
-{%- include index.html lang="en" -%}
+

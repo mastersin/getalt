@@ -1,0 +1,19 @@
+---
+
+name: server
+image: /img.png
+
+header:
+  ru: ALT Linux Сервер
+  en: ALT Linux Server
+
+description:
+  ru: |
+     Решение ALT Linux Server предназначено как центральный инструмент
+     для организации и управления инфраструктурой и сервисами
+     предприятий любого масштаба.
+  en: |
+     ALT Linux Server solution is designed as a core instrument for
+     organization and control of enterprise infrastructure and services
+     of any scale.
+

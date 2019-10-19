@@ -1,6 +1,6 @@
 ---
-layout: default_ru
+layout: main
 permalink: /ru/
 lang: ru
 ---
-{%- include index.html lang="ru" -%}
+

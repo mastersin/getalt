@@ -1,0 +1,19 @@
+---
+
+name: x86_64
+image: images/AMD64_Logo.svg
+
+header:
+  ru: AMD64
+  en: AMD64
+
+description:
+  ru: |
+    Архитектура AMD64, часто именуемая x86_64, является наиболее
+    популярной в мире на данный момент. Если у Вас есть персональный
+    компьютер - скорее всего он имеет именно эту архитектуру.
+  en: |
+    AMD64 architecture (frequently named as x86_64) is the most
+    popular architecture in the world at the moment. In case you have
+    personal computer - it probably has this architecture.
+

@@ -1,0 +1,21 @@
+---
+
+name: education
+image: img.png
+
+header:
+  ru: ALT Linux Образование
+  en: ALT Linux Education
+
+description:
+  ru: |
+    Решение ALT Linux Образование предназначено для применения в
+    образовательных учреждениях типа школ, колледжей и университетов и
+    позволяет организовать учебный процесс в соответствии с
+    современными государственными стандартами и требованиями.
+  en: |
+    ALT Linux Education solution is designed to be used in educational
+    institutions like schools, colleges and universities and allows to
+    organize educational process in accordance with modern governmental
+    standards and requirements.
+

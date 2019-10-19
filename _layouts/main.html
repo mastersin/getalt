@@ -1,0 +1,72 @@
+---
+layout: default
+---
+{% assign architectures = "" | split: "/" %}
+{% assign solutions     = "" | split: "/" %}
+
+{% for item in site.contents %}
+  {% assign architectures = architectures | push: item.arch %}
+  {% assign solutions = solutions | push: item.solution %}
+{% endfor %}
+{% assign architecutres = architectures | sort | uniq %}
+{% assign solutions = solutions | sort | uniq %}
+
+<h1>Client Solutions</h1>
+
+{% assign workstation = site.descriptions | where: "name", "workstation" | first %}
+{% assign education   = site.descriptions | where: "name", "education" | first %}
+
+<div class="section">
+{{ workstation.header[page.lang] }}<br>
+{{ workstation.description[page.lang] }}<br>
+<a href="/{{ page.lang }}/download/workstation.html">Скачать</a>
+</div>
+<div class="section">
+{{ education.header[page.lang] }}<br>
+{{ education.description[page.lang] }}<br>
+<a href="/{{ page.lang }}/download/education.html">Скачать</a>
+</div>
+
+<h1>Server Solutions</h1>
+
+{% assign server  = site.descriptions | where: "name", "server" | first %}
+{% assign vserver = site.descriptions | where: "name", "vserver" | first %}
+
+<div class="section">
+{{ server.header[page.lang] }}<br>
+{{ server.description[page.lang] }}<br>
+<a href="/{{ page.lang }}/download/server.html">Скачать</a>
+</div>
+<div class="section">
+{{ vserver.header[page.lang] }}<br>
+{{ vserver.description[page.lang] }}<br>
+<a href="/{{ page.lang }}/download/vserver.html">Скачать</a>
+</div>
+
+<h1>Community Solutions</h1>
+
+{% assign starterkit = site.descriptions | where: "name", "starterkit" | first %}
+{% assign regular    = site.descriptions | where: "name", "regular" | first %}
+
+<div class="section">
+{{ starterkit.header[page.lang] }}<br>
+{{ starterkit.description[page.lang] }}<br>
+<a href="/{{ page.lang }}/download/starterkit.html">Скачать</a>
+</div>
+<div class="section">
+{{ regular.header[page.lang] }}<br>
+{{ regular.description[page.lang] }}<br>
+<a href="/{{ page.lang }}/download/regular.html">Скачать</a>
+</div>
+
+<h1>Architectures</h1>
+
+{% for arch in architectures %}
+  {% assign architecture = site.descriptions | where: "name", arch | first %}
+  <div class="section">
+  <img class="obj-logo" src="{{ architecture.image | absolute_url }}" alt="{{ architecture.header[page.lang] }}">
+  {{ architecture.description[page.lang] }}<br>
+  <a href="/{{ page.lang }}/download/{{ arch }}.html">Скачать</a>
+  </div>
+{% endfor %}
+

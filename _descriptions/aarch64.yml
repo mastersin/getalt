@@ -1,0 +1,13 @@
+---
+
+name: aarch64
+image: /images/aarch-64-logo-transp.png
+
+header:
+  ru: Aarch64
+  en: Aarch64
+
+description:
+  ru: Aarch64
+  en: Aarch64
+
