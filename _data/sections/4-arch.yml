@@ -5,36 +5,75 @@ members:
    code: i586
    name_ru: x86 32bit
    name_en: x86 32bit
-   descr_ru: Это такой ix86...
-   descr_en: This is ix86...
+   descr_ru: |
+     Все мы слышали или пользовались компьютерами с архитектурой x86.
+     Ещё 10 лет назад это были самые распространённые компьютеры в
+     пользовательском сегменте. Если Вы являетесь обладателем компьютера
+     не самой последней модели то может оказаться, что дистрибутивы
+     этой архитектуры как раз для Вас.
+   descr_en: |
+     Everyone heard about x86 computer architecture. 10 years ago it were
+     most widespread computers in end-user market. In case you have
+     old model of computer - ALT Linux distributions for this
+     architecture may fit you.
 
  - name: x86_64
    code: x86-64
    name_ru: x86 64bit
    name_en: x86 64bit
-   descr_ru: Это такой x86_64...
-   descr_en: This is x86_64...
+   descr_ru: |
+     Архитектура x86_64, также зачастую именуемая как AMD64, является
+     наиболее популярной и распространённой на данный момент. Если Ваш
+     персональный компьютер куплен в последние 10 лет - дистрибутивы
+     этой архитектуры могут быть Вашим выбором.
+   descr_en: |
+     x86_64 architecture, also frequently called AMD64, is the most
+     popular nowadays. In case your computer was bought in last ten
+     years - ALT Linux distributions for this architecture might be
+     your choice.
 
  - name: ppc64el
    code: ppc64el
-   name_ru: PowerPC
-   name_en: PowerPC
-   descr_ru: Это такой PowerPC...
-   descr_en: This is PowerPC...
+   name_ru: PowerPC / OpenPOWER
+   name_en: PowerPC / OpenPOWER
+   descr_ru: |
+     Компьютеры редкой в наше время архитектуры PowerPC часто можно
+     встретить в дата-центрах банковских систем или в
+     высокопроизводительных кластерах. Процессоры данной архитектуры
+     известны своей надёжностью, хорошей производительностью и
+     дороговизной.
+   descr_en: |
+     Computers with PowerPC architecture CPUs might be frequently
+     encountered in data-centers of large bank structures or in HPC
+     clusters. CPUs of this architecture are famous for its reliability,
+     performance and high price.
 
  - name: aarch64
    code: aarch64
    name_ru: ARM 64bit ru
    name_en: ARM 64bit en
-   descr_ru: Это такой ARM64...
-   descr_en: This is ARM64...
+   descr_ru: |
+     Устройства архитектуры ARM на сегодняшний день окружают нас повсюду -
+     в телефонах, роутерах, ПЛК, устройствах IoT (Internet of Things -
+     Интернет вещей) и "умный дом".
+   descr_en: |
+     Devices with CPUs of ARM architecture are everywhere nowadays -
+     in smartphones, routers, PLCs, IoT and smart home devices.
 
  - name: e2k
    code: e2k
-   name_ru: Эльбрус
-   name_en: Elbrus
-   descr_ru: Это такой Эльбрус...
-   descr_en: This is Elbrus...
+   name_ru: Эльбрус e2k
+   name_en: Elbrus e2k
+   descr_ru: |
+     e2k - отечественная закрытая архитектура, разработанная Московским
+     Центром Спарк Технологий. Такие компьютеры можно встретить в
+     специальной технике, рассчитаной на работу в тяжёлых условиях или
+     с высокими требованиями к надёжности обработки данных.
+   descr_en: |
+     e2k is Russian closed architecture developed by Moscow Center of
+     SPARC Technologies. You may encounter these computers in special
+     appliances designed to work in aggressive environment or having
+     high demands for reliability and security of data processing.
 
  - name: mipsel
    code: mipsel
@@ -46,6 +85,4 @@ members:
    descr_en: |
      MIPS and OpenMIPS are old, popular and well-known architectures
      which are widely used in network equipment.
-
-
 
