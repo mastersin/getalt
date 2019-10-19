@@ -2,9 +2,9 @@ name: Server
 name_en: Servers solutions
 name_ru: Серверные решения
 order: 2
-bgcolor: a99
-bgcolor1: dee
-bordercolor: fff
+bgcolor: f5f5f5
+bgcolor1: fefefe
+bordercolor: cfcfcf
 
 members:
  - name: server

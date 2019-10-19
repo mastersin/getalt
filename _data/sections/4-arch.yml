@@ -1,8 +1,8 @@
 name_en: Architectures
 name_ru: Архитектуры
-bgcolor: 9d9
-bgcolor1: afa
-bordercolor: fff
+bgcolor: f1f1f1
+bgcolor1: fefefe
+bordercolor: cfcfcf
 
 members:
  - name: i586
