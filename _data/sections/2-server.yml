@@ -21,14 +21,25 @@ members:
      of any scale.
    img: arm
    descr_full_ru: |
-     Решение ALT Linux Server предназначено как центральный инструмент
-     для организации и управления инфраструктурой и сервисами
-     предприятий любого масштаба.
+     ALT Linux Сервер это специально разработанное решение, которое поможет
+     Вам удовлетворить любые нужды
+     <ul>
+     <li>Работа с современными производительными базами данных;</li>
+     <li>Работа с различными средствами виртуализации;</li>
+     <li>Управление инфраструктурой предприятия;</li>
+     <li>Интеграция в домены Active Directory, Samba и FreeIPA;</li>
+     <li>Организация внутренних и внешних сервисов предприятий.</li>
+     </ul>
    descr_full_en: |
-     ALT Linux Server solution is designed as a core instrument for
-     organization and control of enterprise infrastructure and services
-     of any scale.
-   img: arm
+     ALT Linux Server is a special solution which will help you to solve
+     wide variety of needs like
+     <ul>
+     <li>Work with modern high-performance databases;</li>
+     <li>Work with various virtualization systems;</li>
+     <li>Controlling enterprise infrastructure;</li>
+     <li>Active Directory, FreeIPA and Samba domain integration;</li>
+     </ul>
+   img: server
 
  - name: server-v
    code: server-v
@@ -44,8 +55,14 @@ members:
    descr_full_ru: |
      Решение ALT Linux Virtualization Server является вариантом
      серверного решения ALT Linux, нацеленного на управление облачной
-     инфраструктурой предприятий.
+     инфраструктурой предприятий. Благодаря этому решению Вы сможете
+     быстро и эффективно развернуть одну из поддерживаемых нами систем
+     виртуализации и перейти к решению актуальных для Вас задач.
    descr_full_en: |
      ALT Linux Virtualization Server solution is a variant of ALT Linux
-     Server designed for enterprise cloud infrastructure.
-   img: e
+     Server designed for enterprise cloud infrastructure. The
+     distribution installer will take away the burden of installation
+     and deployment of one of the supported virtualization system so
+     you will be free to solve more important problems.
+   img: server-v
+

@@ -17,26 +17,33 @@ members:
      ALT Linux Workstation solution is designed for end users and is
      suitable both for office and home use.
    descr_full_ru: |
-     Решение ALT Linux Рабочая станция предназначено для организации
-     рабочих мест конечных пользователей и подходит для применения как
-     в офисной среде, так и дома.
+     Решения на базе ALT Linux рабочая станция позволят Вам получить
+     классическое персональное рабочее место для выполнения любых задач
 
-     Решение ALT Linux Рабочая станция предназначено для организации
-     рабочих мест конечных пользователей и подходит для применения как
-     в офисной среде, так и дома.
+     <ul>
+     <li>Редактирование текста, таблиц и презентаций;</li>
+     <li>Работа с растровой и векторной графикой;</li>
+     <li>Прослушивание музыки и просмотр фильмов;</li>
+     <li>Просмотр веб-сайтов;</li>
+     <li>Выполнение математических расчётов;</li>
+     <li>Программирование;</li>
+     </ul>
 
-     Решение ALT Linux Рабочая станция предназначено для организации
-     рабочих мест конечных пользователей и подходит для применения как
-     в офисной среде, так и дома.
+     и многое другое.
    descr_full_en: |
-     ALT Linux Workstation solution is designed for end users and is
-     suitable both for office and home use.
+     Solutions based on ALT Linux Workstation distribution allow you
+     to get classical personal workplace to solve any tasks like
 
-     ALT Linux Workstation solution is designed for end users and is
-     suitable both for office and home use.
+     <ul>
+     <li>Editing texts, tables and presentations;</li>
+     <li>Working with raster and vector graphics;</li>
+     <li>Listening to music and watching videos;</li>
+     <li>Web surfing;</li>
+     <li>Calculating mathematical equations;</li>
+     <li>Programming;</li>
+     </ul>
 
-     ALT Linux Workstation solution is designed for end users and is
-     suitable both for office and home use.
+     and lots of other tasks.
    img: workstation
 
  - code: education
@@ -54,35 +61,14 @@ members:
      organize educational process in accordance with modern governmental
      standards and requirements.
    descr_full_ru: |
-     Решение ALT Linux Образование предназначено для применения в
-     образовательных учреждениях типа школ, колледжей и университетов и
-     позволяет организовать учебный процесс в соответствии с
-     современными государственными стандартами и требованиями.
-
-     Решение ALT Linux Образование предназначено для применения в
-     образовательных учреждениях типа школ, колледжей и университетов и
-     позволяет организовать учебный процесс в соответствии с
-     современными государственными стандартами и требованиями.
-
-     Решение ALT Linux Образование предназначено для применения в
-     образовательных учреждениях типа школ, колледжей и университетов и
-     позволяет организовать учебный процесс в соответствии с
-     современными государственными стандартами и требованиями.
-
-
-     Решение ALT Linux Образование предназначено для применения в
-     образовательных учреждениях типа школ, колледжей и университетов и
-     позволяет организовать учебный процесс в соответствии с
+     Решения на базе ALT Linux Образование рассчитаны в первую очередь на
+     учителей и преподавателей школ, колледжей, университетов, а также иных
+     учебных заведений, которые хотят организовать современный эффективный
+     учебный процесс, отвечающий всем требованиям отечественного
+     законодательства.
    descr_full_en: |
-     ALT Linux Education solution is designed to be used in educational
-     institutions like schools, colleges and universities and allows to
-     organize educational process in accordance with modern governmental
-     standards and requirements.
-
-     ALT Linux Education solution is designed to be used in educational
-     institutions like schools, colleges and universities and allows to
-     organize educational process in accordance with modern governmental
-     standards and requirements.
-
-
+     ALT Linux Education solution is designed for schools,
+     colleges and universities and allows you to solve problems of
+     efficient class organization in accordance with modern governmental
+     standards.
    img: edu

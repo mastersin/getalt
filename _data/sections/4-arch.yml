@@ -7,8 +7,8 @@ bordercolor: cfcfcf
 members:
  - name: i586
    code: i586
-   name_ru: x86 32bit
-   name_en: x86 32bit
+   name_ru: x86 (IA32)
+   name_en: x86 (IA32)
    descr_ru: |
      Все мы слышали или пользовались компьютерами с архитектурой x86.
      Ещё 10 лет назад это были самые распространённые компьютеры в
@@ -74,7 +74,6 @@ members:
      encountered in data-centers of large bank structures or in HPC
      clusters. CPUs of this architecture are famous for its reliability,
      performance and high price.
-
    descr_full_ru: |
      Компьютеры редкой в наше время архитектуры PowerPC часто можно
      встретить в дата-центрах банковских систем или в
@@ -89,8 +88,8 @@ members:
 
  - name: aarch64
    code: aarch64
-   name_ru: ARM 64bit ru
-   name_en: ARM 64bit en
+   name_ru: ARM 64bit (Aarch64)
+   name_en: ARM 64bit (Aarch64)
    descr_ru: |
      Устройства архитектуры ARM на сегодняшний день окружают нас повсюду -
      в телефонах, роутерах, ПЛК, устройствах IoT (Internet of Things -
@@ -98,31 +97,30 @@ members:
    descr_en: |
      Devices with CPUs of ARM architecture are everywhere nowadays -
      in smartphones, routers, PLCs, IoT and smart home devices.
-
    descr_full_ru: |
-     Устройства архитектуры ARM на сегодняшний день окружают нас повсюду -
-     в телефонах, роутерах, ПЛК, устройствах IoT (Internet of Things -
-     Интернет вещей) и "умный дом".
+     Решения ALT Linux для компьютеров на базе процессоров архитектуры ARM 64
+     позволят Вам получить привычные рабочие места и серверы на экономичных
+     популярных машинах типа Raspberry Pi различных моделей (в том
+     числе Raspberry Pi 3 и Raspberry Pi 4), Orange Pi и других.<Paste>
    descr_full_en: |
      Devices with CPUs of ARM architecture are everywhere nowadays -
      in smartphones, routers, PLCs, IoT and smart home devices.
 
  - name: riscv
    code: riscv
-   name_ru: RiscV
-   name_en: RiscV
+   name_ru: RISC-V
+   name_en: RISC-V
    descr_ru: |
-     открытая и свободная система команд и процессорная архитектура на
+     Открытая и свободная система команд и процессорная архитектура на
      основе концепции RISC для микропроцессоров и микроконтроллеров.
    descr_en: |
      RiscV is an open-source hardware instruction set architecture
      based on established reduced instruction set computer principles.
-
    descr_full_ru: |
-     открытая и свободная система команд и процессорная архитектура на
+     Открытая и свободная система команд и процессорная архитектура на
      основе концепции RISC для микропроцессоров и микроконтроллеров.
    descr_full_en: |
-     RiscV is an open-source hardware instruction set architecture
+     RISC-V is an open-source hardware instruction set architecture
      based on established reduced instruction set computer principles.
 
  - name: mipsel
@@ -135,7 +133,6 @@ members:
    descr_en: |
      MIPS and OpenMIPS are old, popular and well-known architectures
      which are widely used in network equipment.
-
    descr_full_ru: |
      MIPS и OpenMIPS - популярные с давних времён архитектуры, которые
      наибольшее своё распространение получили в сетевом оборудовании.
