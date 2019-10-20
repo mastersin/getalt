@@ -7,19 +7,28 @@
      <div style="display: table; padding: 40xp 0; borde: 1px solid green; text-align: center; margin: 0 auto" class="index1">
       {% include index/name.html %}
       {%- for loc in section.members -%}
-        <div class="section" style="border-radius: 5px; background-color: #{{section.bgcolor1}}; border-color: #{{section.bordercolor}}">
-          <a href="/{{ page.lang }}/download/{{ loc.code }}">
+        <a href="/{{ page.lang }}/download/{{ loc.code }}" class="section_link section" style="border-radius: 5px; background-color: #{{section.bgcolor1}}; border-color: #{{section.bordercolor}}">
             <div style="heigh: 100%; float: left; vertical-alig: 50%; borde: 1px solid red">
               <img src="/i/logo/{{loc.img | default:"edu" }}.jpg" width="100" align="top" style="margin: 20px;">
             </div>
             <div style="padding: 0 10px; borde: 1px solid black; vertical-align: top">
               {% include index/descr.html %}
             </div>
-          </a>
-        </div>
+        </a>
       {%- endfor -%}
       <div style="clear: both;"></div>
     </div>
     </div>
   {% endfor %}
 </div>
+
+<script>
+$( ".section" ).mouseover(function() {
+  $(this).css('border-color', '#000');
+});
+
+$( ".section" ).mouseout(function() {
+  $(this).css('border-color', '#cfcfcf');
+});
+
+</script>

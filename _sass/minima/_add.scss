@@ -7,9 +7,9 @@ max-width: 90%;
 .link {
 background-color: #888; 
 margin-bottom: 10px;
-padding: 0px; 
+padding: 10px 10px 0 0 ; 
 text-align: justify; 
-height: 40px; 
+height: 50px; 
 border-radius: 5px;
 }
 
@@ -17,9 +17,7 @@ border-radius: 5px;
 //width: 1200px;
 max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
 max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-
 }
-
 
 .solution1 {
 width: 1200px;
@@ -28,12 +26,9 @@ max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
 
 }
 
-
-
 .links1 {
 background-color: #ccc; 
 float: left; 
-width: 47%; 
 padding: 10px; 
 height: auto; 
 border-radius: 5px;
@@ -41,24 +36,25 @@ margin-right: 10px;
 text-align: left;
 }
 
-
 .links2 {
 background-color: #ccc; 
 float: left; 
-width: 47%; 
 padding: 10px; 
 height: auto; 
 border-radius: 5px;
-margin-right: 0px;
+margin-right: 0;
 text-align: left;
 }
 
+a.dload {
+text-decoration: none;
+}
 
 .dload {
 float: right;
 text-align: center;
-
 background-color: #ddf;
+height: 20px;
 width: 100px;
 padding: 10px;
 border-radius: 5px;
@@ -66,9 +62,18 @@ border-radius: 5px;
 
 a.dload:hover {
 background-color: #99f;
-color: green;
+color: #fff;
 }
 
+a.section:hover {
+background-color: red;
+border: 1px solid red;
+}
+
+a.section {
+color: #000;
+text-decoration: none;
+}
 
 .section {
   border: 1px solid black; 
@@ -100,7 +105,7 @@ font-size: 1.2rem;
 
 @media screen and (max-width: 610px) {
   .section {
-    width: 90%;
+    width: 100%;
     margin: 10px auto;
     height: auto;
   }
@@ -118,7 +123,7 @@ font-size: 1.2rem;
 
 
 a {
-	color: #000 !important
+	color: #000 ;
 }
 
 header {

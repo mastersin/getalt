@@ -5,6 +5,11 @@
     {{ page.name }}
   </div>
   <a href="{{ loc.link }}" class="dload" >
+    {% if layout.lang == "en" %}
+	Download
+    {% endif %}
+    {% if layout.lang == "ru" %}    
     Скачать
+    {% endif %}
   </a>
 </div>

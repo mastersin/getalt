@@ -1,17 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- include head.html -%}
+  {%- include layout/head.html -%}
 
   <body style="borde: 1px solid black;">
     <div style="text-align; center; margin: auto;" class="top">
-    {%- if layout.lang == 'en' -%}
-      {%- include header_en.html -%}
-    {%- endif -%}
-
-    {%- if layout.lang == 'ru' -%}
-      {%- include header_ru.html -%}
-    {%- endif -%}
+      {%- include layout/header.html -%}
     </div>
     <main class="page-content" aria-label="Content" style="width: 100%; text-align; center; margin: 0 auto; borde: 1px solid black">
       <div class="wrapper">
@@ -19,13 +13,7 @@
       </div>
     </main>
 
-    {%- if layout.lang == 'en' -%}
-      {%- include footer_en.html -%}
-    {%- endif -%}
-
-    {%- if layout.lang == 'ru' -%}
-      {%- include footer_ru.html -%}
-    {%- endif -%}
+  {%- include layout/footer.html -%}
 
   </body>
 </html>

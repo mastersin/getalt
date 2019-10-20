@@ -5,8 +5,9 @@ permalink: /ru/download/workstation/
 code: workstation
 ---
 
-# ALT Linux Рабочая станция
 
+# ALT Linux Рабочая станция
+<div style="text-align: center;">
 Решения на базе ALT Linux рабочая станция позволят Вам получить
 классическое персональное рабочее место для выполнения любых задач:
 
@@ -17,5 +18,7 @@ code: workstation
 * Программирование;
 
 и многое другое.
+</div>
+
 
 {% include solution.html %}

@@ -5,10 +5,10 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
     {%- if layout.lang == 'en' -%}
-      <a class="site-title" rel="author" href="{{ "/en/" | relative_url }}"><img src="/i/logo.png" width="90"></a>
+      <a class="site-title" rel="author" href="{{ "/en/" | relative_url }}"><img src="/i/logo.png" width="90" style="margin-left: 10px;"></a>
     {%- endif -%}
     {%- if layout.lang == 'ru' -%}
-      <a class="site-title" rel="author" href="{{ "/ru/" | relative_url }}"><img src="/i/logo.png" width="90"></a>
+      <a class="site-title" rel="author" href="{{ "/ru/" | relative_url }}"><img src="/i/logo.png" width="90" style="margin-left: 10px;"></a>
     {%- endif -%}
     <div class="header-title">
         {%- if layout.lang == 'ru' -%}

@@ -1,32 +1,28 @@
-<footer class="site-footer h-card" style="widt: 1000px; text-align; center; margin: auto;">
+<footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
 
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+    <div class="footer-col-wrapper" style="text-align: justify;">
+      <div class="footer-col footer-col-1" style="float: left; borde: 1px solid red; width: 50px;">
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
               {{ site.author | escape }}
             {%- else -%}
-              {{ site.title | escape }}
             {%- endif -%}
             </li>
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
         </ul>
+        {%- include layout/social.html -%}        
       </div>
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+      <div class="footer-col footer-col-3" style="float: right; text-align: right; bordr: 1px solid red; margin-right: 20px; width: 40%;">
+        <p>{{ site.description_ru | escape }}</p>
       </div>
     </div>
 
