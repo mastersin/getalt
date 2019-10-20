@@ -1,6 +1,6 @@
 .ss {
-margin: 20px;
-width: 350px
+width: 350px;
+float: right;
 }
 
 .link {
@@ -14,12 +14,11 @@ border-radius: 5px;
 
 .links {
 background-color: #ccc; 
-float: right; 
-width: 45%; 
 padding: 10px; 
 height: auto; 
 border-radius: 5px;
 margin-left: 10px;
+margin-bottom: 10px;
 }
 
 .dload {
