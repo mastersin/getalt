@@ -9,7 +9,6 @@ members:
  - code: workstation
    name_en: Workstation
    name_ru: Рабочая станция
-
    descr_ru: |
      Решение ALT Linux Рабочая станция предназначено для организации
      рабочих мест конечных пользователей и подходит для применения как
@@ -38,7 +37,7 @@ members:
 
      ALT Linux Workstation solution is designed for end users and is
      suitable both for office and home use.
-   img: md
+   img: workstation
 
  - code: education
    name_en: ALT Education
@@ -54,10 +53,6 @@ members:
      institutions like schools, colleges and universities and allows to
      organize educational process in accordance with modern governmental
      standards and requirements.
-
-
-
-
    descr_full_ru: |
      Решение ALT Linux Образование предназначено для применения в
      образовательных учреждениях типа школ, колледжей и университетов и
@@ -88,13 +83,6 @@ members:
      institutions like schools, colleges and universities and allows to
      organize educational process in accordance with modern governmental
      standards and requirements.
-
-
-
-
-
-
-
 
 
    img: edu
