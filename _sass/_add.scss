@@ -82,6 +82,7 @@ border-radius: 5px;
 a.dload:hover {
 background-color: #99f;
 color: #fff;
+text-decoration: none;
 }
 
 a.section {
@@ -130,8 +131,10 @@ text-decoration: none;
 
 .header-title {
   margin-left: 10px;
-  padding-top: 20px;
+  paddin-top: 20px;
+  margin-top: 10px;
   float: left;
+  vertical-align:  middle;
 }
 
 
