@@ -27,13 +27,13 @@ images:
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/alt-server-20191009_rc4-aarch64.iso
    platform: p9
    solution: server
-   importance: 1
+   importance: 0
    arch: aarch64
    type: iso
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/alt-server-20191009_rc4-ppc64le.iso
    platform: p9
    solution: server
-   importance: 1
+   importance: 0
    arch: ppc64le
    type: iso
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/alt-server-20191009_rc4-x86_64.iso
@@ -71,7 +71,7 @@ images:
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/i586/alt-workstation-8.991_rc2-i586.iso
    platform: p9
    solution: workstation
-   importance: 1
+   importance: 0
    arch: i586
    type: archive
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/mipsel/tavolga-alt-workstation-8.920_beta2-mipsel.recovery.tar

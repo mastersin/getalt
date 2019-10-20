@@ -28,7 +28,18 @@ members:
      стабильной ветки и предназначены для опытных разработчиков
      интегрированных решений на базе репозитория ALT Linux.
    descr_en: |
-     Regular builds are based on weekly stable repository branches and
+     Regular builds are based on weekly stable repository freezes and
      are designed for experienced developers of integrated solutions
      for ALT Linux.
+   descr_full_ru:
+     Регулярные сборки, также часто именуемые "nightly builds",
+     предназначены для разработчиков дистрибутивов и различных
+     специализированных решений, которым необходимо иметь самое свежее
+     состояние системы на базе стабильных веток, и предназначены
+     только для опытных специалистов.
+   descr_full_en:
+     Regular ("nightly") builds are designed for developers of
+     distributions and various specialized appliances who needs to have
+     the most recent state of the system based on stable repository
+     branches and is suited only for experienced specialists.
    img: powerpc
