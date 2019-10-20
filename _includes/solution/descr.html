@@ -1,5 +1,9 @@
-{%- for solution_hash in site.data.solutions -%}
-  {%- assign solution = solution_hash[1] -%}
+{%- for section_hash in site.data.sections -%}
+  {%- assign section = section_hash[1] -%}
+
+{%- for solution in section.members -%}
+
+
   {%- if solution.code == page.code -%}
 
       <p>
@@ -20,4 +24,5 @@
       </p>
 
   {%- endif -%}
+{%- endfor -%}
 {%- endfor -%}

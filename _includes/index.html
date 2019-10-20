@@ -3,8 +3,8 @@
 <div style="borde: 1px solid red; text-align: justify; width: 100%; padding: 0; margin: 0; ">
   {% for section_hash in sorted %}
     {% assign section = section_hash[1] %}
-     <div style="background-color: #{{ section.bgcolor}}">
-     <div style="margin: 0 auto; display: table; width: 1200px; padding: 40xp 0;">
+     <div style="background-color: #{{ section.bgcolor}}; text-align: center; margin: 0 auto">
+     <div style="display: table; padding: 40xp 0; borde: 1px solid green; text-align: center; margin: 0 auto" class="index1">
       {% include index/name.html %}
       {%- for loc in section.members -%}
         <div class="section" style="border-radius: 5px; background-color: #{{section.bgcolor1}}; border-color: #{{section.bordercolor}}">

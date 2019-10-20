@@ -3,8 +3,8 @@
 
   {%- include head.html -%}
 
-  <body style="border: 1px solid black;">
-    <div style="width: 1000px; text-align; center; margin: auto;">
+  <body style="borde: 1px solid black;">
+    <div style="text-align; center; margin: auto;" class="top">
     {%- if layout.lang == 'en' -%}
       {%- include header_en.html -%}
     {%- endif -%}
@@ -13,8 +13,8 @@
       {%- include header_ru.html -%}
     {%- endif -%}
     </div>
-    <main class="page-content" aria-label="Content" style="width: 1000px; text-align; center; margin: auto;">
-      <div class="wrapper" style="padding: 0; margin: 0 auto;">
+    <main class="page-content" aria-label="Content" style="width: 100%; text-align; center; margin: 0 auto; borde: 1px solid black">
+      <div class="wrapper">
         {{ content }}
       </div>
     </main>

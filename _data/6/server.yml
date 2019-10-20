@@ -1,0 +1,11 @@
+name_en: Server
+name_ru: Сервер
+code: server
+members:
+ - name: alt-server-20191003_rc3-aarch64.iso
+ - name: alt-server-20191003_rc3-ppc64le.iso
+ - name: alt-server-20191003_rc3-x86_64.iso
+ - name: alt-server-20191009_rc4-aarch64.iso
+ - name: alt-server-20191009_rc4-ppc64le.iso
+ - name: alt-server-20191009_rc4-x86_64.iso
+ - name: ppc64le/alt-server-20190905-alpha2-ppc64le.iso

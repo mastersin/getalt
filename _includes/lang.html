@@ -1,8 +1,5 @@
-<div>
+<div style="margin-right: 10px;">
 {% assign lurl = page.url | slice: 3, 100 %}
-{% if lurl != "/" %}
-  {% assign lurl = lurl | append: '.html' %}
-{% endif %}
 
 {%- if layout.lang == 'en' -%}
   <a href="/ru{{lurl}}">Ru</a>
