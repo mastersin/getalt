@@ -169,14 +169,11 @@ pre {
   }
 }
 
-
 .top {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-
+  margin: 0 auto;
 }
-
-
 
 /**
  * Wrapper
