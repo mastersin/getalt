@@ -1,11 +1,14 @@
+.section-name {
+text-align: center; 
+margin: 20px 0;
+}
 #lang {
- margin-right: 20px;
+  text-align: right;
+  margin: 10px 20px;;
 }
 
 .ss {
-margin: 20px;
-width: 350px;
-max-width: 90%;
+width: 50%;
 }
 
 .link {
@@ -92,18 +95,6 @@ padding: 10px;
 max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
 max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
 font-size: 1.2rem;
-}
-
-@media screen and (max-width: 1150px) {
-  .section {
-    width: 100%;
-    margin: 10px auto;
-    padding: 0;
-    text-align: left;
-  }
-  .sss{
-    text-align: center;
-  }
 }
 
 

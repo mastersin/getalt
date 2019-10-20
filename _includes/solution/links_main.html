@@ -1,4 +1,8 @@
-<div class="links1">
+{% assign links_class = "links1"%}
+{% if include.links_add == 0%}
+{% assign links_class = "links0"%}
+{% endif %}
+<div class="{{ links_class}}">
   <h2>
     {% if page.lang == "en"%}
        Main downloads

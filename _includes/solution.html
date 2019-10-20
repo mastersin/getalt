@@ -5,14 +5,27 @@
       {% include solution/name.html%}
       </div>
       <div>
-        <img src="/i/ss/edu.png" align="left" class="ss"/>
+        <div style="width: 100%; border: 1px solid black; height: 100%; text-align: center; background-color: red; margin: 0 auto">
+          <img src="/i/ss/edu.png" align="left" class="ss">
+        </div>
         {% include solution/descr.html%}
       </div>
       <div style="clear: both;"></div>
-<div style="display: table; text-align: center;  width: 100%; margin: 0 auto; borde: 1px solid yellow ; bckground-color: green;">
-      {% include solution/links_main.html%}
-      {% include solution/links_add.html%}
-</div>
+        <div style="display: table; text-align: center;  width: 100%; margin: 0 auto; borde: 1px solid yellow ; bckground-color: green;">
+          {% assign links_add = 0 %}
+          {% for loc in site.data.images.images %}
+            {% if loc.arch == include.arch and loc.solution == page.code %}
+              {% if loc.importance == 0%}
+                {% assign links_add = 1 %}
+              {% endif %}
+            {%endif%}
+          {% endfor %}
+
+          {% include solution/links_main.html links_add=links_add%}
+          {% if links_add == 1%}
+            {% include solution/links_add.html%}
+          {% endif %}
+       </div>
     </div>
   </div>
 </div>

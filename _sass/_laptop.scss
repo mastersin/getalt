@@ -1,0 +1,46 @@
+@include media-query($on-laptop) {
+  .footer-col-1,
+  .footer-col-2 {
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
+  }
+
+  .footer-col-3 {
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+
+  .top {
+    width: 100%;
+  }
+
+  .section {
+    width: 95%;
+    height: 500px;
+  }
+
+  .index1 {
+    width: 100%;
+  }
+
+  .site-footer {
+    width: 95%;
+  }
+
+  .solution1 {
+    width: 95%;
+  }
+
+  .links1{
+    width: 95%;
+    margin-bottom: 10px;  
+  }
+
+  .links2 {
+    width: 95%;
+  }
+  .ss {
+    margin: 20px;
+  }
+}
+
