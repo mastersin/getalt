@@ -1,0 +1,17 @@
+
+@include media-query($on-big) {
+  .links1 {
+    width: 47%;
+  }
+
+  .links2 {
+    width: 47%;
+  }
+  .ss {
+  margin: 0 40px 20px 40px;;
+  }
+  #lang {
+    margin: 20px;
+  }
+}
+

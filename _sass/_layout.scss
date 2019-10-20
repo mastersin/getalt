@@ -151,20 +151,6 @@
   width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
-@include media-query($on-big) {
-  .links1 {
-    width: 47%;
-  }
-
-  .links2 {
-    width: 47%;
-  }
-  .ss {
-  margin: 20px;
-  }
-}
-
-
 /**
  * Page content
  */

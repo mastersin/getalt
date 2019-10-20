@@ -72,12 +72,17 @@ background-color: #99f;
 color: #fff;
 }
 
-a.section:hover {
-background-color: red;
-border: 1px solid red;
+a.section {
+color: #000;
+text-decoration: none;
 }
 
-a.section {
+a.section:visited {
+color: #000;
+text-decoration: none;
+}
+
+a.section:hover {
 color: #000;
 text-decoration: none;
 }
@@ -95,6 +100,7 @@ padding: 10px;
 max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
 max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
 font-size: 1.2rem;
+text-decoration: none;
 }
 
 
