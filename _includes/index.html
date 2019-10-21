@@ -7,7 +7,7 @@
      <div style="display: table; padding: 40xp 0; borde: 1px solid green; text-align: center; margin: 0 auto" class="index1">
       {% include index/name.html %}
       {%- for loc in section.members -%}
-        <a href="/{{ page.lang }}/download/{{ loc.code }}" class="section_link section" style="border-radius: 5px; background-color: #{{section.bgcolor1}}; border-color: #{{section.bordercolor}}">
+        <a href="/{{ page.lang }}/{{ loc.code }}/" class="section_link section" style="border-radius: 5px; background-color: #{{section.bgcolor1}}; border-color: #{{section.bordercolor}}">
             <div style="heigh: 100%; float: left; vertical-alig: 50%; borde: 1px solid red; margin: -50px 10px 0px 0px;">
               <img src="/i/logo/{{loc.img | default:"edu" }}.png" width="100" align="top" style="margin: 0px;">
             </div>

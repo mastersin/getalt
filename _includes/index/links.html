@@ -6,10 +6,10 @@
   {% assign section = section_hash[1] %}
   <h1 style="text-align: center">
     {% if page.lang == 'en'%}
-{{ section.name_en }}
+      {{ section.name_en }}
     {% endif %}
     {% if page.lang == 'ru'%}
-{{ section.name_ru }}
+      {{ section.name_ru }}
     {% endif %}
   </h1>
   {%- for loc in section.members -%}
@@ -26,15 +26,12 @@
             {{ loc.name_en }}
           {% endif %}
        </b>
-
 	<p>
-
           {% if page.lang == 'ru'%}
             {{ loc.descr_ru }}
           {% else %}
             {{ loc.descr_en }}
           {% endif %}
-
         </p>
       </div>
       </a>
@@ -42,6 +39,4 @@
   {%- endfor -%}
   <div style="clear: both;"></div>
 {% endfor %}
-
-
 </div>
