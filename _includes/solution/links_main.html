@@ -1,6 +1,6 @@
 {% assign links_class = "links1"%}
 {% if include.links_add == 0%}
-{% assign links_class = "links0"%}
+  {% assign links_class = "links0"%}
 {% endif %}
 <div class="{{ links_class}}">
   <h2>
@@ -14,7 +14,13 @@
 
   <div>
     {% for loc in site.data.images.images %}
-      {% if loc.importance == 1 and (loc.arch == page.code or loc.solution == page.code) %}
+      {% if loc.importance == 1 and (loc.arch == page.code or loc.solution == page.code) and loc.platform == 'p9'%}
+        {% include solution/links.html %}
+      {% endif %}
+    {%- endfor -%}
+
+    {% for loc in site.data.images.images %}
+      {% if loc.importance == 1 and (loc.arch == page.code or loc.solution == page.code) and loc.platform == 'p8' %}
         {% include solution/links.html %}
       {% endif %}
     {%- endfor -%}
