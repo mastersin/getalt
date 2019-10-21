@@ -44,15 +44,12 @@ exclude:
 
 #collections_dir: _col
 collections:
-  solutions_sen:
-    permalink: /en/solutions/:name
-    output: true
-  solutions_ru:
-    permalink: /ru/solutions/:name
-    output: true
   sections_en:
     permalink: /en/sections/:name
     output: true
   sections_ru:
     permalink: /ru/sections/:name
+    output: true
+  sections:
+    permalink: /:name
     output: true

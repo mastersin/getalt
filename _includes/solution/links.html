@@ -1,15 +1,21 @@
 <div class="link">
   <div style="float: left; padding: 10px;">
-    {{ loc.platform }}:
+    {% if loc.platform == 'p8' %}
+      Platform 8:
+    {% elsif loc.platform == 'p9' %}
+      Platform 9:
+    {% else %}
+      {{ loc.platform }}:
+    {% endif%}
     {{ loc.arch }}
     {{ page.name }}
   </div>
   <a href="{{ loc.link }}" class="dload" >
     {% if layout.lang == "en" %}
-	Download
+      Download
     {% endif %}
     {% if layout.lang == "ru" %}    
-    Скачать
+      Скачать
     {% endif %}
   </a>
 </div>
