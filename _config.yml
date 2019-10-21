@@ -41,6 +41,7 @@ plugins:
 exclude:
   - Makefile
   - README.md
+  - images
 
 #collections_dir: _col
 collections:
