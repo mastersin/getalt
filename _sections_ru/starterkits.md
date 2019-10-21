@@ -1,7 +1,7 @@
 ---
 layout: default_ru
 lang: ru
-permalink: /ru/download/starterkits/
+permalink: /ru/starterkits/
 code: starterkits
 ---
 {% include solution.html %}

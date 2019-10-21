@@ -1,7 +1,7 @@
 ---
 layout: default_ru
 lang: ru
-permalink: /ru/download/aarch64/
+permalink: /ru/aarch64/
 code: aarch64
 ---
 {% include solution.html %}

@@ -1,7 +1,7 @@
 ---
 layout: default_ru
 lang: ru
-permalink: /ru/download/mipsel/
+permalink: /ru/mipsel/
 code: mipsel
 ---
 {% include solution.html %}

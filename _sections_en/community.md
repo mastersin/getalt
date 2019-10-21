@@ -1,7 +1,7 @@
 ---
 layout: default_en
 lang: en
-permalink: /en/download/community/
+permalink: /en/community/
 code: community
 ---
 {% include solution.html %}

@@ -1,7 +1,7 @@
 ---
 layout: default_ru
 lang: ru
-permalink: /ru/download/workstation/
+permalink: /ru/workstation/
 code: workstation
 ---
 {% include solution.html %}

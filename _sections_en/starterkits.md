@@ -1,7 +1,7 @@
 ---
 layout: default_en
 lang: en
-permalink: /en/download/starterkits/
+permalink: /en/starterkits/
 code: starterkits
 ---
 {% include solution.html %}

@@ -1,7 +1,7 @@
 ---
 layout: default_en
 lang: en
-permalink: /en/download/cloud/
+permalink: /en/cloud/
 code: cloud
 name: work
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default_ru
 lang: ru
-permalink: /ru/download/cloud/
+permalink: /ru/cloud/
 code: cloud
 ---
 {% include solution.html %}

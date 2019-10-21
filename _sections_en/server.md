@@ -1,7 +1,7 @@
 ---
 layout: default_en
 lang: en
-permalink: /en/download/server/
+permalink: /en/server/
 code: server
 ---
 {% include solution.html %}

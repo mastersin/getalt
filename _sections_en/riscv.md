@@ -1,7 +1,7 @@
 ---
 layout: default_en
 lang: en
-permalink: /en/download/riscv/
+permalink: /en/riscv/
 code: riscv
 ---
 {% include solution.html %}

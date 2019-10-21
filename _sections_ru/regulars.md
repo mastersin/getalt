@@ -1,7 +1,7 @@
 ---
 layout: default_ru
 lang: ru
-permalink: /ru/download/regulars/
+permalink: /ru/regulars/
 code: regulars
 ---
 {% include solution.html %}

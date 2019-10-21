@@ -1,7 +1,7 @@
 ---
 layout: default_en
 lang: en
-permalink: /en/download/education/
+permalink: /en/education/
 code: education
 ---
 {% include solution.html %}

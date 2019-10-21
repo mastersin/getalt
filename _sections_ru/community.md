@@ -1,7 +1,7 @@
 ---
 layout: default_ru
 lang: ru
-permalink: /ru/download/community/
+permalink: /ru/community/
 code: community
 name: work
 ---
