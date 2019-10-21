@@ -91,8 +91,8 @@ members:
 
  - name: aarch64
    code: aarch64
-   name_ru: ARM 64bit (Aarch64)
-   name_en: ARM 64bit (Aarch64)
+   name_ru: ARM 64bit (AArch64)
+   name_en: ARM 64bit (AArch64)
    descr_ru: |
      Устройства архитектуры ARM на сегодняшний день окружают нас повсюду -
      в телефонах, роутерах, ПЛК, устройствах IoT (Internet of Things -
