@@ -32,6 +32,7 @@ members:
      most widespread computers in end-user market. In case you have
      old model of computer - ALT Linux distributions for this
      architecture may fit you.
+   img: e
 
  - name: x86_64
    code: x86-64
@@ -58,6 +59,7 @@ members:
      popular nowadays. In case your computer was bought in last ten
      years - ALT Linux distributions for this architecture might be
      your choice.
+   img: e
 
  - name: ppc64el
    code: ppc64el
@@ -85,6 +87,7 @@ members:
      encountered in data-centers of large bank structures or in HPC
      clusters. CPUs of this architecture are famous for its reliability,
      performance and high price.
+   img: e
 
  - name: aarch64
    code: aarch64
@@ -105,6 +108,7 @@ members:
    descr_full_en: |
      Devices with CPUs of ARM architecture are everywhere nowadays -
      in smartphones, routers, PLCs, IoT and smart home devices.
+   img: e
 
  - name: riscv
    code: riscv
@@ -122,6 +126,7 @@ members:
    descr_full_en: |
      RISC-V is an open-source hardware instruction set architecture
      based on established reduced instruction set computer principles.
+   img: e
 
  - name: mipsel
    code: mipsel
@@ -139,4 +144,5 @@ members:
    descr_full_en: |
      MIPS and OpenMIPS are old, popular and well-known architectures
      which are widely used in network equipment.
+   img: e
 
