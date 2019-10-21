@@ -5,6 +5,7 @@ images:
    importance: 0
    arch: aarch64
    type: iso
+   board: rpi3
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/rc/alt-education-9.0-aarch64.tar.xz
    platform: p9
    solution: education
@@ -30,12 +31,14 @@ images:
    importance: 0
    arch: aarch64
    type: iso
+   board: rpi3
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/alt-server-20191009_rc4-ppc64le.iso
    platform: p9
    solution: server
    importance: 0
    arch: ppc64le
    type: iso
+   board: ibm-power8
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/alt-server-20191009_rc4-x86_64.iso
    platform: p9
    solution: server
@@ -54,6 +57,7 @@ images:
    importance: 0
    arch: aarch64
    type: iso
+   board: rpi3
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/aarch64/alt-workstation-8.991_rc2-aarch64.tar.xz
    platform: p9
    solution: workstation
@@ -471,4 +475,247 @@ images:
    arch: x86_64
    type: iso
    importance: 1
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-mate-latest-i586.iso
+   platform: p9
+   solution: starterkits
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-lxqt-latest-x86_64.iso
+   platform: p9
+   solution: starterkits
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-lxqt-latest-i586.iso
+   platform: p9
+   solution: starterkits
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-lxde-latest-x86_64.iso
+   platform: p9
+   solution: starterkits
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-lxde-latest-i586.iso
+   platform: p9
+   solution: starterkits
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-kde5-latest-x86_64.iso
+   platform: p9
+   solution: starterkits
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-jeos-sysv-latest-x86_64.img.xz
+   platform: p9
+   solution: starterkits
+   arch: x86_64
+   type: archive
+   importance: 1
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-jeos-systemd-latest-x86_64.img.xz
+   platform: p9
+   solution: starterkits
+   arch: x86_64
+   type: archive
+   importance: 1
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-jeos-latest-x86_64.iso
+   platform: p9
+   solution: starterkits
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-jeos-latest-i586.iso
+   platform: p9
+   solution: starterkits
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-icewm-latest-x86_64.iso
+   platform: p9
+   solution: starterkits
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-icewm-latest-i586.iso
+   platform: p9
+   solution: starterkits
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-gnustep-latest-x86_64.iso
+   platform: p9
+   solution: starterkits
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-gnustep-latest-i586.iso
+   platform: p9
+   solution: starterkits
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-gnome3-latest-x86_64.iso
+   platform: p9
+   solution: starterkits
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-enlightenment-latest-x86_64.iso
+   platform: p9
+   solution: starterkits
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-enlightenment-latest-i586.iso
+   platform: p9
+   solution: starterkits
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-engineering-latest-x86_64.iso
+   platform: p9
+   solution: starterkits
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-cloud-latest-x86_64.img.xz
+   platform: p9
+   solution: starterkits
+   arch: x86_64
+   type: archive
+   importance: 1
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-cinnamon-latest-x86_64.iso
+   platform: p9
+   solution: starterkits
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-cinnamon-latest-i586.iso
+   platform: p9
+   solution: starterkits
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-builder-latest-x86_64.iso
+   platform: p9
+   solution: starterkits
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/p9/permalink/alt-p9-builder-latest-i586.iso
+   platform: p9
+   solution: starterkits
+   arch: x86_64
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-xfce-tegra-latest-aarch64.tar.xz
+   platform: p9
+   solution: starterkits
+   arch: aarch64
+   type: archive
+   importance: 0
+   board: tegra
+ - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-xfce-latest-aarch64.tar.xz
+   platform: p9
+   solution: starterkits
+   arch: aarch64
+   type: archive
+   importance: 0
+   board: rpi3
+ - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-xfce-latest-aarch64.qcow2c
+   platform: p9
+   solution: starterkits
+   arch: aarch64
+   type: archive
+   importance: 0
+   board: rpi3
+ - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-mate-tegra-latest-aarch64.tar.xz
+   platform: p9
+   solution: starterkits
+   arch: aarch64
+   type: archive
+   importance: 0
+   board: rpi3
+ - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-mate-latest-aarch64.tar.xz
+   platform: p9
+   solution: starterkits
+   arch: aarch64
+   type: archive
+   importance: 0
+   board: rpi3
+ - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-mate-latest-aarch64.qcow2c
+   platform: p9
+   solution: starterkits
+   arch: aarch64
+   type: archive
+   importance: 0
+   board: rpi3
+ - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-lxqt-latest-aarch64.tar.xz
+   platform: p9
+   solution: starterkits
+   arch: aarch64
+   type: archive
+   importance: 0
+   board: rpi3
+ - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-lxqt-latest-aarch64.qcow2c
+   platform: p9
+   solution: starterkits
+   arch: aarch64
+   type: archive
+   importance: 0
+   board: rpi3
+ - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-lxde-latest-aarch64.tar.xz
+   platform: p9
+   solution: starterkits
+   arch: aarch64
+   type: archive
+   importance: 0
+   board: rpi3
+ - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-kde5-tegra-latest-aarch64.tar.xz
+   platform: p9
+   solution: starterkits
+   arch: aarch64
+   type: archive
+   importance: 0
+   board: tegra
+ - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-jeos-sysv-latest-aarch64.tar.xz
+   platform: p9
+   solution: starterkits
+   arch: aarch64
+   type: archive
+   importance: 0
+   board: rpi3
+ - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-jeos-systemd-latest-aarch64.tar.xz
+   platform: p9
+   solution: starterkits
+   arch: aarch64
+   type: archive
+   importance: 0
+   board: rpi3
+ - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-jeos-systemd-latest-aarch64.qcow2c
+   platform: p9
+   solution: starterkits
+   arch: aarch64
+   type: archive
+   importance: 0
+   board: rpi3
+ - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-icewm-latest-aarch64.tar.xz
+   platform: p9
+   solution: starterkits
+   arch: aarch64
+   type: archive
+   importance: 0
+   board: rpi3
+ - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-cinnamon-tegra-latest-aarch64.tar.xz
+   platform: p9
+   solution: starterkits
+   arch: aarch64
+   type: archive
+   importance: 0
+   board: rpi3
 
