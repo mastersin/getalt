@@ -32,14 +32,18 @@ members:
      are designed for experienced developers of integrated solutions
      for ALT Linux.
    descr_full_ru:
-     Регулярные сборки, также часто именуемые "nightly builds",
-     предназначены для разработчиков дистрибутивов и различных
-     специализированных решений, которым необходимо иметь самое свежее
-     состояние системы на базе стабильных веток, и предназначены
-     только для опытных специалистов.
+     Регулярные сборки (regular builds) выходят по средам на основе
+     нестабильного репозитория текущей разработки Sisyphus; они могут
+     пригодиться опытным специалистам для установки систем с наиболее
+     свежими версиями программ, которые могут быть недостаточно
+     отлаженными, а также широкому кругу желающих ознакомиться с
+     текущим состоянием разработки Sisyphus и входящих в него пакетов.
    descr_full_en:
-     Regular ("nightly") builds are designed for developers of
-     distributions and various specialized appliances who needs to have
-     the most recent state of the system based on stable repository
-     branches and is suited only for experienced specialists.
+     Regular builds are made every Wednesday and are based on unstable
+     Sisyphus repository. They may come in handy for experienced
+     specialists who want to try installing operating system with most
+     recent programs (which may be not stable enough) and also for a wide
+     audience of users willing to get familiar with current state of
+     Sisyphus and included packages.
    img: powerpc
+
