@@ -17,6 +17,44 @@ members:
    descr_en: |
      Starter kits are based on weekly Sisyphus repository slices and
      are designed for experienced Sisyphus and ALT Linux developers.
+   descr_full_ru: |
+     Стартовые наборы - ежеквартальные сборки для опытных пользователей.
+     Они не являются полноценными дистрибутивами (например, не содержат
+     документации к выпуску и не подлежат технической поддержке), но
+     позволяют
+     <ul>
+     <li>
+     быстро и удобно посмотреть графические окружения не входящие в
+     официальные релизы, но имещиеся в репозитории;
+     </li>
+     <li>
+     развернуть очередную систему с минимальным расходом времени на
+     установку и настройку;
+     </li>
+     <li>
+     создать производный образ системы, наиболее адаптированный для
+     конкретных условий эксплуатации (предоставляется под свободной
+     лицензией GPL).
+     </li>
+     </ul>
+   descr_full_en: |
+     Starter kits are quarterly builds for experienced users. They are
+     not full-fledged distributions (for example, there is no release
+     documentation and no technical support) but allows to
+     <ul>
+     <li>
+     take a look at available graphical desktop environments which are
+     not part of official releases but are present in repositories;
+     </li>
+     <li>
+     deploy another operating system instance with minimum expenses on
+     installation and final adjustments;
+     </li>
+     <li>
+     create another operating system image adapted for specific
+     application (provided under GPL license).
+     </li>
+     </ul>
    img: e2k
 
  - name: regulars
