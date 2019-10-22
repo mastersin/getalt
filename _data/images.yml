@@ -718,4 +718,172 @@ images:
    type: archive
    importance: 0
    board: rpi3
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-xfce-latest-x86_64.iso
+   platform: p9
+   solution: regulars
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-xfce-latest-i586.iso
+   platform: p9
+   solution: regulars
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-wmaker-latest-x86_64.iso
+   platform: p9
+   solution: regulars
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-wmaker-latest-i586.iso
+   platform: p9
+   solution: regulars
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-tde-latest-x86_64.iso
+   platform: p9
+   solution: regulars
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-tde-latest-i586.iso
+   platform: p9
+   solution: regulars
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-rescue-latest-x86_64.iso
+   platform: p9
+   solution: regulars
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-rescue-latest-i586.iso
+   platform: p9
+   solution: regulars
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-mate-latest-x86_64.iso
+   platform: p9
+   solution: regulars
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-mate-latest-i586.iso
+   platform: p9
+   solution: regulars
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-lxqt-latest-x86_64.iso
+   platform: p9
+   solution: regulars
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-lxqt-latest-i586.iso
+   platform: p9
+   solution: regulars
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-lxde-latest-x86_64.iso
+   platform: p9
+   solution: regulars
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-lxde-latest-i586.iso
+   platform: p9
+   solution: regulars
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-kde5-latest-x86_64.iso
+   platform: p9
+   solution: regulars
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-kde5-latest-i586.iso
+   platform: p9
+   solution: regulars
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-jeos-latest-x86_64.iso
+   platform: p9
+   solution: regulars
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-jeos-latest-i586.iso
+   platform: p9
+   solution: regulars
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-icewm-latest-x86_64.iso
+   platform: p9
+   solution: regulars
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-icewm-latest-i586.iso
+   platform: p9
+   solution: regulars
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-gnustep-latest-x86_64.iso
+   platform: p9
+   solution: regulars
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-gnustep-latest-i586.iso
+   platform: p9
+   solution: regulars
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-gnome3-latest-x86_64.iso
+   platform: p9
+   solution: regulars
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-gnome3-latest-i586.iso
+   platform: p9
+   solution: regulars
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-enlightenment-latest-x86_64.iso
+   platform: p9
+   solution: regulars
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-enlightenment-latest-i586.iso
+   platform: p9
+   solution: regulars
+   arch: i586
+   type: iso
+   importance: 0
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-cinnamon-latest-x86_64.iso
+   platform: p9
+   solution: regulars
+   arch: x86_64
+   type: iso
+   importance: 1
+ - link: http://nightly.altlinux.org/sisyphus/tested/regular-cinnamon-latest-i586.iso
+   platform: p9
+   solution: regulars
+   arch: i586
+   type: iso
+   importance: 0
 
