@@ -610,7 +610,7 @@ images:
  - link: http://nightly.altlinux.org/p9/permalink/alt-p9-builder-latest-i586.iso
    platform: p9
    solution: starterkits
-   arch: x86-64
+   arch: i586
    type: iso
    importance: 0
  - link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-xfce-tegra-latest-aarch64.tar.xz
