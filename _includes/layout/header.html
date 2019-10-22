@@ -4,24 +4,20 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
-    {%- if layout.lang == 'en' -%}
-      <a class="site-title" rel="author" href="{{ "/en/" | relative_url }}"><img src="/i/logo.png" width="90" style="margin-left: 10px;"></a>
-    {%- endif -%}
-    {%- if layout.lang == 'ru' -%}
-      <a class="site-title" rel="author" href="{{ "/ru/" | relative_url }}"><img src="/i/logo.png" width="90" style="margin-left: 10px;"></a>
-    {%- endif -%}
+    <a class="site-title" rel="author" href="/{{ layout.lang }}/"><img src="/i/logo.png" width="90" style="margin-left: 10px;"></a>
+
     <div class="header-title">
 
         {%- if layout.lang == 'ru' -%}
           Российский разработчик <br/> операционных систем "Альт"
         {%- endif -%}
         {%- if layout.lang == 'en' -%}
-          ALT operation systems <br>russian developer company
+          ALT operation systems <br/>russian developer company
         {%- endif -%}
     </div>
-    {%- if page_paths -%}
-      {%- include layout/paths.html -%}
-    {%- endif -%}
+
+    {%- include layout/lang.html lang=layout.lang -%}
   </div>
+
 
 </header>
