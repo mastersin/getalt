@@ -1,21 +1,23 @@
-<div class="link">
-  <div style="float: left; padding: 10px;">
-    {% if loc.platform == 'p8' %}
-      Platform 8:
-    {% elsif loc.platform == 'p9' %}
-      Platform 9:
-    {% else %}
-      {{ loc.platform }}:
-    {% endif%}
-    {{ loc.arch }}
-    {{ page.name }}
-  </div>
+{% if loc.platform == 'p9' %}
+<a href="{{ loc.link }}" style="text-decoration: none;"><div class="link" style="cursor: pointer; padding: 10px;">
+  <table style="margin: 0px; table-layout: fixed; width: 100%; border: none;">
+    <tbody>
+      <tr style="border: none;">
+        <td style="border: none;">
+          <div style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">
+  Platform 9: {% if loc.board %}{{ loc.board }}{% else %}{{ loc.arch }}{% endif %} ({{ loc.link | split: '/' | last }})
+          </div>
+        </td>
+        <td style="border: none;">
   <a href="{{ loc.link }}" class="dload" >
-    {% if layout.lang == "en" %}
-      Download
-    {% endif %}
-    {% if layout.lang == "ru" %}    
-      Скачать
-    {% endif %}
+    {% if page.lang == "en" %}Download{% else %}Скачать{% endif %}
   </a>
-</div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div style="float: left; padding: 10px;">
+  </div>
+	</div></a>
+{% endif %}
+
