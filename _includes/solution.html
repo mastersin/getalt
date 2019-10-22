@@ -14,7 +14,7 @@
         <div style="display: table; text-align: center;  width: 100%; margin: 0 auto; borde: 1px solid yellow ; bckground-color: green;">
           {% assign links_add = 0 %}
           {% for loc in site.data.images.images %}
-            {% if loc.arch == include.arch and loc.solution == page.code %}
+            {% if loc.arch == page.arch or loc.solution == page.code %}
               {% if loc.importance == 0%}
                 {% assign links_add = 1 %}
               {% endif %}

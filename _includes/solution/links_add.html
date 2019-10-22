@@ -10,7 +10,7 @@
 
   <div>
     {% for loc in site.data.images.images %}
-      {% if loc.arch == include.arch and loc.solution == page.code %}
+      {% if loc.importance == 0 and (loc.arch == page.code or loc.solution == page.code) and loc.platform == 'p9' %}
         {% include solution/links.html %}
       {% endif %}
     {%- endfor -%}

@@ -18,11 +18,5 @@
         {% include solution/links.html %}
       {% endif %}
     {%- endfor -%}
-
-    {% for loc in site.data.images.images %}
-      {% if loc.importance == 1 and (loc.arch == page.code or loc.solution == page.code) and loc.platform == 'p8' %}
-        {% include solution/links.html %}
-      {% endif %}
-    {%- endfor -%}
   </div>
 </div>
