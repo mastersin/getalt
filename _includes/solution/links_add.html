@@ -9,7 +9,7 @@
   </h2>
 
   <div>
-    {% for loc in site.data.images.images %}
+    {% for loc in site.images %}
       {% if loc.importance == 0 and (loc.arch == page.code or loc.solution == page.code) and loc.platform == 'p9' %}
         {% include solution/links.html %}
       {% endif %}

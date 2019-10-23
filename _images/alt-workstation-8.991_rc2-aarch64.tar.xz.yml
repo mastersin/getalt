@@ -1,0 +1,10 @@
+---
+
+link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/aarch64/alt-workstation-8.991_rc2-aarch64.tar.xz
+platform: p9
+solution: workstation
+importance: 0
+arch: aarch64
+type: archive
+board: rpi3
+
