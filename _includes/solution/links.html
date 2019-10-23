@@ -4,7 +4,7 @@
       <tr style="border: none;">
         <td style="border: none;">
           <div style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">
-            {{ site.txt_platform[page.lang] }} 9: {% if loc.board %}{{ loc.board }}{% else %}{{ loc.arch }}{% endif %} ({{ loc.link | split: '/' | last }})
+            {{ site.txt_platform[page.lang] }} {{ loc.platform }}: {% if loc.board %}{{ loc.board }}{% else %}{{ loc.arch }}{% endif %} ({{ loc.link | split: '/' | last }})
           </div>
         </td>
         <td style="border: none;">
