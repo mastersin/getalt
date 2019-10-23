@@ -1,30 +1,37 @@
 images:
- - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/rc/alt-education-9.0-aarch64.iso
+ - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/alt-education-9.0-aarch64.iso
    platform: p9
    solution: education
    importance: 0
    arch: aarch64
    type: iso
    board: rpi3
- - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/rc/alt-education-9.0-aarch64.tar.xz
+ - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/alt-education-9.0-aarch64.tar.xz
    platform: p9
    solution: education
    importance: 0
    arch: aarch64
    type: archive
    board: rpi3
- - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/rc/alt-education-9.0-tegra-aarch64.tar.xz
+ - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/alt-education-9.0-tegra-aarch64.tar.xz
    platform: p9
    solution: education
    importance: 0
    type: archive
    board: tegra
- - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/i586/rc/alt-education-9.0-i586.iso
+ - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/i586/alt-education-9.0-i586.iso
+   platform: p9
+   solution: education
+   importance: 0
+   arch: i586
+   type: iso
+ - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/x86_64/alt-education-9.0-x86_64.iso
    platform: p9
    solution: education
    importance: 1
-   arch: i586
+   arch: x86-64
    type: iso
+   importance: 1
  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/alt-server-20191009_rc4-aarch64.iso
    platform: p9
    solution: server
