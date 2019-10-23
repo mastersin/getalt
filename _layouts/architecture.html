@@ -24,7 +24,7 @@
               </div>
               <div style="clear: both;"></div>
                 <div style="display: table; text-align: center;  width: 100%; margin: 0 auto; borde: 1px solid yellow ; bckground-color: green;">
-                  {% assign main_links = site.images | where: "arch", page.code %}
+                  {% assign main_links = site.images | where: "arch", page.code | where: "platform", "p9" %}
 
                   <div class="links0">
                     <h2>{{ site.txt_main_links[page.lang] }}</h2>
