@@ -1,0 +1,9 @@
+---
+
+link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p8/images/starterkits/alt-p8-opennebula-20190312-x86_64.qcow2c
+platform: p8
+solution: starterkits
+arch: x86-64
+type: archive
+importance: 1
+

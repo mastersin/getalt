@@ -1,0 +1,9 @@
+---
+
+link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/i586/alt-education-9.0-i586.iso
+platform: p9
+solution: education
+importance: 0
+arch: i586
+type: iso
+

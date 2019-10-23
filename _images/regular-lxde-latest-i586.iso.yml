@@ -1,0 +1,9 @@
+---
+
+link: http://nightly.altlinux.org/sisyphus/tested/regular-lxde-latest-i586.iso
+platform: p9
+solution: regulars
+arch: i586
+type: iso
+importance: 0
+

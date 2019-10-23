@@ -1,0 +1,10 @@
+---
+
+link: http://nightly.altlinux.org/p9-aarch64/permalink/alt-p9-mate-latest-aarch64.qcow2c
+platform: p9
+solution: starterkits
+arch: aarch64
+type: archive
+importance: 0
+board: rpi3
+

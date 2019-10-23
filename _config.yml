@@ -54,3 +54,6 @@ collections:
   sections:
     permalink: /:name
     output: true
+  images:
+    output: false
+
