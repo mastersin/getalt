@@ -1,5 +1,5 @@
 ---
-layout: default_en
+layout: default
 lang: en
 permalink: /en/regulars/
 code: regulars

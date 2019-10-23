@@ -1,5 +1,5 @@
 ---
-layout: default_en
+layout: default
 permalink: /en/
 lang: en
 ---

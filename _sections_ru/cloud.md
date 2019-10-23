@@ -1,5 +1,5 @@
 ---
-layout: default_ru
+layout: default
 lang: ru
 permalink: /ru/cloud/
 code: cloud

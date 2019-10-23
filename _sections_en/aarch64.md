@@ -1,5 +1,5 @@
 ---
-layout: default_en
+layout: default
 lang: en
 permalink: /en/aarch64/
 code: aarch64
