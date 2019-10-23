@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: solution
 lang: en
 permalink: /en/community/
 code: community
 ---
-{% include solution.html %}

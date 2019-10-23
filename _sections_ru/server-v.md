@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: solution
 lang: ru
 permalink: /ru/server-v/
 code: server-v
 ---
-{% include solution.html %}

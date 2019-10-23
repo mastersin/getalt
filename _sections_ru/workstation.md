@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: solution
 lang: ru
 permalink: /ru/workstation/
 code: workstation
 ---
-{% include solution.html %}

@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: solution
 lang: ru
 permalink: /ru/regulars/
 code: regulars
 ---
-{% include solution.html %}

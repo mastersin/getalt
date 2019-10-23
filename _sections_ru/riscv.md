@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: architecture
 lang: ru
 permalink: /ru/riscv/
 code: riscv
 ---
-{% include solution.html %}

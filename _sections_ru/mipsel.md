@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: architecture
 lang: ru
 permalink: /ru/mipsel/
 code: mipsel
 ---
-{% include solution.html %}
