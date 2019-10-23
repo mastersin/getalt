@@ -1,0 +1,7 @@
+---
+
+link: http://nightly.altlinux.org/sisyphus-riscv64/alpha/regular-builder-latest-riscv64.qcow2c
+platform: p9
+arch: riscv
+solution: regulars
+
