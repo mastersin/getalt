@@ -1,9 +1,9 @@
 <div id="doc" style="text-align: right; margin-right: 20px;">
-{%- if layout.lang == 'en' -%}
+{%- if page.lang == 'en' -%}
   <a href="https://docs.altlinux.org"><b>Documintation</b></a>
 {%- endif -%}
 
-{%- if layout.lang == 'ru' -%}
+{%- if page.lang == 'ru' -%}
   <a href="https://docs.altlinux.org/"><b>Документация</b></a>
 {%- endif -%}
 
@@ -11,13 +11,13 @@
 <div id="lang">
 {% assign lurl = page.url | slice: 3, 100 %}
 
-{%- if layout.lang == 'en' -%}
+{%- if page.lang == 'en' -%}
   <a href="/ru{{lurl}}">Ru</a>
   /
   <a href="/en{{lurl}}"><b>En</b></a>
 {%- endif -%}
 
-{%- if layout.lang == 'ru' -%}
+{%- if page.lang == 'ru' -%}
   <a href="/ru{{lurl}}"><b>Ru</b></a>
   /
   <a href="/en{{lurl}}">En</a>

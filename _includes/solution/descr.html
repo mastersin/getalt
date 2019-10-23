@@ -12,7 +12,7 @@
           {%- for loc in section.members -%}
             {% if loc.code == page.code %}
 
-              {% if layout.lang == "ru" %}
+              {% if page.lang == "ru" %}
                 {{ loc.descr_full_ru }}
                 {% else %}
                 {{ loc.descr_full_en }}
