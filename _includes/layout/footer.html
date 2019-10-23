@@ -22,7 +22,7 @@
       </div>
 
       <div class="footer-col footer-col-3" style="float: right; text-align: right; bordr: 1px solid red; margin-right: 20px; width: 40%;">
-        <p>{{ site.description_ru | escape }}</p>
+	      <p>{% if page.lang == 'ru' %}{{ site.description_ru | escape }}{% else %}{{ site.description_en | escape }}{% endif %}</p>
       </div>
     </div>
 
