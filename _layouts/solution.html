@@ -24,18 +24,30 @@
               </div>
               <div style="clear: both;"></div>
                 <div style="display: table; text-align: center;  width: 100%; margin: 0 auto; borde: 1px solid yellow ; bckground-color: green;">
-                {% assign links_add = 0 %}
-                  {% for loc in site.images %}
-                    {% if loc.arch == page.arch or loc.solution == page.code %}
-                      {% if loc.importance == 0%}
-                        {% assign links_add = 1 %}
-                      {% endif %}
-                    {%endif%}
-                  {% endfor %}
+                  {% assign main_links = site.images | where: "solution", page.code | where: "arch", "x86-64" | where: "platform", "p9" %}
+                  {% assign secondary_links = site.images | where: "solution", page.code | where_exp: "item", "item.arch != 'x86-64'" | where: "platform", "p9" %}
 
-                  {% include solution/links_main.html links_add=links_add%}
-                  {% if links_add == 1%}
-                    {% include solution/links_add.html%}
+                  {% assign links_class = "links0" %}
+                  {% if secondary_links.size > 0 %}
+                    {% assign links_class = "links1" %}
+                  {% endif %}
+                  <div class="{{ links_class }}">
+                    <h2>{{ site.txt_main_links[page.lang] }}</h2>
+                    <div>
+                    {% for loc in main_links %}
+                      {% include solution/links.html %}
+                    {% endfor %}
+                    </div>
+                  </div>
+                  {% if secondary_links.size > 0 %}
+                  <div class="links1">
+                    <h2>{{ site.txt_secondary_links[page.lang] }}</h2>
+                    <div>
+                    {% for loc in secondary_links %}
+                      {% include solution/links.html %}
+                    {% endfor %}
+                    </div>
+                  </div>
                   {% endif %}
                 </div>
               </div>

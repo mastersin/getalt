@@ -57,3 +57,11 @@ collections:
   images:
     output: false
 
+txt_main_links:
+  ru: Основные загрузки
+  en: Primary downloads
+
+txt_secondary_links:
+  ru: Дополнительные загрузки
+  en: Additional downloads
+
