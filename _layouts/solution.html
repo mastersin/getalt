@@ -23,7 +23,7 @@
                 {% include solution/descr.html%}
               </div>
               <div style="clear: both;"></div>
-                <div style="display: table; text-align: center;  width: 100%; margin: 0 auto; borde: 1px solid yellow ; bckground-color: green;">
+                <div style="display: table; text-align: center;  width: 100%; margin: 10px auto; borde: 1px solid yellow ; bckground-color: green;">
                   {% assign main_links = site.images | where: "solution", page.code | where: "arch", "x86-64" | where: "platform", "p9" %}
                   {% assign secondary_links = site.images | where: "solution", page.code | where_exp: "item", "item.arch != 'x86-64'" | where: "platform", "p9" %}
 
