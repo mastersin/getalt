@@ -2,12 +2,12 @@
   <table style="margin: 0px; table-layout: fixed; width: 100%; border: none;">
     <tbody>
       <tr style="border: none;">
-        <td style="border: none;">
+        <td style="border: none; width: autoi; overflow: none">
           <div style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">
             {{ site.txt_platform[page.lang] }} {{ loc.platform }}: {% if loc.board %}{{ loc.board }}{% else %}{{ loc.arch }}{% endif %} ({{ loc.link | split: '/' | last }})
           </div>
         </td>
-        <td style="border: none;">
+        <td style="border: none; width: 100px;">
           <a href="{{ loc.link }}" class="dload" >{{ site.txt_download[page.lang] }} </a>
         </td>
       </tr>
