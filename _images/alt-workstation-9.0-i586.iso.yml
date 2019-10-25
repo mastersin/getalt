@@ -1,0 +1,9 @@
+---
+
+link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/i586/alt-workstation-9.0-i586.iso
+platform: p9
+solution: workstation
+importance: 0
+arch: i586
+type: archive
+
