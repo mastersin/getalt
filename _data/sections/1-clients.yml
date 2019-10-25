@@ -7,57 +7,54 @@ bgcolor1: fefefe
 bordercolor: cfcfcf
 members:
  - code: workstation
-   name_en: Workstation
-   name_ru: Рабочая станция
+   name_en: ALT Workstation
+   name_ru: Альт Рабочая станция
    descr_ru: |
-     Решение ALT Linux Рабочая станция предназначено для организации
-     рабочих мест конечных пользователей и подходит для применения как
-     в офисной среде, так и дома.
+     Операционная система и набор приложений для организации рабочих мест
+     пользователей как в офисной среде, так и дома.
    descr_en: |
-     ALT Linux Workstation solution is designed for end users and is
-     suitable both for office and home use.
+     Operating system and application suite designed for workplace
+     at both office and home.
    descr_full_ru: |
-     Решения на базе ALT Linux рабочая станция позволят Вам получить
-     классическое персональное рабочее место для выполнения любых задач
+     Альт Рабочая станция после установки на ноутбук или настольную систему
+     — это классическое персональное рабочее место с программами, которые помогут
 
      <ul>
-     <li>Редактирование текста, таблиц и презентаций;</li>
-     <li>Работа с растровой и векторной графикой;</li>
-     <li>Прослушивание музыки и просмотр фильмов;</li>
-     <li>Просмотр веб-сайтов;</li>
-     <li>Выполнение математических расчётов;</li>
-     <li>Программирование;</li>
+     <li>работать с интернет-ресурсами (веб-сайты, почта, мессенджеры);</li>
+     <li>править тексты, таблицы и презентации (офисный пакет);</li>
+     <li>слушать музыку и смотреть видео (мультимедиа);</li>
+     <li>создавать и улучшать растровую и векторную графику;</li>
+     <li>выполнять математические расчёты;</li>
+     <li>заниматься программированием</li>
+     <li>...и не только.</li>
      </ul>
 
-     и многое другое.
    descr_full_en: |
-     Solutions based on ALT Linux Workstation distribution allow you
-     to get classical personal workplace to solve any tasks like
+     ALT Workstation installed on a laptop or desktop provides
+     a classic personal workplace allowing to
 
      <ul>
-     <li>Editing texts, tables and presentations;</li>
-     <li>Working with raster and vector graphics;</li>
-     <li>Listening to music and watching videos;</li>
-     <li>Web surfing;</li>
-     <li>Calculating mathematical equations;</li>
-     <li>Programming;</li>
+     <li>work with internet (web, email, instant messaging);</li>
+     <li>edit texts, spreadsheets and presentations (office suite);</li>
+     <li>listen to music and watch videos (multimedia);</li>
+     <li>create and improve raster and vector images;</li>
+     <li>perform mathematical computations;</li>
+     <li>develop software</li>
+     <li>...and much more!</li>
      </ul>
 
-     and lots of other tasks.
    img: workstation
 
  - name: server
    code: server
-   name_ru: Сервер
-   name_en: Server
+   name_ru: Альт Сервер
+   name_en: ALT Server
    descr_ru: |
-     Решение ALT Linux Server предназначено как центральный инструмент
-     для организации и управления инфраструктурой и сервисами
-     предприятий любого масштаба.
+     Операционная система и набор служб для организации и управления
+     информационной инфраструктурой предприятия.
    descr_en: |
-     ALT Linux Server solution is designed as a core instrument for
-     organization and control of enterprise infrastructure and services
-     of any scale.
+     Operating system and services to bring up and control enterprise
+     IT infrastructure.
    img: arm
    descr_full_ru: |
      ALT Linux Сервер это специально разработанное решение, которое поможет
