@@ -11,26 +11,28 @@ members:
    name_ru: Альт Образование
    bgcolor: #a00   
    descr_ru: |
-     Решение ALT Linux Образование предназначено для применения в
-     образовательных учреждениях типа школ, колледжей и университетов и
-     позволяет организовать учебный процесс в соответствии с
-     современными государственными стандартами и требованиями.
+     Операционная система для образовательных учреждений всех уровней —
+     от дошкольного до высшего — которая соответствует госстандартам
+     и позволяет интегрировать рабочие места учеников и преподавателя.
    descr_en: |
-     ALT Linux Education solution is designed to be used in educational
-     institutions like schools, colleges and universities and allows to
-     organize educational process in accordance with modern governmental
-     standards and requirements.
+     Operating system for all kinds of educational institutions from
+     preschool to high school which provides integration of both
+     students' and teacher's workplaces.
    descr_full_ru: |
-     Решения на базе ALT Linux Образование рассчитаны в первую очередь на
-     учителей и преподавателей школ, колледжей, университетов, а также иных
-     учебных заведений, которые хотят организовать современный эффективный
-     учебный процесс, отвечающий всем требованиям отечественного
-     законодательства.
+     Альт Образование помогает решить задачу организации современного
+     эффективного учебного процесса, отвечающего всем требованиям
+     отечественного законодательства, в школах, колледжах, университетах
+     и иных образовательных учреждениях.
+     Дистрибутив включает в себя широкий набор пользовательских
+     и серверных приложений, который позволяет объединить рабочие места
+     учащихся и преподавателей и предоставить насыщенную функциональность.
    descr_full_en: |
-     ALT Linux Education solution is designed for schools,
-     colleges and universities and allows you to solve problems of
-     efficient class organization in accordance with modern governmental
-     standards.
+     ALT Education is aimed to ease the modern effective learning
+     process for educational institutions at any level, including
+     schools, colleges and universities.
+     The distribution includes a wide range of desktop and server
+     applications allowing to integrate students' and teacher's
+     workplaces providing rich functionality.
    img: edu
 
  - name: starterkits
@@ -38,25 +40,31 @@ members:
    name_en: Other
    code: starterkits
    descr_ru: |
-     Стартовые наборы формируются на базе еженедельных срезов
-     репозитория Sisyphus и предназначены для опытных разработчиков
-     решений на базе репозитория Sisyphus и ALT Linux.
+     Стартовые наборы представляют из себя свободно распространяемые
+     сборки на основе стабильного репозитория Альт, предназначенные
+     для опытных пользователей и разработчиков производных решений.
    descr_en: |
-     Starter kits are based on weekly Sisyphus repository slices and
-     are designed for experienced Sisyphus and ALT Linux developers.
+     Starter kits are freely distributable images based on the stable
+     ALT repository and designed for experienced users and developers
+     of derivative solutions.
    descr_full_ru: |
-     Стартовые наборы - ежеквартальные сборки для опытных пользователей.
+     Стартовые наборы — ежеквартальные сборки для опытных пользователей.
      Они не являются полноценными дистрибутивами (например, не содержат
      документации к выпуску и не подлежат технической поддержке), но
      позволяют
      <ul>
      <li>
-     быстро и удобно посмотреть графические окружения не входящие в
-     официальные релизы, но имещиеся в репозитории;
+     быстро и удобно посмотреть графические окружения, не входящие
+     в официальные релизы, но имещиеся в репозитории;
      </li>
      <li>
      развернуть очередную систему с минимальным расходом времени на
      установку и настройку;
+     </li>
+     <li>
+     произвести работы по восстановлению данных или функционирования
+     пострадавшей от аппаратных сбоев или программных разрушений системы,
+     а также произвести расследование инцидентов безопасности;
      </li>
      <li>
      создать производный образ системы, наиболее адаптированный для
@@ -67,19 +75,23 @@ members:
    descr_full_en: |
      Starter kits are quarterly builds for experienced users. They are
      not full-fledged distributions (for example, there is no release
-     documentation and no technical support) but allows to
+     documentation and no technical support) but allow to
      <ul>
      <li>
-     take a look at available graphical desktop environments which are
-     not part of official releases but are present in repositories;
+     take a look at graphical desktop environments which are not part
+     of the official releases but rather available in repository;
      </li>
      <li>
      deploy another operating system instance with minimum expenses on
      installation and final adjustments;
      </li>
      <li>
-     create another operating system image adapted for specific
-     application (provided under GPL license).
+     recover data or rescue a system damaged by hardware fault
+     or software disaster as well as perform forensic analysis;
+     </li>
+     <li>
+     create derivative operating system image adapted for specific
+     application (provided under GPL free software license).
      </li>
      </ul>
    img: e2k
