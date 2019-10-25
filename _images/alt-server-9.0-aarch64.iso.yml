@@ -1,0 +1,10 @@
+---
+
+link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/aarch64/alt-server-9.0-aarch64.iso
+platform: p9
+solution: server
+importance: 0
+arch: aarch64
+type: iso
+board: rpi3
+

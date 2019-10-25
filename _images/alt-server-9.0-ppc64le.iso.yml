@@ -1,0 +1,10 @@
+---
+
+link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/ppc64le/alt-server-9.0-ppc64le.iso
+platform: p9
+solution: server
+importance: 0
+arch: ppc64le
+type: iso
+board: ibm-power8
+
