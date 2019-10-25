@@ -6,6 +6,33 @@ bgcolor1: fefefe
 bordercolor: cfcfcf
 
 members:
+ - code: education
+   name_en: ALT Education
+   name_ru: Альт Образование
+   bgcolor: #a00   
+   descr_ru: |
+     Решение ALT Linux Образование предназначено для применения в
+     образовательных учреждениях типа школ, колледжей и университетов и
+     позволяет организовать учебный процесс в соответствии с
+     современными государственными стандартами и требованиями.
+   descr_en: |
+     ALT Linux Education solution is designed to be used in educational
+     institutions like schools, colleges and universities and allows to
+     organize educational process in accordance with modern governmental
+     standards and requirements.
+   descr_full_ru: |
+     Решения на базе ALT Linux Образование рассчитаны в первую очередь на
+     учителей и преподавателей школ, колледжей, университетов, а также иных
+     учебных заведений, которые хотят организовать современный эффективный
+     учебный процесс, отвечающий всем требованиям отечественного
+     законодательства.
+   descr_full_en: |
+     ALT Linux Education solution is designed for schools,
+     colleges and universities and allows you to solve problems of
+     efficient class organization in accordance with modern governmental
+     standards.
+   img: edu
+
  - name: starterkits
    name_ru: Стартовые наборы
    name_en: Starter Kits
@@ -56,32 +83,4 @@ members:
      </li>
      </ul>
    img: e2k
-
- - name: regulars
-   code: regulars
-   name_ru: Разработка
-   name_en: Developing
-   descr_ru: |
-     Регулярные сборки формируются на базе еженедельных срезов
-     стабильной ветки и предназначены для опытных разработчиков
-     интегрированных решений на базе репозитория ALT Linux.
-   descr_en: |
-     Regular builds are based on weekly stable repository freezes and
-     are designed for experienced developers of integrated solutions
-     for ALT Linux.
-   descr_full_ru:
-     Регулярные сборки (regular builds) выходят по средам на основе
-     нестабильного репозитория текущей разработки Sisyphus; они могут
-     пригодиться опытным специалистам для установки систем с наиболее
-     свежими версиями программ, которые могут быть недостаточно
-     отлаженными, а также широкому кругу желающих ознакомиться с
-     текущим состоянием разработки Sisyphus и входящих в него пакетов.
-   descr_full_en:
-     Regular builds are made every Wednesday and are based on unstable
-     Sisyphus repository. They may come in handy for experienced
-     specialists who want to try installing operating system with most
-     recent programs (which may be not stable enough) and also for a wide
-     audience of users willing to get familiar with current state of
-     Sisyphus and included packages.
-   img: powerpc
 

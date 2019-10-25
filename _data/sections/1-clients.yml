@@ -46,29 +46,37 @@ members:
      and lots of other tasks.
    img: workstation
 
- - code: education
-   name_en: ALT Education
-   name_ru: Альт Образование
-   bgcolor: #a00   
+ - name: server
+   code: server
+   name_ru: Сервер
+   name_en: Server
    descr_ru: |
-     Решение ALT Linux Образование предназначено для применения в
-     образовательных учреждениях типа школ, колледжей и университетов и
-     позволяет организовать учебный процесс в соответствии с
-     современными государственными стандартами и требованиями.
+     Решение ALT Linux Server предназначено как центральный инструмент
+     для организации и управления инфраструктурой и сервисами
+     предприятий любого масштаба.
    descr_en: |
-     ALT Linux Education solution is designed to be used in educational
-     institutions like schools, colleges and universities and allows to
-     organize educational process in accordance with modern governmental
-     standards and requirements.
+     ALT Linux Server solution is designed as a core instrument for
+     organization and control of enterprise infrastructure and services
+     of any scale.
+   img: arm
    descr_full_ru: |
-     Решения на базе ALT Linux Образование рассчитаны в первую очередь на
-     учителей и преподавателей школ, колледжей, университетов, а также иных
-     учебных заведений, которые хотят организовать современный эффективный
-     учебный процесс, отвечающий всем требованиям отечественного
-     законодательства.
+     ALT Linux Сервер это специально разработанное решение, которое поможет
+     Вам удовлетворить любые нужды
+     <ul>
+     <li>Работа с современными производительными базами данных;</li>
+     <li>Работа с различными средствами виртуализации;</li>
+     <li>Управление инфраструктурой предприятия;</li>
+     <li>Интеграция в домены Active Directory, Samba и FreeIPA;</li>
+     <li>Организация внутренних и внешних сервисов предприятий.</li>
+     </ul>
    descr_full_en: |
-     ALT Linux Education solution is designed for schools,
-     colleges and universities and allows you to solve problems of
-     efficient class organization in accordance with modern governmental
-     standards.
-   img: edu
+     ALT Linux Server is a special solution which will help you to solve
+     wide variety of needs like
+     <ul>
+     <li>Work with modern high-performance databases;</li>
+     <li>Work with various virtualization systems;</li>
+     <li>Controlling enterprise infrastructure;</li>
+     <li>Active Directory, FreeIPA and Samba domain integration;</li>
+     </ul>
+   img: server
+
