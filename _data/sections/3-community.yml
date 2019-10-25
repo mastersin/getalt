@@ -34,8 +34,8 @@ members:
    img: edu
 
  - name: starterkits
-   name_ru: Стартовые наборы
-   name_en: Starter Kits
+   name_ru: Другие
+   name_en: Other
    code: starterkits
    descr_ru: |
      Стартовые наборы формируются на базе еженедельных срезов
