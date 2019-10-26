@@ -29,6 +29,13 @@ members:
      <li>...и не только.</li>
      </ul>
 
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/license.ru.html"</a>
+     Загруженную версию могут свободно использовать физические лица;
+     юридические лица могут воспользоваться ею для тестирования,
+     а для применения необходимо приобрести лицензии или заключить
+     лицензионный договор в письменной форме.
+     </a>
+
    descr_full_en: |
      ALT Workstation installed on a laptop or desktop provides
      a classic personal workplace allowing to
@@ -42,6 +49,13 @@ members:
      <li>develop software</li>
      <li>...and much more!</li>
      </ul>
+
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/license.all.html"</a>
+     The downloaded version can be freely used by private persons;
+     legal entities can use it for testing but production use
+     requires acquiring licenses or signing a license agreement
+     in written form.
+     </a>
 
    img: alt-workstation
 
@@ -66,6 +80,13 @@ members:
      <li>поддержку доменов Active Directory и FreeIPA;</li>
      <li>широкий набор internet- и intranet-сервисов.</li>
      </ul>
+
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/license.ru.html"</a>
+     Загруженную версию могут свободно использовать физические лица;
+     юридические лица могут воспользоваться ею для тестирования,
+     а для применения необходимо приобрести лицензии или заключить
+     лицензионный договор в письменной форме.
+     </a>
    descr_full_en: |
      ALT Server provides reliable foundation for enterprise IT infrastructure,
      including
@@ -77,5 +98,12 @@ members:
      <li>Active Directory and FreeIPA domain integration;</li>
      <li>extensive set of internet and intranet services.</li>
      </ul>
+
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/license.all.html"</a>
+     The downloaded version can be freely used by private persons;
+     legal entities can use it for testing but production use
+     requires acquiring licenses or signing a license agreement
+     in written form.
+     </a>
    img: alt-server
 

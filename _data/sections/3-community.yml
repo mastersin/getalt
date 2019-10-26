@@ -26,6 +26,14 @@ members:
      Дистрибутив включает в себя широкий набор пользовательских
      и серверных приложений, который позволяет объединить рабочие места
      учащихся и преподавателей и предоставить насыщенную функциональность.
+
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.ru.html"</a>
+     Загруженную версию могут свободно использовать физические лица;
+     юридические лица могут воспользоваться ею для тестирования,
+     а для применения необходимо приобрести лицензии или заключить
+     лицензионный договор в письменной форме.
+     </a>
+
    descr_full_en: |
      ALT Education is aimed to ease the modern effective learning
      process for educational institutions at any level, including
@@ -33,6 +41,14 @@ members:
      The distribution includes a wide range of desktop and server
      applications allowing to integrate students' and teacher's
      workplaces providing rich functionality.
+
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.all.html"</a>
+     The downloaded version can be freely used by private persons;
+     legal entities can use it for testing but production use
+     requires acquiring licenses or signing a license agreement
+     in written form.
+     </a>
+
    img: alt-edu
 
  - name_ru: Другие
@@ -67,10 +83,21 @@ members:
      </li>
      <li>
      создать производный образ системы, наиболее адаптированный для
-     конкретных условий эксплуатации (предоставляется под свободной
-     лицензией GPL).
+     конкретных условий эксплуатации.
      </li>
      </ul>
+
+     <a href="http://nightly.altlinux.org/p9/license.ru.html">
+     Каждый стартовый набор как составное произведение предоставляется
+     под свободной лицензией GPL, то есть получатель имеет свободу&colon;
+     </a>
+     <ul>
+     <li>применять стартовый набор в любых целях;</li>
+     <li>дорабатывать его под свои нужды;</li>
+     <li>обмениваться полученным с другими;</li>
+     <li>обмениваться сделанными изменениями.</li>
+     </ul>
+
    descr_full_en: |
      Starter kits are quarterly builds for experienced users. They are
      not full-fledged distributions (for example, there is no release
@@ -89,9 +116,20 @@ members:
      or software disaster as well as perform forensic analysis;
      </li>
      <li>
-     create derivative operating system image adapted for specific
-     application (provided under GPL free software license).
+     create derivative operating system image adapted for specific application.
      </li>
      </ul>
+
+     <a href="http://nightly.altlinux.org/p9/license.all.html">
+     Each starter kit itself is free software licensed under GPL
+     as a composite work, so that recipient has the freedom to&colon;
+     </a>
+     <ul>
+     <li>use the starterkit for any purpose,</li>
+     <li>change it to suit one's needs,</li>
+     <li>share the download with others,</li>
+     <li>share the changes one makes.</li>
+     </ul>
+
    img: e2k
 
