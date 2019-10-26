@@ -1,6 +1,6 @@
 ---
 layout: solution
 lang: ru
-permalink: /ru/education/
-code: education
+permalink: /ru/alt-education/
+code: alt-education
 ---

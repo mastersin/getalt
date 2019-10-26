@@ -2,7 +2,7 @@
 
 link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/alt-education-9.0-aarch64.iso
 platform: p9
-solution: education
+solution: alt-education
 importance: 0
 arch: aarch64
 type: iso

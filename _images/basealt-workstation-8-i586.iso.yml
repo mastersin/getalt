@@ -2,7 +2,7 @@
 
 link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p8/images/workstation/basealt-workstation-8-i586.iso
 platform: p8
-solution: workstation
+solution: alt-workstation
 arch: i586
 type: iso
 importance: 0

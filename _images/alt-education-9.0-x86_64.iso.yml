@@ -2,7 +2,7 @@
 
 link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/x86_64/alt-education-9.0-x86_64.iso
 platform: p9
-solution: education
+solution: alt-education
 importance: 1
 arch: x86-64
 type: iso

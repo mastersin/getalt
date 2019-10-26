@@ -6,7 +6,7 @@ bgcolor: f8f8f8
 bgcolor1: fefefe
 bordercolor: cfcfcf
 members:
- - code: workstation
+ - code: alt-workstation
    name_en: ALT Workstation
    name_ru: Альт Рабочая станция
    descr_ru: |
@@ -43,10 +43,9 @@ members:
      <li>...and much more!</li>
      </ul>
 
-   img: workstation
+   img: alt-workstation
 
- - name: server
-   code: server
+ - code: alt-server
    name_ru: Альт Сервер
    name_en: ALT Server
    descr_ru: |
@@ -55,7 +54,6 @@ members:
    descr_en: |
      Operating system and services to bring up and control enterprise
      IT infrastructure.
-   img: arm
    descr_full_ru: |
      ALT Linux Сервер это специально разработанное решение, которое поможет
      Вам удовлетворить любые нужды
@@ -75,5 +73,5 @@ members:
      <li>Controlling enterprise infrastructure;</li>
      <li>Active Directory, FreeIPA and Samba domain integration;</li>
      </ul>
-   img: server
+   img: alt-server
 

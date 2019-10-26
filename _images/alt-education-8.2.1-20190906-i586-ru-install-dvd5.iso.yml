@@ -2,7 +2,7 @@
 
 link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p8/images/education/alt-education-8.2.1-20190906-i586-ru-install-dvd5.iso
 platform: p8
-solution: education
+solution: alt-education
 arch: i586
 type: iso
 importance: 0

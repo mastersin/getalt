@@ -2,5 +2,5 @@
 layout: refresh
 lang: ru
 permalink: /workstation/
-code: workstation
+code: alt-workstation
 ---

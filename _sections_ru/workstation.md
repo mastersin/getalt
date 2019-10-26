@@ -1,6 +1,6 @@
 ---
 layout: solution
 lang: ru
-permalink: /ru/workstation/
-code: workstation
+permalink: /ru/alt-workstation/
+code: alt-workstation
 ---

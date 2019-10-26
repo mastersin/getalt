@@ -2,7 +2,7 @@
 
 link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p8/images/workstation/basealt-workstation-8-x86_64.iso
 platform: p8
-solution: workstation
+solution: alt-workstation
 arch: x86-64
 type: iso
 importance: 1

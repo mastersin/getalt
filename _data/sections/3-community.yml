@@ -6,7 +6,7 @@ bgcolor1: fefefe
 bordercolor: cfcfcf
 
 members:
- - code: education
+ - code: alt-education
    name_en: ALT Education
    name_ru: Альт Образование
    bgcolor: #a00   
@@ -33,10 +33,9 @@ members:
      The distribution includes a wide range of desktop and server
      applications allowing to integrate students' and teacher's
      workplaces providing rich functionality.
-   img: edu
+   img: alt-edu
 
- - name: starterkits
-   name_ru: Другие
+ - name_ru: Другие
    name_en: Other
    code: starterkits
    descr_ru: |
