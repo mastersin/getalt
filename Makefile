@@ -12,6 +12,9 @@ test: Gemfile
 build: Gemfile
 	bundle exec jekyll build -V --future
 
+public: build
+	rsync -r --delete-after _site/ getalt:/var/www/vhosts/getalt.org/
+
 clean:
 	git clean -fdx
 
