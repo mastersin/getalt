@@ -16,8 +16,8 @@ members:
      Operating system and application suite designed for workplace
      at both office and home.
    descr_full_ru: |
-     Альт Рабочая станция после установки на ноутбук или настольную систему
-     — это классическое персональное рабочее место с программами, которые помогут
+     <a href="http://altlinux.org/workstation">Альт Рабочая станция 9</a> после установки на ноутбук или настольную систему
+     — это классическое персональное рабочее место с программами, которые помогут&colon;
 
      <ul>
      <li>работать с интернет-ресурсами (веб-сайты, почта, мессенджеры);</li>
@@ -37,8 +37,8 @@ members:
      </a>
 
    descr_full_en: |
-     ALT Workstation installed on a laptop or desktop provides
-     a classic personal workplace allowing to
+     ALT Workstation 9 installed on a laptop or desktop provides
+     a classic personal workplace allowing to&colon;
 
      <ul>
      <li>work with internet (web, email, instant messaging);</li>
@@ -70,8 +70,8 @@ members:
      IT infrastructure of any scale.
    img: arm
    descr_full_ru: |
-     Альт Сервер предоставляет надёжную основу для построения информационной
-     инфраструктуры предприятия, включая
+     <a href="http://altlinux.org/server">Альт Сервер 9</a> предоставляет надёжную основу для построения информационной
+     инфраструктуры предприятия, включая&colon;
 
      <ul>
      <li>современные производительные и масштабируемые базы данных;</li>
@@ -88,8 +88,8 @@ members:
      лицензионный договор в письменной форме.
      </a>
    descr_full_en: |
-     ALT Server provides reliable foundation for enterprise IT infrastructure,
-     including
+     ALT Server 9 provides reliable foundation for enterprise IT infrastructure,
+     including&colon;
 
      <ul>
      <li>modern scalable high-performance databases;</li>
