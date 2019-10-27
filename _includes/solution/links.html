@@ -1,11 +1,11 @@
 <a href="{{ loc.link }}" style="text-decoration: none;">
-  <div class="link" style="cursor: pointer; padding: 10px;">
+  <div class="link" style="cursor: pointer; padding: 10px 10px 20px 10px;">
     <table style="margin: 0px; table-layout: fixed; width: 100%; border: none;">
       <tbody>
         <tr style="border: none;">
           <td style="border: none; width: autoi; overflow: none">
-            <div style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">
-              <!--{{ site.txt_platform[page.lang] }} {{ loc.platform | slice:1,1}}:--> {% if loc.board %}{{ loc.board }}{% else %}{{ loc.arch }}{% endif %} ({{ loc.link | split: '/' | last }})
+            <div style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap; font-size: 1em">
+              <!--{{ site.txt_platform[page.lang] }} {{ loc.platform | slice:1,1}}:--> <b>{% if loc.board %}{{ loc.board }}{% else %}{{ loc.arch }}{% endif %}</b> ({{ loc.link | split: '/' | last }})
             </div>
           </td>
           <td style="border: none; width: 100px;">
