@@ -105,6 +105,15 @@ members:
      <li>обмениваться сделанными изменениями.</li>
      </ul>
      </div>
+
+     <p>
+     Предлагаем перейти к&colon;
+     <ul class="nopadding">
+     <li><a href="http://altlinux.org/Starterkits/About">описанию проекта</a>;
+     <li><a href="http://altlinux.org/Starterkits/Flavours">доступным вариантам</a>
+       и <a href="http://altlinux.org/Starterkits/Memory">требованиям к ресурсам</a>;
+     <li><a href="http://altlinux.org/Starterkits/Download">ссылкам на загрузку</a>.
+     </ul>
    descr_full_en: |
      Platform 9 <a href="http://en.altlinux.org/starterkits"><b>Starter kits</b></a>
      are quarterly builds for experienced users. They are
@@ -140,4 +149,9 @@ members:
      <li>share the changes one makes.</li>
      </ul>
      </div>
+
+     <p>
+     Please see <a href="http://en.altlinux.org/starterkits">the wiki page</a>
+     for project description, flavours provided, and the actual
+     <a href="http://en.altlinux.org/starterkits#download">download links</a>.
 
