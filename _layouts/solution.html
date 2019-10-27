@@ -25,8 +25,8 @@
               <div style="clear: both;"></div>
                 <div style="display: table; text-align: center;  width: 100%; margin: 10px auto; borde: 1px solid yellow ; bckground-color: green;">
                   {% assign main_links = site.images | where: "solution", page.code | where: "arch", "x86-64" | where: "platform", "p9" %}
-                  {% assign secondary_links1 = site.images | where: "solution", page.code | where_exp: "item", "item.arch != 'x86-64'" | where: "platform", "p9"|where_exp:'i':'i.arch == "i586"' %}
-                  {% assign secondary_links2 = site.images | where: "solution", page.code | where_exp: "item", "item.arch != 'x86-64'" | where: "platform", "p9"|where_exp:'i':'i.arch != "i586"' %}                  
+                  {% assign secondary_links1 = site.images | where: "solution", page.code | where_exp: "item", "item.arch != 'x86-64'" | where: "platform", "p9"|where_exp:"i","i.arch == 'i586'" %}
+                  {% assign secondary_links2 = site.images | where: "solution", page.code | where_exp: "item", "item.arch != 'x86-64'" | where: "platform", "p9"|where_exp:"i","i.arch != 'i586'" %}                  
 
                   {% assign links_class = "links0" %}
                   {% if secondary_links1.size > 0 or secondary_links2.size > 0 %}
