@@ -8,7 +8,7 @@ bordercolor: cfcfcf
 
 members:
  - name: server
-   code: server
+   code: alt-server
    name_ru: Сервер
    name_en: Server
    descr_ru: |
@@ -19,7 +19,7 @@ members:
      ALT Linux Server solution is designed as a core instrument for
      organization and control of enterprise infrastructure and services
      of any scale.
-   img: arm
+   img: alt-server
    descr_full_ru: |
      ALT Linux Сервер это специально разработанное решение, которое поможет
      Вам удовлетворить любые нужды
@@ -39,7 +39,7 @@ members:
      <li>Controlling enterprise infrastructure;</li>
      <li>Active Directory, FreeIPA and Samba domain integration;</li>
      </ul>
-   img: server
+   img: alt-server
 
  - name: server-v
    code: server-v

@@ -8,7 +8,7 @@ margin: 20px 0;
 }
 
 .ss {
-width: 50%;
+width: calc(50% - 50px);
 }
 
 .link {
@@ -105,7 +105,8 @@ text-decoration: none;
   float: left; 
   padding-bottom: 10px;
   margin: 1%;
-  height: 260px;
+  height: auto;
+  min-height: 290px;
 text-align: left;
 margin: 30px 10px; 
 width: calc(50% - 50px); 

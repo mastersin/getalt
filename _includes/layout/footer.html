@@ -3,11 +3,12 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading"><a href="http://basealt.ru/">{{ site.company }}</a></h2>
 
     <div class="footer-col-wrapper" style="text-align: justify;">
       <div class="footer-col footer-col-1" style="float: left; borde: 1px solid red; width: 50px;">
-        <ul class="contact-list">
+        <h2 class="footer-heading" style="order:1px solid black;"><a href="http://basealt.ru/">{{ site.company }}</a></h2>
+
+        <ul class="contact-list" style="order:1px solid black;">
           <li class="p-name">
             {%- if site.author -%}
               {{ site.author | escape }}
