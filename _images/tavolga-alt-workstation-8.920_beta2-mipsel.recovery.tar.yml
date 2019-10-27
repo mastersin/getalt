@@ -6,5 +6,5 @@ solution: alt-workstation
 importance: 0
 arch: mipsel
 type: archive
-board: tavolga
+board: Tavolga terminal
 

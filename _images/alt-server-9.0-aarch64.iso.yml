@@ -6,5 +6,5 @@ solution: alt-server
 importance: 0
 arch: aarch64
 type: iso
-board: rpi3
+board: ARM64 UEFI
 

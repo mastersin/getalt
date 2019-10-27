@@ -5,5 +5,5 @@ platform: p9
 solution: alt-education
 importance: 0
 type: archive
-board: tegra
+board: Nvidia Jetson Nano
 
