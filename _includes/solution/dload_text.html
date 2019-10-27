@@ -1,0 +1,43 @@
+<br><br>
+{% if page.lang == 'ru' %}
+<ul>
+<li>
+Для записи ISO-образов на DVD см.
+<a href="http://altlinux.org/write">инструкцию</a>;
+ISO-образы для x86 также пригодны для записи USB-флэшку
+(обратите внимание: программы UNetbootin и UltraISO
+портят содержимое образа, делая невозможной загрузку
+с записанного носителя).
+</li>
+<li>
+Для создания образа корневой файловой системы из aarch64-архива
+воспользуйтесь <a href="http://altlinux.org/write/rootfs">этой
+инструкцией</a>.
+</li>
+<li>
+Для прошивки образа mipsel на устройство Таволга Терминал следуйте
+<a href="http://altlinux.org/write/recovery.tar">этим указаниям</a>.
+</li>
+</ul>
+{% endif %}
+{% if page.lang == 'en' %}
+<ul>
+<li>
+Use <a href="http://en.altlinux.org/write">this guide</a> to
+write the ISO image onto blank DVD; x86 ISO images are also
+suitable for USB flash drives (NB: UNetbootin and UltraISO
+cripple the resulting media rendering it unbootable).
+</li>
+<li>
+Note that aarch64 rootfs archives presume the use of
+<tt>alt-rootfs-installer</tt> utility to handle target
+platform differences; the guide is currently available
+<a href="http://altlinux.org/write/rootfs">in Russian</a>.
+</li>
+<li>
+Tavolga Terminal users are advised to flash the device using
+<a href="http://altlinux.org/write/recovery.tar">this manual</a>
+in Russian.
+</li>
+</ul>
+{% endif %}
