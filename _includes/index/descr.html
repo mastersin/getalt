@@ -1,10 +1,20 @@
-  <div style="margin-top: -35px; font-weight: bold; margin-left: 120px;">
+  <div style="margin-top: -35px; font-weight: bold; margin-left: 20px; padding-left: 120px; float: left;" class="section-name1">
+<div style="float: left;">
     {% if page.lang == 'ru'%}
       {{ loc.name_ru }}
     {% else %}
       {{ loc.name_en }}
     {% endif %}
+    </div>
+            {% if loc.code != 'starterkits' %}
+              <div style="text-align: right; borde: 1px solid black;">
+                <img src="/i/download.png" style="width: 40px; padding-right: 20px; margin: 0;">
+              </div>
+            {% endif %}
+
   </div>
+  
+ 
 <br>
 <div style="padding: 0px;">
   <p>
