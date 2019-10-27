@@ -6,7 +6,7 @@
 
   {%- if solution.code == page.code -%}
 
-      <p>
+      <div class="descr">
         {%- for section_hash in site.data.sections -%}
           {% assign section = section_hash[1] %}        
           {%- for loc in section.members -%}
@@ -21,13 +21,18 @@
             {% endif %}
           {%- endfor -%}
         {%- endfor -%}
-      </p>
+      </div>
+      <style>
+      .descr li{
+      margin-left: calc(50% + 20px);
+      }
+      </style>
 
   {%- endif -%}
 {%- endfor -%}
 {%- endfor -%}
 
-<div style="padding: 0 20px;">
+<div style="padding: 0 20px; clear: both;">
 {% if page.lang == "ru" %}
 Исходные тексты содержащихся в этих образах свободных программ можно получить в 
 <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/branch/files/SRPMS/"><b>src.rpm</b></a>-<a href="http://packages.altlinux.org/ru/p9/home"><b>пакетах</b></a>
