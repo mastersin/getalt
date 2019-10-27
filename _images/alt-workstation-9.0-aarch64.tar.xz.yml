@@ -6,5 +6,5 @@ solution: alt-workstation
 importance: 0
 arch: aarch64
 type: archive
-board: ARM64 RootFS
+board: RPi3
 
