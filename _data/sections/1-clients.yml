@@ -11,13 +11,15 @@ members:
    name_ru: Альт Рабочая станция
    descr_ru: |
      Операционная система и набор приложений для организации рабочих мест
-     пользователей как в офисной среде, так и дома.
+     пользователей как в&nbsp;офисной среде, так и дома.
    descr_en: |
      Operating system and application suite designed for workplace
      at both office and home.
    descr_full_ru: |
-     <a href="http://altlinux.org/workstation">Альт Рабочая станция 9</a> после установки на ноутбук или настольную систему
-     — это классическое персональное рабочее место с программами, которые помогут&colon;
+     <a href="http://altlinux.org/workstation">Альт Рабочая станция 9</a>
+     после установки на ноутбук или настольную систему
+     — это классическое персональное рабочее место
+     с&nbsp;программами, которые помогут&colon;
 
      <ul>
      <li>работать с интернет-ресурсами (веб-сайты, почта, мессенджеры);</li>
@@ -32,8 +34,9 @@ members:
 
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
-     а для применения необходимо приобрести лицензии или заключить
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/license.ru.html">лицензионный договор</a> в письменной форме.
+     а&nbsp;для применения необходимо приобрести лицензии или заключить
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/license.ru.html">лицензионный договор</a>
+     в&nbsp;письменной форме.
    descr_full_en: |
      ALT Workstation 9 installed on a laptop or desktop provides
      a classic personal workplace allowing to&colon;
@@ -51,7 +54,8 @@ members:
      
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
-     requires acquiring licenses or signing a <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/license.all.html">license agreement</a>
+     requires acquiring licenses or signing a
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/license.all.html">license agreement</a>
      in written form.
 
    img: alt-workstation
@@ -60,28 +64,29 @@ members:
    name_ru: Альт Сервер
    name_en: ALT Server
    descr_ru: |
-     Операционная система и набор служб для организации и управления
-     информационной инфраструктурой предприятия любого масштаба.
+     Операционная система и набор служб для организации и&nbsp;управления
+     информационной инфраструктурой предприятия.
    descr_en: |
      Operating system and services to bring up and control enterprise
-     IT infrastructure of any scale.
+     IT infrastructure.
    img: arm
    descr_full_ru: |
-     <a href="http://altlinux.org/server">Альт Сервер 9</a> предоставляет надёжную основу для построения информационной
+     <a href="http://altlinux.org/server">Альт Сервер 9</a> предоставляет
+     надёжную основу для построения информационной
      инфраструктуры предприятия, включая&colon;
 
      <ul>
-     <li>современные производительные и масштабируемые базы данных;</li>
+     <li>современные производительные и&nbsp;масштабируемые базы данных;</li>
      <li>средства виртуализации;</li>
      <li>инструментарий управления инфраструктурой предприятия;</li>
      <li>поддержку доменов Active Directory и FreeIPA;</li>
-     <li>широкий набор internet- и intranet-сервисов.</li>
+     <li>широкий набор internet- и&nbsp;intranet-сервисов.</li>
      </ul>
 
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
-     а для применения необходимо приобрести лицензии или заключить
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/license.ru.html">лицензионный договор</a> в письменной форме.
+     а&nbsp;для применения необходимо приобрести лицензии или заключить
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/license.ru.html">лицензионный договор</a> в&nbsp;письменной форме.
      </a>
    descr_full_en: |
      ALT Server 9 provides reliable foundation for enterprise IT infrastructure,

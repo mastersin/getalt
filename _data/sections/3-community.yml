@@ -12,8 +12,8 @@ members:
    bgcolor: #a00   
    descr_ru: |
      Операционная система для образовательных учреждений всех уровней —
-     от дошкольного до высшего — которая соответствует госстандартам
-     и позволяет интегрировать рабочие места учеников и преподавателя.
+     от дошкольного до&nbsp;высшего — которая соответствует госстандартам
+     и&nbsp;позволяет интегрировать рабочие места учеников и&nbsp;преподавателя.
    descr_en: |
      Operating system for all kinds of educational institutions from
      preschool to high school which provides integration of both
@@ -31,9 +31,9 @@ members:
 
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
-     а для применения необходимо приобрести лицензии или заключить
+     а&nbsp;для применения необходимо приобрести лицензии или заключить
      <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.ru.html">лицензионный договор</a>
-     в письменной форме.
+     в&nbsp;письменной форме.
 
    descr_full_en: |
      ALT Education 9 is aimed to ease the modern effective learning
