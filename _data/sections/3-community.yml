@@ -114,6 +114,11 @@ members:
        и <a href="http://altlinux.org/Starterkits/Memory">требованиям к ресурсам</a>;
      <li><a href="http://altlinux.org/Starterkits/Download">ссылкам на загрузку</a>.
      </ul>
+
+     <p>
+     <a href="http://altlinux.org/m-p">Сборочный профиль</a>
+     содержится в ISO-образах как <tt>.disk/profile.tgz</tt>.
+
    descr_full_en: |
      Platform 9 <a href="http://en.altlinux.org/starterkits"><b>Starter kits</b></a>
      are quarterly builds for experienced users. They are
@@ -154,4 +159,7 @@ members:
      Please see <a href="http://en.altlinux.org/starterkits">the wiki page</a>
      for project description, flavours provided, and the actual
      <a href="http://en.altlinux.org/starterkits#download">download links</a>.
+
+     <p>
+     The build profile is contained in ISO images as <tt>.disk/profile.tgz</tt>.
 
