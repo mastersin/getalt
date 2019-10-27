@@ -28,12 +28,11 @@ members:
      учащихся и преподавателей и предоставить насыщенную функциональность.
 
      <p>
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.ru.html"</a>
+
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
      а для применения необходимо приобрести лицензии или заключить
-     лицензионный договор в письменной форме.
-     </a>
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.ru.html">лицензионный договор</a> в письменной форме.
 
    descr_full_en: |
      ALT Education 9 is aimed to ease the modern effective learning
@@ -44,12 +43,11 @@ members:
      workplaces providing rich functionality.
 
      <p>
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.all.html"</a>
+
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
-     requires acquiring licenses or signing a license agreement
+     requires acquiring licenses or signing a <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.all.html">license agreement</a>
      in written form.
-     </a>
 
    img: alt-edu
 
@@ -92,10 +90,10 @@ members:
      </ul>
      <br><br>
 
-     <p>
-     <a href="http://nightly.altlinux.org/p9/license.ru.html">
+     <div style="padding: 0 20px;">
+
      Каждый стартовый набор как составное произведение предоставляется
-     под свободной лицензией GPL, то есть получатель имеет свободу&colon;
+     под свободной <a href="http://nightly.altlinux.org/p9/license.ru.html">лицензией GPL</a>, то есть получатель имеет свободу&colon;
      </a>
      <ul>
      <li>применять стартовый набор в любых целях;</li>
@@ -103,7 +101,7 @@ members:
      <li>обмениваться полученным с другими;</li>
      <li>обмениваться сделанными изменениями.</li>
      </ul>
-     </p>
+     </div>
    descr_full_en: |
      Platform 9 <a href="http://en.altlinux.org/starterkits"><b>Starter kits</b></a>
      are quarterly builds for experienced users. They are
@@ -127,15 +125,15 @@ members:
      </li>
      </ul>
 
-     <a href="http://nightly.altlinux.org/p9/license.all.html">
-     Each starter kit itself is free software licensed under GPL
+     <div style="clear: both; padding: 0 20px;">    
+     Each starter kit itself is free      <a href="http://nightly.altlinux.org/p9/license.all.html">software licensed under GPL</a>
      as a composite work, so that recipient has the freedom to&colon;
-     </a>
+
      <ul>
      <li>use the starterkit for any purpose,</li>
      <li>change it to suit one's needs,</li>
      <li>share the download with others,</li>
      <li>share the changes one makes.</li>
      </ul>
-
+     </div>
 

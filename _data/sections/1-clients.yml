@@ -29,12 +29,11 @@ members:
      <li>...и не только.</li>
      </ul>
 
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/license.ru.html"</a>
+
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
      а для применения необходимо приобрести лицензии или заключить
-     лицензионный договор в письменной форме.
-     </a>
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/license.ru.html">лицензионный договор</a> в письменной форме.
    descr_full_en: |
      ALT Workstation 9 installed on a laptop or desktop provides
      a classic personal workplace allowing to&colon;
@@ -49,12 +48,11 @@ members:
      <li>...and much more!</li>
      </ul>
 
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/license.all.html"</a>
+     
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
-     requires acquiring licenses or signing a license agreement
+     requires acquiring licenses or signing a <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/license.all.html">license agreement</a>
      in written form.
-     </a>
 
    img: alt-workstation
 
@@ -98,11 +96,11 @@ members:
      <li>extensive set of internet and intranet services.</li>
      </ul>
 
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/license.all.html"</a>
+
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
-     requires acquiring licenses or signing a license agreement
+     requires acquiring licenses or signing a 
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/license.all.html">license agreement</a>
      in written form.
-     </a>
    img: alt-server
 
