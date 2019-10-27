@@ -25,25 +25,30 @@
               <div style="clear: both;"></div>
                 <div style="display: table; text-align: center;  width: 100%; margin: 10px auto; borde: 1px solid yellow ; bckground-color: green;">
                   {% assign main_links = site.images | where: "solution", page.code | where: "arch", "x86-64" | where: "platform", "p9" %}
-                  {% assign secondary_links = site.images | where: "solution", page.code | where_exp: "item", "item.arch != 'x86-64'" | where: "platform", "p9" %}
+                  {% assign secondary_links1 = site.images | where: "solution", page.code | where_exp: "item", "item.arch != 'x86-64'" | where: "platform", "p9"|where_exp:'i':'i.arch == "i586"' %}
+                  {% assign secondary_links2 = site.images | where: "solution", page.code | where_exp: "item", "item.arch != 'x86-64'" | where: "platform", "p9"|where_exp:'i':'i.arch != "i586"' %}                  
 
                   {% assign links_class = "links0" %}
-                  {% if secondary_links.size > 0 %}
+                  {% if secondary_links1.size > 0 or secondary_links2.size > 0 %}
                     {% assign links_class = "links1" %}
                   {% endif %}
                   <div class="{{ links_class }}">
                     <h2>{{ site.txt_main_links[page.lang] }}</h2>
                     <div>
                     {% for loc in main_links %}
-                      {% include solution/links.html %}
+                      {% include solution/links.html notonly="x86-64"%}
                     {% endfor %}
                     </div>
                   </div>
-                  {% if secondary_links.size > 0 %}
+                  {% if secondary_links2.size > 0  or secondary_links2.size > 0%}
                   <div class="links1">
                     <h2>{{ site.txt_secondary_links[page.lang] }}</h2>
                     <div>
-                    {% for loc in secondary_links %}
+
+                    {% for loc in secondary_links1 %}
+                      {% include solution/links.html %}
+                    {% endfor %}
+                    {% for loc in secondary_links2 %}
                       {% include solution/links.html %}
                     {% endfor %}
                     </div>
