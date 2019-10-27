@@ -7,9 +7,15 @@
     {% endif %}
     </div>
             {% if loc.code != 'starterkits' %}
-              <div style="text-align: right; borde: 1px solid black;">
-                <img src="/i/download.png" style="width: 40px; padding-right: 20px; margin: 0;">
-              </div>
+              {% assign solutions = site.images|where: "arch", "i586"|where: "platform","p9"|where: i.solution, loc.code %}
+              {% for i in solutions%}
+              {%if i.solution == loc.code%}
+              
+    		 <div style="text-align: right; borde: 1px solid black;">
+		    <img onclick="document.location='{{i.link}}';return false;" src="/i/download.png" style="z-index: 200; width: 40px; padding-right: 20px; margin: 0;" date-link="{{i.link}}" class="download-click">
+                </div>
+              {% endif %}
+              {% endfor %}
             {% endif %}
 
   </div>
