@@ -95,7 +95,7 @@ members:
      Каждый стартовый набор как составное произведение предоставляется
      под свободной <a href="http://nightly.altlinux.org/p9/license.ru.html">лицензией GPL</a>, то есть получатель имеет свободу&colon;
      </a>
-     <ul>
+     <ul class="nopadding">
      <li>применять стартовый набор в любых целях;</li>
      <li>дорабатывать его под свои нужды;</li>
      <li>обмениваться полученным с другими;</li>
@@ -129,7 +129,7 @@ members:
      Each starter kit itself is free      <a href="http://nightly.altlinux.org/p9/license.all.html">software licensed under GPL</a>
      as a composite work, so that recipient has the freedom to&colon;
 
-     <ul>
+     <ul class="nopadding">
      <li>use the starterkit for any purpose,</li>
      <li>change it to suit one's needs,</li>
      <li>share the download with others,</li>
