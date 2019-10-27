@@ -7,7 +7,7 @@
     {% endif %}
     </div>
             {% if loc.code != 'starterkits' %}
-              {% assign solutions = site.images|where: "arch", "x86-64"|where: "platform","p9"|where: i.solution, loc.code %}
+              {% assign solutions = site.images|where: "arch", "i586"|where: "platform","p9"|where: i.solution, loc.code %}
               {% for i in solutions%}
               {%if i.solution == loc.code%}
               
