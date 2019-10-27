@@ -15,10 +15,12 @@ ISO-образы для x86 также пригодны для записи USB-
 воспользуйтесь <a href="http://altlinux.org/write/rootfs"><b>этой
 инструкцией</b></a>.
 </li>
+{% if page.code == 'alt-workstation'%}
 <li>
 Для прошивки образа mipsel на устройство Таволга Терминал следуйте
 <a href="http://altlinux.org/write/recovery.tar"><b>этим указаниям</b></a>.
 </li>
+{% endif %}
 </ul>
 {% endif %}
 {% if page.lang == 'en' %}
@@ -35,11 +37,13 @@ Note that aarch64 rootfs archives presume the use of
 platform differences; the guide is currently available
 <a href="http://altlinux.org/write/rootfs"><b>in Russian</b></a>.
 </li>
+{% if page.code == 'alt-workstation'%}
 <li>
 Tavolga Terminal users are advised to flash the device using
 <a href="http://altlinux.org/write/recovery.tar"><b>this manual</b></a>
 in Russian.
 </li>
+{% endif %}
 </ul>
 {% endif %}
 </div>
