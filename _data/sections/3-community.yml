@@ -32,7 +32,8 @@ members:
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
      а для применения необходимо приобрести лицензии или заключить
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.ru.html">лицензионный договор</a> в письменной форме.
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.ru.html">лицензионный договор</a>
+     в письменной форме.
 
    descr_full_en: |
      ALT Education 9 is aimed to ease the modern effective learning
@@ -46,7 +47,8 @@ members:
 
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
-     requires acquiring licenses or signing a <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.all.html">license agreement</a>
+     requires acquiring licenses or signing a
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.all.html">license agreement</a>
      in written form.
 
    img: alt-edu
@@ -92,8 +94,9 @@ members:
 
      <div style="padding: 0 20px;">
 
-     Каждый стартовый набор как составное произведение предоставляется
-     под свободной <a href="http://nightly.altlinux.org/p9/license.ru.html">лицензией GPL</a>, то есть получатель имеет свободу&colon;
+     Каждый стартовый набор как составное произведение предоставляется под
+     <a href="http://nightly.altlinux.org/p9/license.ru.html">свободной лицензией GPL</a>,
+     то есть получатель имеет свободу&colon;
      </a>
      <ul class="nopadding">
      <li>применять стартовый набор в любых целях;</li>
@@ -126,7 +129,8 @@ members:
      </ul>
 
      <div style="clear: both; padding: 0 20px;">    
-     Each starter kit itself is free      <a href="http://nightly.altlinux.org/p9/license.all.html">software licensed under GPL</a>
+     Each starter kit itself is
+     <a href="http://nightly.altlinux.org/p9/license.all.html">free software licensed under GPL</a>
      as a composite work, so that recipient has the freedom to&colon;
 
      <ul class="nopadding">
