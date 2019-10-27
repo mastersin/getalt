@@ -10,12 +10,13 @@
     <main class="page-content" aria-label="Content" style="width: 100%; text-align; center; margin: 0 auto;">
       <div class="wrapper">
         {{ content }}
+        <div style="text-align: center;">
+          {% include solution/name.html%}
+        </div>
         <div style="background-color: #eee; colo: red; width: 100%; borde: 1px solid black">
           <div style="margin: 0 auto; display: table; padding: 20px 0; borde: 1px solid black; width: 95%" class="solution1">
             <div style="background-coor: #ccc">
-              <div style="text-align: center;">
-                {% include solution/name.html%}
-              </div>
+
               <div class="bolda">
                 <div style="width: 100%; brder: 1px solid black; height: 100%; text-align: center; background-coor: red; margin: 0 auto">
                   <img src="/i/ss/{{ page.code }}.png" align="left" class="ss">
