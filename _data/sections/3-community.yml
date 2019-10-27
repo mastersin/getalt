@@ -65,7 +65,7 @@ members:
      ALT repository and designed for experienced users and developers
      of derivative solutions.
    descr_full_ru: |
-     <a href="http://altlinux.org/starterkits">Стартовые наборы</a>
+     <a href="http://altlinux.org/starterkits"><b>Стартовые наборы</b></a>
      Девятой платформы — ежеквартальные сборки для опытных пользователей.
      Они не являются полноценными дистрибутивами (например, не содержат
      документации к выпуску и не подлежат технической поддержке), но
@@ -89,7 +89,9 @@ members:
      конкретных условий эксплуатации.
      </li>
      </ul>
+     <br><br>
 
+     <p>
      <a href="http://nightly.altlinux.org/p9/license.ru.html">
      Каждый стартовый набор как составное произведение предоставляется
      под свободной лицензией GPL, то есть получатель имеет свободу&colon;
@@ -100,9 +102,9 @@ members:
      <li>обмениваться полученным с другими;</li>
      <li>обмениваться сделанными изменениями.</li>
      </ul>
-
+     </p>
    descr_full_en: |
-     Platform 9 <a href="http://en.altlinux.org/starterkits">Starter kits</a>
+     Platform 9 <a href="http://en.altlinux.org/starterkits"><b>Starter kits</b></a>
      are quarterly builds for experienced users. They are
      not full-fledged distributions (for example, there is no release
      documentation and no technical support) but allow to&colon;
@@ -135,5 +137,4 @@ members:
      <li>share the changes one makes.</li>
      </ul>
 
-   img: e2k
 
