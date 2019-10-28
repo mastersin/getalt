@@ -1,0 +1,26 @@
+---
+
+entries:
+  - link: https://mirror.yandex.ru/altlinux/p9/images/server/aarch64/alt-server-9.0-aarch64.iso
+    platform: p9
+    solution: alt-server
+    importance: 0
+    arch: aarch64
+    type: iso
+    board: ARM64 UEFI
+
+  - link: https://mirror.yandex.ru/altlinux/p9/images/server/ppc64le/alt-server-9.0-ppc64le.iso
+    platform: p9
+    solution: alt-server
+    importance: 0
+    arch: ppc64le
+    type: iso
+    board: POWER8/9
+
+  - link: https://mirror.yandex.ru/altlinux/p9/images/server/x86_64/alt-server-9.0-x86_64.iso
+    platform: p9
+    solution: alt-server
+    importance: 1
+    arch: x86-64
+    type: iso
+

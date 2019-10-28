@@ -1,0 +1,325 @@
+---
+
+entries:
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-builder-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-builder-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-cinnamon-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-cinnamon-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-cloud-latest-x86_64.img.xz
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: archive
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-engineering-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-engineering-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-enlightenment-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-enlightenment-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-gnome3-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-gnome3-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-gnustep-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-gnustep-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-icewm-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-icewm-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-jeos-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-jeos-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-kde4-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-kde4-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-kde5-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-kde5-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-lxde-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-lxde-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-lxde-sysv-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-lxde-sysv-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-lxqt-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-lxqt-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-mate-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-mate-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p8/images/starterkits/alt-p8-opennebula-20190312-x86_64.qcow2c
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: archive
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-ovz-generic-latest-i586.tar.xz
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: archive
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-ovz-generic-latest-x86_64.tar.xz
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: archive
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-rescue-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-rescue-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-server-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-server-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-server-openstack-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-server-pve-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-sysv-tde-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-sysv-tde-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-sysv-xfce-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-sysv-xfce-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-wmaker-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-wmaker-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-xfce-latest-i586.iso
+    platform: p8
+    solution: starterkits
+    arch: i586
+    type: iso
+    importance: 0
+
+  - link: http://nightly.altlinux.org/p8/permalink/alt-p8-xfce-latest-x86_64.iso
+    platform: p8
+    solution: starterkits
+    arch: x86-64
+    type: iso
+    importance: 1
+
