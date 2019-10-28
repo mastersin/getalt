@@ -1,9 +1,0 @@
----
-
-link: http://nightly.altlinux.org/p8/permalink/alt-p8-gnustep-latest-x86_64.iso
-platform: p8
-solution: starterkits
-arch: x86-64
-type: iso
-importance: 1
-

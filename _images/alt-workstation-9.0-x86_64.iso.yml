@@ -1,9 +1,0 @@
----
-
-link: https://mirror.yandex.ru/altlinux/p9/images/workstation/x86_64/alt-workstation-9.0-x86_64.iso
-platform: p9
-solution: alt-workstation
-importance: 1
-arch: x86-64
-type: iso
-

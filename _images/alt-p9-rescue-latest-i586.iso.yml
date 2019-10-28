@@ -1,9 +1,0 @@
----
-
-link: http://nightly.altlinux.org/p9/permalink/alt-p9-ovz-generic-latest-x86_64.tar.xz
-platform: p9
-solution: starterkits
-arch: x86-64
-type: archive
-importance: 1
-
