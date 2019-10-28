@@ -12,6 +12,33 @@ require 'logger'
 $logger = Logger.new(STDOUT)
 $logger.level = Logger::DEBUG
 
+# This is needed to compare YAML entries so it will be possible to
+# perform "update" of YAML entries.
+class IsoEntry
+	def initialize(entry)
+		@link = entry['link']
+		@platform = entry['platform']
+		@solution = entry['solution']
+		@architecture = entry['arch']
+	end # initialize()
+
+	def ==(o)
+		o.class == self.class && o.state == state
+	end # ==()
+
+	protected
+
+	def state
+		[
+			@link,
+			@platform,
+			@solution,
+			@architecture
+		]
+	end # state
+end # IsoEntry
+
+# This class encapsulates FTP server crawling functionality.
 class FtpServer
 	def initialize(host)
 		@host = host
