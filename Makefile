@@ -2,7 +2,7 @@
 # --future - publish posts with future dates
 # -V - show verbose build log
 
-.PHONY: clean
+.PHONY: genimages clean
 
 all: test
 
@@ -14,6 +14,12 @@ build: Gemfile
 
 public: build
 	rsync -r --delete-after _site/ getalt:/var/www/vhosts/getalt.org/
+
+# Generate YAML files with image lists grouped by solution. This
+# thing is written in Ruby to better integrate with Jekyll-based
+# infrastructure.
+genimg:
+	ruby scripts/genimg.rb
 
 clean:
 	git clean -fdx
