@@ -41,6 +41,9 @@ collections:
   images:
     output: false
 
+# Variable to define empty arrays in Liquid
+empty_array: []
+
 txt_main_links:
   ru: Основные загрузки
   en: Primary downloads
