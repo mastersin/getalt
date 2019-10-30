@@ -92,13 +92,13 @@ members:
      </ul>
      <br><br>
 
-     <div style="padding: 0 20px;">
+     <div styl="padding: 0 20px;">
 
      Каждый стартовый набор как составное произведение предоставляется под
      <a href="http://nightly.altlinux.org/p9/license.ru.html">свободной лицензией GPL</a>,
      то есть получатель имеет свободу&colon;
      </a>
-     <ul class="nopadding">
+     <ul clas="nopadding">
      <li>применять стартовый набор в любых целях;</li>
      <li>дорабатывать его под свои нужды;</li>
      <li>обмениваться полученным с другими;</li>
