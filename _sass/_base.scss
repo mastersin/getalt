@@ -212,13 +212,20 @@ pre {
  * Icons
  */
 
-.svg-icon {
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    fill: #{$grey-color};
-    padding-right: 5px;
-    vertical-align: text-top;
+.soc {
+    width: 100px;
+    display: inline;
+    white-space: nowrap;
+    .icon {
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        padding-right: 5px;
+        vertical-align: text-top;
+    }
+    svg.icon {
+        fill: #{$grey-color};
+    }
 }
 
 .social-media-list {
