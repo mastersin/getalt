@@ -30,9 +30,17 @@
                 <div style="display: table; text-align: center;  width: 100%; margin: 10px auto; borde: 1px solid yellow ; bckground-color: green;">
 		  {% if page.code != 'starterkits'%}
 
-                  {% assign main_links = site.images | where: "solution", page.code | where: "arch", "x86-64" | where: "platform", "p9" %}
-                  {% assign secondary_links1 = site.images | where: "solution", page.code | where_exp: "item", "item.arch != 'x86-64'" | where: "platform", "p9"|where_exp:"i","i.arch == 'i586'" %}
-                  {% assign secondary_links2 = site.images | where: "solution", page.code | where_exp: "item", "item.arch != 'x86-64'" | where: "platform", "p9"|where_exp:"i","i.arch != 'i586'" %}                  
+                  {% comment %}
+                  Build a flat array of entries from several YAML files.
+                  {% endcomment %}
+                  {% assign image_list = empty_array %}
+                  {% for elem in site.data.images %}
+                    {% assign image_list = image_list | concat: elem[1].entries %}
+                  {% endfor %}
+
+                  {% assign main_links = image_list | where: "solution", page.code | where: "arch", "x86-64" | where: "platform", "p9" %}
+                  {% assign secondary_links1 = image_list | where: "solution", page.code | where_exp: "item", "item.arch != 'x86-64'" | where: "platform", "p9"|where_exp:"i","i.arch == 'i586'" %}
+                  {% assign secondary_links2 = image_list | where: "solution", page.code | where_exp: "item", "item.arch != 'x86-64'" | where: "platform", "p9"|where_exp:"i","i.arch != 'i586'" %}                  
 
                   {% assign links_class = "links0" %}
                   {% if secondary_links1.size > 0 or secondary_links2.size > 0 %}

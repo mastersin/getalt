@@ -1,0 +1,40 @@
+---
+
+entries:
+  - link: https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.0-aarch64.iso
+    platform: p9
+    solution: alt-education
+    importance: 0
+    arch: aarch64
+    type: iso
+    board: ARM64 UEFI
+
+  - link: https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.0-aarch64.tar.xz
+    platform: p9
+    solution: alt-education
+    importance: 0
+    arch: aarch64
+    type: archive
+    board: RPi3
+
+  - link: https://mirror.yandex.ru/altlinux/p9/images/education/i586/alt-education-9.0-i586.iso
+    platform: p9
+    solution: alt-education
+    importance: 0
+    arch: i586
+    type: iso
+
+  - link: https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.0-tegra-aarch64.tar.xz
+    platform: p9
+    solution: alt-education
+    importance: 0
+    type: archive
+    board: Nvidia Jetson Nano
+
+  - link: https://mirror.yandex.ru/altlinux/p9/images/education/x86_64/alt-education-9.0-x86_64.iso
+    platform: p9
+    solution: alt-education
+    importance: 1
+    arch: x86-64
+    type: iso
+

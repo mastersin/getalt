@@ -1,9 +1,0 @@
----
-
-link: http://nightly.altlinux.org/p8/permalink/alt-p8-cloud-latest-x86_64.img.xz
-platform: p8
-solution: starterkits
-arch: x86-64
-type: archive
-importance: 1
-
