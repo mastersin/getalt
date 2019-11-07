@@ -25,16 +25,13 @@ border-radius: 5px;
 }
 
 .index1 {
-//width: 1200px;
-max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+width:  $content-width - ($spacing-unit * 2);
+max-width:  $content-width - ($spacing-unit * 2);
 }
 
 .solution1 {
-width: 1200px;
-max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-
+width:  $content-width - ($spacing-unit * 2);
+max-width:  $content-width - ($spacing-unit * 2);
 }
 
 .links0 {

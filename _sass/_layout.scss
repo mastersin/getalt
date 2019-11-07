@@ -109,7 +109,7 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding-top: $spacing-unit;
-  width: calc(1200px - (30px * 2));
+  width: $content-width - $spacing-unit * 2;
   margin: 0 auto;
 }
 
