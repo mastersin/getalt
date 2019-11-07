@@ -13,7 +13,7 @@
      <div style="background-color: #{{ section.bgcolor}}; text-align: center; margin: 0 auto">
      <div style="display: table; padding: 40xp 0; borde: 1px solid green; text-align: center; margin: 0 auto" class="index1">
       {%- for loc in section.members -%}
-        <a href="/{{ page.lang }}/{{ loc.code }}/" class="section_link section" style="z-index: 10; border-radius: 5px; background-color: #{{section.bgcolor1}}; border-color: #{{section.bordercolor}}">
+      <a href="/{{ page.lang }}/{{ loc.code }}/" class="section-link section">
             <div style="z-index: 100; heigh: 100%; float: left; vertical-alig: 50%; borde: 1px solid red; margin: -30px 10px 0px 10px;">
               <img src="/i/logo/{{loc.img | default:"edu" }}.png" width="100" align="top" style="z-index: 100; margin: 0px;">
             </div>
@@ -52,14 +52,3 @@
   на сайте <a href="https://www.basealt.ru/">basealt.ru</a>.
 </div>
 {% endif %}
-
-<script>
-$( ".section" ).mouseover(function() {
-  $(this).css('border-color', '#000');
-});
-
-$( ".section" ).mouseout(function() {
-  $(this).css('border-color', '#cfcfcf');
-});
-
-</script>

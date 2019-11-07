@@ -2,8 +2,6 @@ name_en: Community
 name_ru: Сообщество
 order: 3
 bgcolor: f3f3f3
-bgcolor1: fefefe
-bordercolor: cfcfcf
 
 members:
  - code: alt-education
