@@ -11,7 +11,7 @@
               {% for i in solutions%}
               {%if i.solution == loc.code%}
               
-    		 <div style="text-align: right; borde: 1px solid black;" class="dload-div">
+    		 <div style="text-align: right;" class="dload-div">
 		    <img onclick="document.location='{{i.link}}';return false;" src="/i/download.png" style="z-index: 200; width: 40px; padding-right: 20px; margin: 0;" date-link="{{i.link}}" class="download-click">
                 </div>
               {% endif %}
