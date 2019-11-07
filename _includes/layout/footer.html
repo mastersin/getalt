@@ -9,12 +9,6 @@
         <h2 class="footer-heading" style="order:1px solid black;"><a href="http://basealt.ru/">{{ site.company }}</a></h2>
 
         <ul class="contact-list" style="order:1px solid black;">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-            {%- endif -%}
-            </li>
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
