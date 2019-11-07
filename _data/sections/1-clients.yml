@@ -3,8 +3,6 @@ name_en: Client solutions
 name_ru: Клиентские решения
 order: 1
 bgcolor: f8f8f8
-bgcolor1: fefefe
-bordercolor: cfcfcf
 members:
  - code: alt-workstation
    name_en: ALT Workstation
