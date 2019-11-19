@@ -13,6 +13,7 @@ margin: 20px 0;
 
 .ss {
 width: calc(50% - 50px);
+float: left;
 }
 
 .link {
@@ -32,6 +33,18 @@ max-width:  $content-width - ($spacing-unit * 2);
 .solution1 {
 width:  $content-width - ($spacing-unit * 2);
 max-width:  $content-width - ($spacing-unit * 2);
+ul {
+  list-style: outside disc;
+  margin: 0 0 0 0;
+  li {
+    position: relative;
+    left: $spacing-unit;
+    margin-right: $spacing-unit;    
+  }
+}
+p {
+  margin-bottom: 5px;
+}
 }
 
 .links0 {

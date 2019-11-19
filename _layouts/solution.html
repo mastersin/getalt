@@ -2,7 +2,6 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include layout/head.html -%}
-
   <body>
     <div class="top">
       {%- include layout/header.html -%}
@@ -18,16 +17,14 @@
             <div style="background-coor: #ccc">
 
               <div class="bolda">
-                <div style="width: 100%; brder: 1px solid black; height: 100%; text-align: center; background-coor: red; margin: 0 auto">
-                  <img src="/i/ss/{{ page.code }}.png" align="left" class="ss">
-                </div>
+                <img src="/i/ss/{{ page.code }}.png" class="ss">
                 {% include solution/descr.html%}
               </div>
               <div style=" clear: both; vertical-align: bottom; width: 100%;" class="bolda">
 		{%- include solution/dload_text.html -%}
               </div>
               <div style="clear: both;"></div>
-                <div style="display: table; text-align: center;  width: 100%; margin: 10px auto; bckground-color: green;">
+                <div style="display: table; text-align: center;  width: 100%; margin: 10px auto">
 		  {% if page.code != 'starterkits'%}
 
                   {% comment %}

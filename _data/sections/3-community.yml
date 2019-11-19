@@ -88,15 +88,12 @@ members:
      конкретных условий эксплуатации.
      </li>
      </ul>
-     <br><br>
-
-     <div styl="padding: 0 20px;">
-
+     <p>
      Каждый стартовый набор как составное произведение предоставляется под
      <a href="http://nightly.altlinux.org/p9/license.ru.html">свободной лицензией GPL</a>,
      то есть получатель имеет свободу&colon;
-     </a>
-     <ul clas="nopadding">
+     </p>
+     <ul>
      <li>применять стартовый набор в любых целях;</li>
      <li>дорабатывать его под свои нужды;</li>
      <li>обмениваться полученным с другими;</li>
@@ -105,8 +102,8 @@ members:
      </div>
 
      <p>
-     Предлагаем перейти к&colon;
-     <ul class="nopadding">
+     Предлагаем перейти к&colon;</p>
+     <ul>
      <li><a href="http://altlinux.org/Starterkits/About">описанию проекта</a>;
      <li><a href="http://altlinux.org/Starterkits/Flavours">доступным вариантам</a>
        и <a href="http://altlinux.org/Starterkits/Memory">требованиям к ресурсам</a>;
@@ -116,12 +113,14 @@ members:
      <p>
      <a href="http://altlinux.org/m-p">Сборочный профиль</a>
      содержится в ISO-образах как <tt>.disk/profile.tgz</tt>.
+     </p>
 
    descr_full_en: |
+     <p>
      Platform 9 <a href="http://en.altlinux.org/starterkits"><b>Starter kits</b></a>
      are quarterly builds for experienced users. They are
      not full-fledged distributions (for example, there is no release
-     documentation and no technical support) but allow to&colon;
+     documentation and no technical support) but allow to&colon;</p>
      <ul>
      <li>
      take a look at graphical desktop environments which are not part
@@ -140,24 +139,25 @@ members:
      </li>
      </ul>
 
-     <div style="clear: both; padding: 0 20px;">    
+     <p>
      Each starter kit itself is
      <a href="http://nightly.altlinux.org/p9/license.all.html">free software licensed under GPL</a>
-     as a composite work, so that recipient has the freedom to&colon;
+     as a composite work, so that recipient has the freedom to&colon;</p>
 
-     <ul class="nopadding">
+     <ul>
      <li>use the starterkit for any purpose,</li>
      <li>change it to suit one's needs,</li>
      <li>share the download with others,</li>
      <li>share the changes one makes.</li>
      </ul>
-     </div>
 
      <p>
      Please see <a href="http://en.altlinux.org/starterkits">the wiki page</a>
      for project description, flavours provided, and the actual
      <a href="http://en.altlinux.org/starterkits#download">download links</a>.
+     </p>
 
      <p>
      The build profile is contained in ISO images as <tt>.disk/profile.tgz</tt>.
+     </p>
 
