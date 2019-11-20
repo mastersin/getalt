@@ -1,12 +1,12 @@
 {% assign sorted = (site.data.sections | sort: order) %}
 
-<div style="text-align: justify; width: 100%; padding: 0; margin: 0; ">
+<div>
 
 {% if page.lang == 'ru' %}
-  <h1 style="text-align: center;">Загрузка Альт</h1>
+  <h1>Загрузка Альт</h1>
 {% endif %}
 {% if page.lang == 'en' %}
-  <h1 style="text-align: center;">ALT Downloads</h1>
+  <h1>ALT Downloads</h1>
 {% endif %}
   {% for section_hash in sorted %}
     {% assign section = section_hash[1] %}

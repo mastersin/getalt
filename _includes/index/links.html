@@ -4,7 +4,7 @@
 <div style="text-align: justify; width: 100%; padding: 0; margin: 0; ">
 {% for section_hash in sorted %}
   {% assign section = section_hash[1] %}
-  <h1 style="text-align: center">
+  <h1>
     {% if page.lang == 'en'%}
       {{ section.name_en }}
     {% endif %}
