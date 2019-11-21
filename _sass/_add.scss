@@ -1,3 +1,8 @@
+
+h1 {
+text-align: center;
+}
+
 .bolda a{
 font-weight: bold; 
 }
@@ -26,6 +31,8 @@ border-radius: 5px;
 }
 
 .index1 {
+display: inline-block;
+text-align: center;
 width:  $content-width - ($spacing-unit * 2);
 max-width:  $content-width - ($spacing-unit * 2);
 }
@@ -99,58 +106,50 @@ color: #333;
 text-decoration: none;
 }
 
-a.section {
-color: #000;
-text-decoration: none;
-}
+.section-link {
+  background-color: #fefefe;
+  color: #000 !important;
+  text-decoration: none !important;
 
-a.section:visited {
-color: #000;
-text-decoration: none;
-}
-
-a.section:hover {
-color: #000;
-text-decoration: none;
-}
-
-.section {
   border: 1px solid black; 
-  float: left; 
-  padding-bottom: 10px;
-  margin: 1%;
-  height: auto;
+  border-radius: 5px;
+  border-color: #cfcfcf;
+  &:hover {
+    border-color: #000;
+  }
+
+  display: inline-block;
+  margin: 30px 10px 30px 10px;
   min-height: 290px;
-text-align: left;
-margin: 30px 10px; 
-width: calc(50% - 50px); 
-padding: 10px; 
-max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-font-size: 1.2rem;
-text-decoration: none;
-}
+  text-align: left;
+  vertical-align: top;
+  width: -webkit-calc(50% - 50px);
+  width: calc(50% - 50px);
+  max-width: $content-width - $spacing-unit * 2;
+  font-size: 1.2rem;
+  padding: 10px;
 
-a.section-link {
-    background-color: #fefefe;
-    border-radius: 5px;
-    border-color: #cfcfcf;
-    &:hover {
-        border-color: #000;
-    }
-}
-
-@media screen and (max-width: 610px) {
-  .section {
-    width: 100%;
-    margin: 10px auto;
-    height: auto;
+  .section-icon {
+    display: block;
+    float: left;
+    width: 100px;
+    margin: -30px 40px 0px 10px;
   }
-  .sss{
-    text-align: center;
+  .dload-icon {
+    display: block;
+    float: right;
+    width: 40px;
+    padding: 15px 15px 0 0; 
+  }
+  .section-link-name {
+      font-weight: bold;
+      padding-top: 15px;
+  }
+  .section-link-descr {
+      clear: both;
+      padding: 20px 10px 10px 10px;
   }
 }
-
 
 .header-title {
   margin-left: 10px;
@@ -169,9 +168,3 @@ header {
 //width: 1100px;
 }
 
-
-
-.section-name1 {
-width: calc(100% - 120px);
-padding-right: 20px;
-}

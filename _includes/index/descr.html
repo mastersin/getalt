@@ -1,37 +1,28 @@
-  <div style="margin-top: -35px; font-weight: bold; margin-left: 20px; padding-left: 120px; float: left;" class="section-name1">
-<div style="float: left;">
+{% if loc.code != 'starterkits' %}
+  {%- for elem in site.data.images -%}
+    {%- for i in elem[1].entries -%}
+      {%- if i.solution == loc.code and i.arch == "x86-64" and i.platform == "p9" -%}
+          <img onclick="document.location='{{i.link}}';return false;"
+               src="/i/download.png"
+               title="{{i.link}}"
+               class="dload-icon">
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{% endif %}
+
+<div class="section-link-name">
     {% if page.lang == 'ru'%}
       {{ loc.name_ru }}
     {% else %}
       {{ loc.name_en }}
     {% endif %}
-    </div>
-            {% if loc.code != 'starterkits' %}
-              {% assign image_list = empty_array %}
-              {% for elem in site.data.images %}
-                {% assign image_list = image_list | concat: elem[1].entries %}
-              {% endfor %}
-              {% assign solutions = image_list|where: "arch", "x86-64"|where: "platform","p9"|where: i.solution, loc.code %}
-              {% for i in solutions%}
-              {%if i.solution == loc.code%}
-              
-    		 <div style="text-align: right;" class="dload-div">
-		    <img onclick="document.location='{{i.link}}';return false;" src="/i/download.png" style="z-index: 200; width: 40px; padding-right: 20px; margin: 0;" date-link="{{i.link}}" class="download-click">
-                </div>
-              {% endif %}
-              {% endfor %}
-            {% endif %}
+</div>
 
-  </div>
-  
- 
-<br>
-<div style="padding: 0px;">
-  <p>
+<div class="section-link-descr">
     {% if page.lang == 'ru'%}
       {{ loc.descr_ru }}
     {% else %}
       {{ loc.descr_en }}
     {% endif %}
-  </p>
 </div>

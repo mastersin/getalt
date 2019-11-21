@@ -1,7 +1,4 @@
 @include media-query($on-palm) {
-  .dload-div {
-    display: none;
-  }
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -10,12 +7,6 @@
 
   .top {
     width: 100%;
-  }
-  
-  .section {
-    width: 95%;
-    height: auto;
-    margin-bottom: 30px;
   }
   
   .index1 {
@@ -49,11 +40,16 @@
     width: 95%;
   }
   
-  .section {
-    width: 100%;
-    margin: 30px auto;
-    padding: 0;
-    text-align: left;
+  .section-link {
+    display: block;
+    width: 95%;
+    min-width: 300px;
+    height: auto;
+    padding: 5px;
+    margin: 30px auto 30px auto;
+    .dload-icon {
+      display: none;
+    }
   }
   
   .sss{
