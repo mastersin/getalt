@@ -1,44 +1,25 @@
 {% assign sorted = (site.data.sections | sort: order) %}
 
 <div>
-
 {% if page.lang == 'ru' %}
   <h1>Загрузка Альт</h1>
 {% endif %}
 {% if page.lang == 'en' %}
   <h1>ALT Downloads</h1>
 {% endif %}
-  {% for section_hash in sorted %}
-    {% assign section = section_hash[1] %}
-     <div style="background-color: #{{ section.bgcolor}}; text-align: center; margin: 0 auto">
-     <div style="display: table; padding: 40xp 0; text-align: center; margin: 0 auto" class="index1">
+  {% for section_hash in sorted -%}
+    {% assign section = section_hash[1] -%}
+     <div style="background-color: #{{ section.bgcolor}}; text-align: center;">
+     <div class="index1">
       {%- for loc in section.members -%}
-      <a href="/{{ page.lang }}/{{ loc.code }}/" class="section-link section">
-            <div style="z-index: 100; heigh: 100%; float: left; vertical-alig: 50%; margin: -30px 10px 0px 10px;">
-              <img src="/i/logo/{{loc.img | default:"edu" }}.png" width="100" align="top" style="z-index: 100; margin: 0px;">
-            </div>
-            
-  <!--div style="margin-top: -40px; font-weight: bold;">         
-    {% if page.lang == 'ru'%}                                 
-      {{ loc.name_ru }}                                       
-    {% else %}                                                
-      {{ loc.name_en }}                                       
-    {% endif %}                                               
-  </div-->                
-            
-            
-            
-            <br style="margin-top: 20px;"/>
-            <div style="padding: 0 10px; vertical-align: top">
-              {% include index/descr.html %}
-            </div>
-
-        </a>
+      <a href="/{{ page.lang }}/{{ loc.code }}/" class="section-link">
+        <img src="/i/logo/{{loc.img | default:"edu" }}.png" class="section-icon">
+        {%- include index/descr.html -%}
+      </a>
       {%- endfor -%}
-      <div style="clear: both;"></div>
     </div>
     </div>
-  {% endfor %}
+  {%- endfor -%}
 </div>
 {% if page.lang == 'ru' %}
 <div style="margin: 20px; text-align: center;" class="bolda">
