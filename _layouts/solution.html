@@ -6,25 +6,18 @@
     <div class="top">
       {%- include layout/header.html -%}
     </div>
-    <main class="page-content" aria-label="Content" style="width: 100%; text-align; center; margin: 0 auto;">
+    <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        {{ content }}
-        <div style="text-align: center;">
-          {% include solution/name.html%}
-        </div>
-        <div style="background-color: #eee; colo: red; width: 100%;">
-          <div style="margin: 0 auto; display: table; padding: 20px 0; width: 95%" class="solution1">
-            <div style="background-coor: #ccc">
-
+        {%- include solution/name.html -%}
+          <div class="solution1">
               <div class="bolda">
                 <img src="/i/ss/{{ page.code }}.png" class="ss">
                 {% include solution/descr.html%}
               </div>
-              <div style=" clear: both; vertical-align: bottom; width: 100%;" class="bolda">
+              <div class="bolda">
 		{%- include solution/dload_text.html -%}
               </div>
-              <div style="clear: both;"></div>
-                <div style="display: table; text-align: center;  width: 100%; margin: 10px auto">
+              <div class="links-wrapper">
 		  {% if page.code != 'starterkits'%}
 
                   {% comment %}
@@ -66,10 +59,8 @@
                   </div>
                   {% endif %}
                   {% endif %}
-                </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </main>

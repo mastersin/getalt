@@ -38,8 +38,16 @@ max-width:  $content-width - ($spacing-unit * 2);
 }
 
 .solution1 {
-width:  $content-width - ($spacing-unit * 2);
-max-width:  $content-width - ($spacing-unit * 2);
+background-color: #eee;
+width: 100%;
+> div {
+  width:  $content-width - ($spacing-unit * 2);
+  max-width:  $content-width - ($spacing-unit * 2);
+  margin: auto;
+  clear: both;
+  padding: 10px 0 10px 0;
+}
+padding: 10px 0 5px 0;
 ul {
   list-style: outside disc;
   margin: 0 0 0 0;
@@ -51,6 +59,9 @@ ul {
 }
 p {
   margin-bottom: 5px;
+}
+.links-wrapper {
+  display: table;
 }
 }
 
