@@ -11,10 +11,6 @@ font-weight: bold;
 text-align: center; 
 margin: 20px 0;
 }
-#lang {
-  text-align: right;
-  margin: 10px 20px;;
-}
 
 .ss {
 width: calc(50% - 50px);
@@ -170,6 +166,12 @@ text-align: left;
   margin-top: 10px;
   float: left;
   vertical-align:  middle;
+}
+
+.header-right {
+  text-align: right;
+  margin: 20px;
+  float: right;
 }
 
 a {
