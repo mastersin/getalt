@@ -1,21 +1,6 @@
-<a href="{{ loc.link }}" style="text-decoration: none;">
-  <div class="link" style="cursor: pointer; padding: 10px 10px 20px 10px;">
-    <table style="margin: 0px; table-layout: fixed; width: 100%; border: none;">
-      <tbody>
-        <tr style="border: none;">
-          <td style="border: none; width: autoi; overflow: none">
-            <div style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap; font-size: 1em">
-              <!--{{ site.txt_platform[page.lang] }} {{ loc.platform | slice:1,1}}:--> <b>{% if loc.board %}{{ loc.board }}{% else %}{{ loc.arch }}{% endif %}</b> ({{ loc.link | split: '/' | last }})
-            </div>
-          </td>
-          <td style="border: none; width: 100px;">
-            <a href="{{ loc.link }}" class="dload" >{{ site.txt_download[page.lang] }} </a>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <div style="float: left; padding: 10px;">
-    </div>
- </div>
-</a>
-
+<li class="link"><a href="{{ loc.link }}">
+    <span class="dload">{{ site.txt_download[page.lang] }} </span>
+    <span class="dload-title">
+      <b>{% if loc.board %}{{ loc.board }}{% else %}{{ loc.arch }}{% endif %}</b> ({{ loc.link | split: '/' | last }})
+    </span>
+</a></li>

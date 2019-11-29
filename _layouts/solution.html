@@ -38,16 +38,16 @@
                   {% endif %}
                   <div class="{{ links_class }}">
                     <h2>{{ site.txt_main_links[page.lang] }}</h2>
-                    <div>
+                    <ul>
                     {% for loc in main_links %}
                       {% include solution/links.html notonly="x86-64"%}
                     {% endfor %}
-                    </div>
+                    </ul>
                   </div>
                   {% if secondary_links2.size > 0  or secondary_links2.size > 0%}
                   <div class="links1">
                     <h2>{{ site.txt_secondary_links[page.lang] }}</h2>
-                    <div>
+                    <ul>
 
                     {% for loc in secondary_links1 %}
                       {% include solution/links.html %}
@@ -55,7 +55,7 @@
                     {% for loc in secondary_links2 %}
                       {% include solution/links.html %}
                     {% endfor %}
-                    </div>
+                    </ul>
                   </div>
                   {% endif %}
                   {% endif %}
