@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  {%- include layout/head.html -%}
-
-  <body>
-    <div class="top">
-      {%- include layout/header.html -%}
-    </div>
-    <main class="page-content" aria-label="Content" style="width: 100%; text-align; center; margin: 0 auto;">
-      <div class="wrapper">
-        {{ content }}
+---
+layout: default
+---
         <div style="background-color: #eee; colo: red; width: 100%;">
           <div style="margin: 0 auto; display: table; padding: 20px 0; width: 95%" class="solution1">
             <div style="background-coor: #ccc">
@@ -39,9 +30,3 @@
             </div>
           </div>
         </div>
-      </div>
-    </main>
-  {%- include layout/footer.html -%}
-
-  </body>
-</html>

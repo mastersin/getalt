@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  {%- include layout/head.html -%}
-  <body>
-    <div class="top">
-      {%- include layout/header.html -%}
-    </div>
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+---
+layout: default
+---
         {%- include solution/name.html -%}
           <div class="solution1">
               <div class="bolda">
@@ -60,11 +53,4 @@
                   {% endif %}
                   {% endif %}
               </div>
-            </div>
-        </div>
-      </div>
-    </main>
-  {%- include layout/footer.html -%}
-
-  </body>
-</html>
+          </div>
