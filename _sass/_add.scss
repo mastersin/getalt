@@ -158,6 +158,9 @@ text-align: left;
   .section-link-descr {
       clear: both;
       padding: 20px 10px 10px 10px;
+      hr {
+        display: none;
+      }
   }
 }
 

@@ -13,7 +13,7 @@
      <div class="index1">
       {%- for loc in section.members -%}
       <a href="/{{ page.lang }}/{{ loc.code }}/" class="section-link">
-        <img src="/i/logo/{{loc.img | default:"edu" }}.png" class="section-icon">
+        <img src="/i/logo/{{loc.img | default:"edu" }}.png" class="section-icon" alt="logo">
         {%- include index/descr.html -%}
       </a>
       {%- endfor -%}
