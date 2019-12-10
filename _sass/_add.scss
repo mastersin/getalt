@@ -11,23 +11,42 @@ font-weight: bold;
 text-align: center; 
 margin: 20px 0;
 }
-#lang {
-  text-align: right;
-  margin: 10px 20px;;
-}
 
 .ss {
 width: calc(50% - 50px);
 float: left;
 }
 
-.link {
-background-color: #ccc;
-margin-bottom: 10px;
-padding: 10px 10px 0 0 ; 
-text-align: justify; 
-height: 50px; 
-border-radius: 5px;
+.solution1 .links-wrapper .link {
+  display: block;
+  background-color: #ccc;
+  margin: 0 0 10px 0;
+  border-radius: 5px;
+  text-decoration: none !important;
+  left: 0;
+
+  .dload {
+    display: block;
+    float: right;
+    text-align: center;
+    background-color: #eee;
+    width: 100px;
+    padding: 10px;
+    margin: 20px 25px 0 0;
+    border-radius: 5px;
+    &:hover {
+      background-color: #ffc900;
+      color: #333;
+    }
+  }
+  .dload-title {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 30px 5px 30px 25px;
+    color: #3f3f3f;
+  }
 }
 
 .index1 {
@@ -97,26 +116,6 @@ margin-right: 0;
 text-align: left;
 }
 
-a.dload {
-text-decoration: none;
-}
-
-.dload {
-float: right;
-text-align: center;
-background-color: #eee;
-height: 20px;
-width: 100px;
-padding: 10px;
-border-radius: 5px;
-}
-
-a.dload:hover {
-background-color: #ffc900;
-color: #333;
-text-decoration: none;
-}
-
 .section-link {
   background-color: #fefefe;
   color: #000 !important;
@@ -159,23 +158,25 @@ text-decoration: none;
   .section-link-descr {
       clear: both;
       padding: 20px 10px 10px 10px;
+      hr {
+        display: none;
+      }
   }
 }
 
 .header-title {
   margin-left: 10px;
-  paddin-top: 20px;
   margin-top: 10px;
   float: left;
   vertical-align:  middle;
 }
 
+.header-right {
+  text-align: right;
+  margin: 20px;
+  float: right;
+}
 
 a {
   color: #000 ;
 }
-
-header {
-//width: 1100px;
-}
-
