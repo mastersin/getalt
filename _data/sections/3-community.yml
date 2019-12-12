@@ -4,53 +4,6 @@ order: 3
 bgcolor: f3f3f3
 
 members:
- - code: alt-education
-   name_en: ALT Education
-   name_ru: Альт Образование
-   bgcolor: #a00   
-   descr_ru: |
-     Операционная система для образовательных учреждений всех уровней —
-     от дошкольного до&nbsp;высшего — которая соответствует госстандартам
-     и&nbsp;позволяет интегрировать рабочие места учеников и&nbsp;преподавателя.
-   descr_en: |
-     Operating system for all kinds of educational institutions from
-     preschool to high school which provides integration of both
-     students' and teacher's workplaces.
-   descr_full_ru: |
-     <a href="http://altlinux.org/education">Альт Образование 9</a> помогает решить задачу организации современного
-     эффективного учебного процесса, отвечающего всем требованиям
-     отечественного законодательства, в школах, колледжах, университетах
-     и иных образовательных учреждениях.
-     Дистрибутив включает в себя широкий набор пользовательских
-     и серверных приложений, который позволяет объединить рабочие места
-     учащихся и преподавателей и предоставить насыщенную функциональность.
-
-     <p>
-
-     Загруженную версию могут свободно использовать физические лица;
-     юридические лица могут воспользоваться ею для тестирования,
-     а&nbsp;для применения необходимо приобрести лицензии или заключить
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.ru.html">лицензионный договор</a>
-     в&nbsp;письменной форме.
-
-   descr_full_en: |
-     ALT Education 9 is aimed to ease the modern effective learning
-     process for educational institutions at any level, including
-     schools, colleges and universities.
-     The distribution includes a wide range of desktop and server
-     applications allowing to integrate students' and teacher's
-     workplaces providing rich functionality.
-
-     <p>
-
-     The downloaded version can be freely used by private persons;
-     legal entities can use it for testing but production use
-     requires acquiring licenses or signing a
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.all.html">license agreement</a>
-     in written form.
-
-   img: alt-edu
-
  - name_ru: Другие
    name_en: Other
    code: starterkits
