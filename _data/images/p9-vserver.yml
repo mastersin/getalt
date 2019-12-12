@@ -1,7 +1,23 @@
 ---
 
 entries:
-  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server-v/x86_64/alt-server-v-9.0beta2-20190821-x86_64.iso
+  - link: http://ftp.altlinux.ru/pub/distributions/ALTLinux/images/p9/server-v/aarch64/alt-server-v-9.0.rc1-20191121-aarch64.iso
+    platform: p9
+    solution: server-v
+    importance: 0
+    arch: aarch64
+    type: iso
+    board: ARM64 UEFI
+
+  - link: http://ftp.altlinux.ru/pub/distributions/ALTLinux/images/p9/server-v/ppc64le/alt-server-v-9.0.rc1-20191121-ppc64le.iso
+    platform: p9
+    solution: server-v
+    importance: 0
+    arch: ppc64le
+    type: iso
+    board: POWER8/9
+
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server-v/x86_64/alt-server-v-9.0.rc1-20191121-x86_64.iso
     platform: p9
     solution: server-v
     importance: 1
