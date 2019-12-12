@@ -1,6 +1,6 @@
-code: clients
-name_en: Client solutions
-name_ru: Клиентские решения
+code: basic
+name_en: Basic solutions
+name_ru: Базовые решения
 order: 1
 bgcolor: f8f8f8
 members:
