@@ -1,6 +1,6 @@
 ---
 layout: solution
 lang: en
-permalink: /en/server-v/
-code: server-v
+permalink: /en/alt-server-v/
+code: alt-server-v
 ---
