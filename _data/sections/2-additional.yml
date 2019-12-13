@@ -72,6 +72,8 @@ members:
 
      Доступен инструментарий управления средствами виртуализации.
 
+     <p>
+
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
      а&nbsp;для применения необходимо приобрести лицензии или заключить
@@ -87,7 +89,9 @@ members:
      <li>container virtualization (LXC/LXD, Docker/Podman);</li>
      </ul>
 
-     Virtualization management tools included.
+     Virtualization management tools are included.
+
+     <p>
 
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
