@@ -9,6 +9,9 @@ all: test
 test: Gemfile
 	bundle exec jekyll serve -H 127.0.0.1 -P 8080 -V --future
 
+show: Gemfile
+	bundle exec jekyll serve -H $(shell hostname) -P 8080 -V --future
+
 build: Gemfile
 	bundle exec jekyll build -V --future
 
