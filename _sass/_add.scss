@@ -79,7 +79,7 @@ p {
   margin-bottom: 5px;
 }
 .links-wrapper {
-  display: table;
+  @extend %clearfix;
 }
 }
 
