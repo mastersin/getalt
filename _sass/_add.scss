@@ -61,7 +61,6 @@ background-color: #eee;
 width: 100%;
 > div {
   width:  $content-width - ($spacing-unit * 2);
-  max-width:  $content-width - ($spacing-unit * 2);
   margin: auto;
   clear: both;
   padding: 10px 0 10px 0;
@@ -80,7 +79,7 @@ p {
   margin-bottom: 5px;
 }
 .links-wrapper {
-  display: table;
+  @extend %clearfix;
 }
 }
 

@@ -28,17 +28,23 @@
   }
 
   .solution1 {
-    width: 95%;
+    > div {
+      width: 100%;
+    }
   }
 
   .links1{
-    width: 95%;
-    margin-bottom: 10px;  
+    width: 90%;
+    float: none;
+    margin: auto auto 10px 3%;
   }
 
-  .links2 {
-    width: 95%;
+  .links2{
+    width: 90%;
+    float: none;
+    margin: auto auto auto 3%;
   }
+
   .ss {
     margin: 0 30px;
   }
