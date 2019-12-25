@@ -224,7 +224,10 @@ pre {
         vertical-align: text-top;
     }
     svg.icon {
-        fill: #{$grey-color};
+      fill: #{$grey-color};
+      &:hover {
+        fill: #{$brand-color};
+      }
     }
 }
 

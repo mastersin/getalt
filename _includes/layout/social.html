@@ -1,5 +1,5 @@
 <div class="soc"> 
-  <a href="http://vk.com/altlinux"><img class="icon" src="/i/soc/vk.png" alt="VK"></a>
+  {%- if site.vk_username -%}<a href="https://vk.com/{{ site.vk_username | cgi_escape | escape }}"><svg class="icon"><use xlink:href="{{ '/i/soc/vk.svg#vk' | relative_url }}"></use></svg></a>{%- endif -%}
   {%- if site.dribbble_username -%}<a href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}"><svg class="icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#dribbble' | relative_url }}"></use></svg></a>{%- endif -%}
   {%- if site.facebook_username -%}<a href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}"><svg class="icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg></a>{%- endif -%}
   {%- if site.flickr_username -%}<a href="https://www.flickr.com/photos/{{ site.flickr_username| cgi_escape | escape }}"><svg class="icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#flickr' | relative_url }}"></use></svg></a>{%- endif -%}
@@ -10,6 +10,6 @@
   {%- for mst in site.mastodon -%}{%- if mst.username and mst.instance -%}<a href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}"><svg class="icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use></svg></a>{%- endif -%}{%- endfor -%}
 
   {%- if site.twitter_username -%}<a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>{%- endif -%}
-  {%- if site.youtube_username -%}<a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}"><svg class="icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a>{%- endif -%}
+  {%- if site.youtube_username -%}<a href="https://youtube.com/channel/{{ site.youtube_username| cgi_escape | escape }}"><svg class="icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a>{%- endif -%}
   {%- if site.googleplus_username -%}<a href="https://plus.google.com/{{ site.googleplus_username| escape }}"><svg class="icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#googleplus' | relative_url }}"></use></svg></a>{%- endif -%}
 </div>
