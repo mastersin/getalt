@@ -1,7 +1,7 @@
 [
 	{
 		"link":"https://mirror.yandex.ru/altlinux/p9/images/server/x86_64/alt-server-9.0-x86_64.iso",
-		"subvariant":"Server",
+		"subvariant":"server",
 		"version":"9.0",
 		"arch":"x86_64",
         "board":"pc",
@@ -11,7 +11,7 @@
 	},
 	{
 		"link":"https://mirror.yandex.ru/altlinux/p9/images/server/aarch64/alt-server-9.0-aarch64.iso",
-		"subvariant":"Server",
+		"subvariant":"server",
 		"version":"9.0",
 		"arch":"aarch64",
         "board":"pc",
@@ -21,7 +21,7 @@
 	},
 	{
 		"link":"https://mirror.yandex.ru/altlinux/p9/images/server/ppc64le/alt-server-9.0-ppc64le.iso",
-		"subvariant":"Server",
+		"subvariant":"server",
 		"version":"p9",
 		"arch":"ppc64le",
         "board":"powerpc",
@@ -31,7 +31,7 @@
 	},
 	{
 		"link":"https://mirror.yandex.ru/altlinux/p9/images/workstation/x86_64/alt-workstation-9.0-x86_64.iso",
-		"subvariant":"Workstation",
+		"subvariant":"workstation",
 		"version":"9.0",
 		"arch":"x86_64",
         "board":"pc",
@@ -41,7 +41,7 @@
 	},
 	{
 		"link":"https://mirror.yandex.ru/altlinux/p9/images/workstation/i586/alt-workstation-9.0-i586.iso",
-		"subvariant":"Workstation",
+		"subvariant":"workstation",
 		"version":"9.0",
 		"arch":"i586",
         "board":"ibmpc",
@@ -51,7 +51,7 @@
 	},
 	{
 		"link":"https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-9.0-aarch64.iso",
-		"subvariant":"Workstation",
+		"subvariant":"workstation",
 		"version":"9.0",
 		"arch":"aarch64",
         "board":"arm64",
@@ -61,7 +61,7 @@
 	},
 	{
 		"link":"https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-9.0-aarch64.tar.xz",
-		"subvariant":"Workstation",
+		"subvariant":"workstation",
 		"version":"9.0",
 		"arch":"aarch64",
         "board":"rpi3",
@@ -70,28 +70,18 @@
         "md5":"64e46ffb99875b78da76c8e18ba784cf"
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-9.0-aarch64.tar.xz",
-		"subvariant":"Workstation",
-		"version":"9.0",
-		"arch":"aarch64",
-        "board":"rpi4",
-		"variant":"Workstation",
-        "imageType":"txz",
-        "md5":"64e46ffb99875b78da76c8e18ba784cf"
-	},
-	{
 		"link":"https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-tegra-9.0-aarch64.tar.xz",
-		"subvariant":"Workstation",
+		"subvariant":"workstation",
 		"version":"9.0",
 		"arch":"aarch64",
-        "board":"nano",
+        "board":"jetson-nano",
 		"variant":"Workstation",
 		"imageType":"txz",
         "md5":"313c81faf1a13226a56aa0f081c3318e"
 	},
 	{
 		"link":"https://mirror.yandex.ru/altlinux/p9/images/workstation/mipsel/tavolga-alt-workstation-9.0-mipsel.recovery.tar",
-		"subvariant":"Workstation",
+		"subvariant":"workstation",
 		"version":"9.0",
 		"arch":"mipsel",
         "board":"tavolga",
@@ -101,7 +91,7 @@
 	},
 	{
 		"link":"https://mirror.yandex.ru/altlinux/p9/images/education/x86_64/alt-education-9.0-x86_64.iso",
-		"subvariant":"Education",
+		"subvariant":"education",
 		"version":"9.0",
 		"arch":"x86_64",
         "board":"pc",
@@ -111,7 +101,7 @@
 	},
 	{
 		"link":"https://mirror.yandex.ru/altlinux/p9/images/education/i586/alt-education-9.0-i586.iso",
-		"subvariant":"Education",
+		"subvariant":"education",
 		"version":"9.0",
 		"arch":"i586",
         "board":"ibmpc",
@@ -121,7 +111,7 @@
 	},
 	{
 		"link":"https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.0-aarch64.iso",
-		"subvariant":"Education",
+		"subvariant":"education",
 		"version":"9.0",
 		"arch":"aarch64",
         "board":"pc",
@@ -131,7 +121,7 @@
 	},
 	{
 		"link":"https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.0-aarch64.tar.xz",
-		"subvariant":"Education",
+		"subvariant":"education",
 		"version":"9.0",
 		"arch":"aarch64",
 		"board":"rpi3",
@@ -141,17 +131,17 @@
 	},
 	{
 		"link":"https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.0-tegra-aarch64.tar.xz",
-		"subvariant":"Education",
+		"subvariant":"education",
 		"version":"9.0",
 		"arch":"aarch64",
-        "board":"nano",
+        "board":"jetson-nano",
 		"variant":"Education",
 		"imageType":"txz",
         "md5":"f6bf689d04f448fe38ed7bd35ff83c32"
 	},
 	{
 		"link":"http://nightly.altlinux.org/sisyphus/tested/regular-rescue-latest-x86_64.iso",
-		"subvariant":"Rescue",
+		"subvariant":"rescue",
         "version":"9.0",
 		"arch":"x86_64",
         "board":"pc",
@@ -161,12 +151,72 @@
 	},
 	{
 		"link":"http://nightly.altlinux.org/sisyphus/tested/regular-rescue-latest-i586.iso",
-		"subvariant":"Rescue",
+		"subvariant":"rescue",
         "version":"9.0",
 		"arch":"i586",
         "board":"ibmpc",
 		"variant":"Regulars",
         "imageType":"iso",
         "md5":"b564c979cbce73d9b8d7fcbd6b87028e"
-	}
+	},
+    {
+        "link":"http://nightly.altlinux.org/sisyphus/tested/regular-rescue-latest-i586.iso",
+        "subvariant":"rescue",
+        "version":"9.0",
+        "arch":"i586",
+        "board":"ibmpc",
+        "variant":"Regulars",
+        "imageType":"iso",
+        "md5":"b564c979cbce73d9b8d7fcbd6b87028e"
+    },
+    {
+        "link":"https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-8.990_rc1-aarch64.iso",
+        "subvariant":"simply",
+        "version":"9.0",
+        "arch":"aarch64",
+        "board":"pc",
+        "variant":"Simply",
+        "imageType":"iso",
+        "md5":""
+    },
+    {
+        "link":"https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/simply-rpi4-8.930-beta2-aarch64.img.xz",
+        "subvariant":"simply",
+        "version":"9.0",
+        "arch":"aarch64",
+        "board":"rpi4",
+        "variant":"Simply",
+        "imageType":"img.xz",
+        "md5":""
+    },
+    {
+        "link":"https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-tegra-8.990_rc1-aarch64.tar.xz",
+        "subvariant":"simply",
+        "version":"9.0",
+        "arch":"aarch64",
+        "board":"jetson-nano",
+        "variant":"Simply",
+        "imageType":"img.xz",
+        "md5":""
+    },
+    {
+        "link":"https://mirror.yandex.ru/altlinux/p9/images/simply/i586/slinux-8.990_rc1-i586.iso",
+        "subvariant":"simply",
+        "version":"9.0",
+        "arch":"i586",
+        "board":"ibmpc",
+        "variant":"Simply",
+        "imageType":"iso",
+        "md5":""
+    },
+    {
+        "link":"https://mirror.yandex.ru/altlinux/p9/images/simply/x86_64/slinux-8.990_rc1-x86_64.iso",
+        "subvariant":"simply",
+        "version":"9.0",
+        "arch":"x86_64",
+        "board":"pc",
+        "variant":"Simply",
+        "imageType":"iso",
+        "md5":""
+    }
 ]
