@@ -46,3 +46,11 @@ entries:
     arch: x86-64
     type: iso
 
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/mipsel/tavolga-slinux-8.920_beta2-mipsel.recovery.tar
+    platform: p9
+    solution: simply
+    importance: 0
+    arch: mipsel
+    type: archive
+    board: Tavolga Terminal
+
