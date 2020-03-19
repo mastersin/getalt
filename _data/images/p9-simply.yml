@@ -1,0 +1,48 @@
+---
+
+entries:
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-8.990_rc1-aarch64.iso
+    platform: p9
+    solution: simply
+    importance: 0
+    arch: aarch64
+    type: iso
+    board: ARM64 UEFI
+
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-8.990_rc1-aarch64.tar.xz
+    platform: p9
+    solution: simply
+    importance: 0
+    arch: aarch64
+    type: archive
+    board: RPi3
+
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/simply-rpi4-8.930-beta2-aarch64.img.xz
+    platform: p9
+    solution: simply
+    importance: 0
+    arch: aarch64
+    type: image
+    board: RPi4
+
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/i586/slinux-8.990_rc1-i586.iso
+    platform: p9
+    solution: simply
+    importance: 0
+    arch: i586
+    type: iso
+
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-tegra-8.990_rc1-aarch64.tar.xz
+    platform: p9
+    solution: simply
+    importance: 0
+    type: archive
+    board: Nvidia Jetson Nano
+
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/x86_64/slinux-8.990_rc1-x86_64.iso
+    platform: p9
+    solution: simply
+    importance: 1
+    arch: x86-64
+    type: iso
+
