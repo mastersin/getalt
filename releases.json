@@ -4,7 +4,7 @@
 		"variant":"workstation",
 		"version":"9.0",
 		"arch":"aarch64",
-		"board":"arm",
+		"board":"arm64",
 		"imageType":"iso",
 		"md5":""
 	},
@@ -49,7 +49,7 @@
 		"variant":"server",
 		"version":"9.0",
 		"arch":"aarch64",
-		"board":"arm",
+		"board":"arm64",
 		"imageType":"iso",
 		"md5":""
 	},
@@ -76,7 +76,7 @@
 		"variant":"education",
 		"version":"9.0",
 		"arch":"aarch64",
-		"board":"arm",
+		"board":"arm64",
 		"imageType":"iso",
 		"md5":""
 	},
@@ -121,7 +121,7 @@
 		"variant":"simply",
 		"version":"9.0",
 		"arch":"aarch64",
-		"board":"arm",
+		"board":"arm64",
 		"imageType":"iso",
 		"md5":""
 	},
