@@ -27,30 +27,12 @@ members:
      <p>
 
      <p>
-     Физические и юридические лица, как конечные пользователи, могут
-     использовать загруженную версию Симпли Линукс как составное произведение,
+     Загруженная версия доступна конечным пользователям,
      в соответствии с
      <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/license.ru.html">лицензионным договором</a>,
      без права на распространение. Системным интеграторам, дистрибьюторам и
      OEM-производителям для получения прав на распространение следует обращаться
-     в ООО «Базальт СПО» по адресу sales@basealt.ru для заключения письменного
-     договора.
-     </p>
-
-     <p>
-     Все свободные программы, включенные в состав Симпли Линукс, сопровождаются
-     лицензионными договорами, бессрочно и безвозмездно предоставляющими
-     следующие неисключительные права, действующие на территории любой страны
-     <ul>
-     <li>эксплуатировать программы на неограниченном количестве компьютеров в любых целях;</li>
-     <li>модифицировать программы под свои нужды, а также публиковать и распространять модификации на безвозмездной или возмездной основе (по Вашему усмотрению) на условиях лицензии исходной программы;</li>
-     <li>передавать программы третьим лицам на безвозмездной или возмездной основе (по Вашему усмотрению) без каких-либо отчислений владельцам авторских прав;</li>
-     <li>право беспрепятственно получать и изучать исходные тексты программ.</li>
-     </ul>
-     ООО «Базальт СПО» в течение трех лет с начала действия настоящего договора
-     обязуется предоставить исходные тексты любой СВОБОДНОЙ ПРОГРАММЫ,
-     включенной в состав ДИСТРИБУТИВА, по Вашему требованию за плату, не
-     превышающую стоимость физического предоставления исходного текста.
+     в ООО «Базальт СПО» по адресу <b>sales@basealt.ru</b> для заключения письменного договора.
      </p>
 
    descr_full_en: |
@@ -64,26 +46,12 @@ members:
      easy operation.
 
      <p>
-     Private persons and legal entities as end users can use downloaded version of
-     Simply Linux as a composite work in accordance with the
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/license.en.html">license agreement</a>.
-     Systems integrators, distributors and OEM vendors should contact BaseALT Ltd at sales@basealt.ru for a written distribution contract.
-     </p>
-
-     <p>
-     All of the Free Software Applications included within the Simply Linux
-     are accompanied with license agreements which permanently grant you free of
-     charge the following non-exclusive rights valid on territory of any country:
-     <ul>
-     <li>right to use the Applications (copies of the Applications) on unlimited number of computers for any purpose;</li>
-     <li>right to modify the Applications, right to publish and distribute modifications free of charge or for a fee (you decide) according to the license terms of an original Application;</li>
-     <li>right to pass the Applications to third parties free of charge or for a fee (you decide) without paying royalty to copyright owners;</li>
-     <li>right to obtain and study the source code of the Applications.</li>
-     </ul>
-     BaseALT Ltd is obliged to provide source code of any Free Software
-     Application included within the Distribution on your demand for a fee
-     that is not higher than cost of physical copy of the source code within
-     the period of three years.
+     The downloaded version is available to end users,
+     in accordance with a
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/license.en.html">license agreement</a>,
+     without the right to distribute. Systems integrators, distributors and
+     OEM vendors should contact BaseALT Ltd at <b>sales@basealt.ru</b> for a written
+     distribution contract.
      </p>
 
  - name_ru: Другие
