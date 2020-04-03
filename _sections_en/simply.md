@@ -1,6 +1,6 @@
 ---
 layout: solution
 lang: en
-permalink: /ru/simply/
+permalink: /en/simply/
 code: simply
 ---
