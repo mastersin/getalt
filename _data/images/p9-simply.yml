@@ -1,7 +1,7 @@
 ---
 
 entries:
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-8.990_rc1-aarch64.iso
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-8.991_rc2-aarch64.iso
     platform: p9
     solution: simply
     importance: 0
@@ -9,7 +9,7 @@ entries:
     type: iso
     board: ARM64 UEFI
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-8.990_rc1-aarch64.tar.xz
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-8.991_rc2-aarch64.tar.xz
     platform: p9
     solution: simply
     importance: 0
@@ -17,7 +17,7 @@ entries:
     type: archive
     board: RPi3
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/simply-rpi4-8.930-beta2-aarch64.img.xz
+  - link: http://ftp.altlinux.org/pub/people/jqt4/images/rpi4/slinux-rpi4-9.0-rc1-aarch64.img.xz
     platform: p9
     solution: simply
     importance: 0
@@ -25,21 +25,21 @@ entries:
     type: image
     board: RPi4
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/i586/slinux-8.990_rc1-i586.iso
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/i586/slinux-8.991_rc2-i586.iso
     platform: p9
     solution: simply
     importance: 0
     arch: i586
     type: iso
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-tegra-8.990_rc1-aarch64.tar.xz
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-tegra-8.991_rc2-aarch64.tar.xz
     platform: p9
     solution: simply
     importance: 0
     type: archive
     board: Nvidia Jetson Nano
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/x86_64/slinux-8.990_rc1-x86_64.iso
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/x86_64/slinux-8.991_rc2-x86_64.iso
     platform: p9
     solution: simply
     importance: 1
