@@ -20,10 +20,6 @@ members:
      дающая возможность пользователю решать все повседневные задачи,
      не опасаясь вирусов и не затрачивая время на поиск необходимых
      программ в сети Интернет и на полках магазинов.
-     В комплект Simply Linux включено более 30 полностью русифицированных
-     программ, ориентированных на решение большинства потребностей пользователя.
-     К комплекту приложен широкий спектр драйверов устройств, что значительно
-     упрощает работу с дополнительным оборудованием.
      <p>
 
      <p>
@@ -38,12 +34,9 @@ members:
    descr_full_en: |
      <p>
      <a href="http://en.altlinux.org/simply"><b>Simply Linux</b></a>
-     Simply Linux is easy to install and comfortable to work with, allowing
-     users to do everyday tasks without worrying about viruses and without
-     requiring frequent internet searches for new programs. Simply Linux
-     includes more than 30 programs oriented to satisfy the needs of most
-     users. This package also includes a wide array of drivers, allowing
-     easy operation.
+     is an operating system that's simple to install and use. It lets the user
+     to perform the everyday tasks without fear of virus attacks and the need
+     to search the Internet and shop shelves for the software needed.
 
      <p>
      The downloaded version is available to end users,
