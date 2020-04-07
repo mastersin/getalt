@@ -25,7 +25,7 @@ entries:
     type: archive
     board: RPi3
 
-  - link: http://ftp.altlinux.org/pub/people/jqt4/images/rpi4/slinux-rpi4-9.0-aarch64.img.xz
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/aarch64/slinux-rpi4-9.0-aarch64.img.xz
     platform: p9
     solution: simply
     importance: 0
