@@ -2,10 +2,17 @@
   {%- for elem in site.data.images -%}
     {%- for i in elem[1].entries -%}
       {%- if i.solution == loc.code and i.arch == "x86-64" and i.platform == "p9" -%}
+        {%- if i.board contains "Live" -%}
+          <img onclick="document.location='{{i.link}}';return false;"
+               src="/i/download-live.png"
+               title="{{i.link}}"
+               class="dload-icon">
+        {%- else -%}
           <img onclick="document.location='{{i.link}}';return false;"
                src="/i/download.png"
                title="{{i.link}}"
                class="dload-icon">
+        {%- endif -%}
       {%- endif -%}
     {%- endfor -%}
   {%- endfor -%}
