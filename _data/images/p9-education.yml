@@ -28,6 +28,7 @@ entries:
     platform: p9
     solution: alt-education
     importance: 0
+    arch: aarch64
     type: archive
     board: Nvidia Jetson Nano
 
