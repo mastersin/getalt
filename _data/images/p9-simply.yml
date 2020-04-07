@@ -9,6 +9,14 @@ entries:
     type: iso
     board: ARM64 UEFI
 
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-live-8.991_rc2-aarch64.iso
+    platform: p9
+    solution: simply
+    importance: 0
+    arch: aarch64
+    type: iso
+    board: ARM64 UEFI Live
+
   - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-8.991_rc2-aarch64.tar.xz
     platform: p9
     solution: simply
@@ -32,6 +40,14 @@ entries:
     arch: i586
     type: iso
 
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/i586/slinux-live-8.991_rc2-i586.iso
+    platform: p9
+    solution: simply
+    importance: 0
+    arch: i586
+    type: iso
+    board: i586 Live
+
   - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-tegra-8.991_rc2-aarch64.tar.xz
     platform: p9
     solution: simply
@@ -45,6 +61,14 @@ entries:
     importance: 1
     arch: x86-64
     type: iso
+
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/x86_64/slinux-live-8.991_rc2-x86_64.iso
+    platform: p9
+    solution: simply
+    importance: 1
+    arch: x86-64
+    type: iso
+    board: x86-64 Live
 
   - link: https://mirror.yandex.ru/altlinux/p9/images/simply/mipsel/tavolga-slinux-8.920_beta2-mipsel.recovery.tar
     platform: p9
