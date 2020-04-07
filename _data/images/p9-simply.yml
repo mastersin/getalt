@@ -94,6 +94,14 @@ entries:
     type: archive
     board: HiFive Unleashed Preview
 
+  - link: http://ftp.altlinux.org/pub/people/arei/images/slinux/slinux-qemu-9.0-preview-riscv64.qcow2c
+    platform: p9
+    solution: simply
+    importance: 0
+    arch: riscv64
+    type: image
+    board: RiscV64 QEmu Preview
+
   - link: http://ftp.altlinux.org/pub/people/jqt4/images/baikalm/simply-baikal_m-itx-20200326-preview-aarch64.img.xz
     platform: p9
     solution: simply
