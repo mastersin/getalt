@@ -94,3 +94,19 @@ entries:
     type: archive
     board: HiFive Unleashed Preview
 
+  - link: http://ftp.altlinux.org/pub/people/jqt4/images/baikalm/simply-baikal_m-itx-20200326-preview-aarch64.img.xz
+    platform: p9
+    solution: simply
+    importance: 0
+    arch: aarch64
+    type: image
+    board: Baikal-M ITX Preview
+
+  - link: http://ftp.altlinux.org/pub/people/jqt4/images/baikalm/simply-baikal_dbm-20200326-preview-aarch64.img.xz
+    platform: p9
+    solution: simply
+    importance: 0
+    arch: aarch64
+    type: image
+    board: Baikal-M DBM Preview
+
