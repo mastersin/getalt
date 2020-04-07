@@ -30,6 +30,9 @@ exclude:
   - images
   - start.bat
 
+include:
+  - _data
+
 #collections_dir: _col
 collections:
   sections_en:
