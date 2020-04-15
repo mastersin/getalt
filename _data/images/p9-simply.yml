@@ -102,7 +102,7 @@ entries:
     type: image
     board: RiscV64 QEmu Preview
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/simply-baikal_m-itx-20200326-preview-aarch64.img.xz
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/simply-baikal_m-itx-20200326-preview2-aarch64.img.xz
     platform: p9
     solution: simply
     importance: 0
