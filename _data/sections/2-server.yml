@@ -1,55 +1,57 @@
-code: additional
-name_en: Additional solutions
-name_ru: Дополнительные решения
+code: server
+name_en: Server solutions
+name_ru: Серверные решения
 order: 2
 bgcolor: f5f5f5
 members:
- - code: alt-education
-   name_en: ALT Education
-   name_ru: Альт Образование
-   bgcolor: #a00...
-   descr_ru: |
-     Операционная система для образовательных учреждений всех уровней —
-     от дошкольного до&nbsp;высшего — которая соответствует госстандартам
-     и&nbsp;позволяет интегрировать рабочие места учеников и&nbsp;преподавателя.
-   descr_en: |
-     Operating system for all kinds of educational institutions from
-     preschool to high school which provides integration of both
-     students' and teacher's workplaces.
-   descr_full_ru: |
-     <a href="http://altlinux.org/education">Альт Образование 9</a> помогает решить задачу организации современного
-     эффективного учебного процесса, отвечающего всем требованиям
-     отечественного законодательства, в школах, колледжах, университетах
-     и иных образовательных учреждениях.
-     Дистрибутив включает в себя широкий набор пользовательских
-     и серверных приложений, который позволяет объединить рабочие места
-     учащихся и преподавателей и предоставить насыщенную функциональность.
 
-     <p>
+ - code: alt-server
+   name_ru: Альт Сервер
+   name_en: ALT Server
+   descr_ru: |
+     Операционная система и набор служб для организации и&nbsp;управления
+     информационной инфраструктурой предприятия.
+   descr_en: |
+     Operating system and services to bring up and control enterprise
+     IT infrastructure.
+   img: arm
+   descr_full_ru: |
+     <a href="http://altlinux.org/server">Альт Сервер 9</a> предоставляет
+     надёжную основу для построения информационной
+     инфраструктуры предприятия, включая&colon;
+
+     <ul>
+     <li>современные производительные и&nbsp;масштабируемые базы данных;</li>
+     <li>средства виртуализации;</li>
+     <li>инструментарий управления инфраструктурой предприятия;</li>
+     <li>поддержку доменов Active Directory и FreeIPA;</li>
+     <li>широкий набор internet- и&nbsp;intranet-сервисов.</li>
+     </ul>
 
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
      а&nbsp;для применения необходимо приобрести лицензии или заключить
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.ru.html">лицензионный договор</a>
-     в&nbsp;письменной форме.
-
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/license.ru.html">лицензионный договор</a> в&nbsp;письменной форме.
+     </a>
    descr_full_en: |
-     ALT Education 9 is aimed to ease the modern effective learning
-     process for educational institutions at any level, including
-     schools, colleges and universities.
-     The distribution includes a wide range of desktop and server
-     applications allowing to integrate students' and teacher's
-     workplaces providing rich functionality.
+     ALT Server 9 provides reliable foundation for enterprise IT infrastructure,
+     including&colon;
 
-     <p>
+     <ul>
+     <li>modern scalable high-performance databases;</li>
+     <li>virtualization;</li>
+     <li>infrastructure management tools;</li>
+     <li>Active Directory and FreeIPA domain integration;</li>
+     <li>extensive set of internet and intranet services.</li>
+     </ul>
+
 
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
-     requires acquiring licenses or signing a
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.all.html">license agreement</a>
+     requires acquiring licenses or signing a 
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/license.all.html">license agreement</a>
      in written form.
-
-   img: alt-edu
+   img: alt-server
 
  - code: alt-server-v
    name_ru: Альт Сервер Виртуализации

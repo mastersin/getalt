@@ -8,11 +8,13 @@ ISO-образы для x86 также пригодны для записи USB-
 портят содержимое образа, делая невозможной загрузку
 с записанного носителя).
 </li>
+{% if page.code != 'alt-kworkstation'%}
 <li>
 Для создания образа корневой файловой системы из aarch64-архива
 воспользуйтесь <a href="http://altlinux.org/write/rootfs"><b>этой
 инструкцией</b></a>.
 </li>
+{% endif %}
 {% if page.code == 'alt-workstation'%}
 <li>
 Для прошивки образа mipsel на устройство Таволга Терминал следуйте
@@ -37,12 +39,14 @@ write the ISO image onto blank DVD; x86 ISO images are also
 suitable for USB flash drives (NB: UNetbootin and UltraISO
 cripple the resulting media rendering it unbootable).
 </li>
+{% if page.code != 'alt-kworkstation'%}
 <li>
 Note that aarch64 rootfs archives presume the use of
 <tt>alt-rootfs-installer</tt> utility to handle target
 platform differences; the guide is currently available
 <a href="http://altlinux.org/write/rootfs"><b>in Russian</b></a>.
 </li>
+{% endif %}
 {% if page.code == 'alt-workstation'%}
 <li>
 Tavolga Terminal users are advised to flash the device using

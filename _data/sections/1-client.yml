@@ -1,6 +1,6 @@
-code: basic
-name_en: Basic solutions
-name_ru: Базовые решения
+code: client
+name_en: Client solutions
+name_ru: Клиентские решения
 order: 1
 bgcolor: f8f8f8
 members:
@@ -58,51 +58,59 @@ members:
 
    img: alt-workstation
 
- - code: alt-server
-   name_ru: Альт Сервер
-   name_en: ALT Server
+ - code: alt-kworkstation
+   name_en: ALT KWorkstation
+   name_ru: Альт Рабочая станция К
    descr_ru: |
-     Операционная система и набор служб для организации и&nbsp;управления
-     информационной инфраструктурой предприятия.
+     Операционная система и набор приложений для организации рабочих мест
+     пользователей как в&nbsp;офисной среде, так и дома.
    descr_en: |
-     Operating system and services to bring up and control enterprise
-     IT infrastructure.
-   img: arm
+     Operating system and application suite designed for workplace
+     at both office and home.
    descr_full_ru: |
-     <a href="http://altlinux.org/server">Альт Сервер 9</a> предоставляет
-     надёжную основу для построения информационной
-     инфраструктуры предприятия, включая&colon;
+     <a href="http://altlinux.org/kworkstation">Альт Рабочая станция К 9</a>
+     представляет собой решение для организации рабочих мест конечных пользователей
+     и подходит для применения как в офисной среде, так и дома. Дистрибутив может
+     использоваться в инфраструктуре Active Directory (аутентификация в домене,
+     доступ к файловым ресурсам и ресурсам печати) и гетерогенной сети под
+     управлением <a href="server">Альт Сервер</a>. Систему можно использовать
+     для решения широкого круга задач:
 
      <ul>
-     <li>современные производительные и&nbsp;масштабируемые базы данных;</li>
-     <li>средства виртуализации;</li>
-     <li>инструментарий управления инфраструктурой предприятия;</li>
-     <li>поддержку доменов Active Directory и FreeIPA;</li>
-     <li>широкий набор internet- и&nbsp;intranet-сервисов.</li>
+     <li>работы в сети интернет: в браузере, с электронной почтой, для обмена мгновенными сообщениями;</li>
+     <li>создания и редактирования текстов, электронных таблиц, презентаций;</li>
+     <li>работы с видео и звуковыми файлами, сложной графикой и анимацией.</li>
      </ul>
+
 
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
      а&nbsp;для применения необходимо приобрести лицензии или заключить
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/license.ru.html">лицензионный договор</a> в&nbsp;письменной форме.
-     </a>
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/kworkstation/license.html">лицензионный договор</a>
+     в&nbsp;письменной форме.
    descr_full_en: |
-     ALT Server 9 provides reliable foundation for enterprise IT infrastructure,
-     including&colon;
+     ALT KWorkstation 9 is a solution for organizing workplaces of end users and is
+     suitable for use both in the office environment and at home. The distribution
+     can be used in the Active Directory infrastructure (domain authentication,
+     access to file and print resources) and a heterogeneous network running  <a href="server">ALT Server</a>.
+     The system can be used to solve a wide range of tasks:
+
+     work on the Internet: in a browser, with e-mail, for instant messaging;
+     creation and editing of texts, spreadsheets, presentations;
+     work with video and sound files, complex graphics and animations.
 
      <ul>
-     <li>modern scalable high-performance databases;</li>
-     <li>virtualization;</li>
-     <li>infrastructure management tools;</li>
-     <li>Active Directory and FreeIPA domain integration;</li>
-     <li>extensive set of internet and intranet services.</li>
+     <li>work on the Internet: in a browser, with e-mail, for instant messaging;</li>
+     <li>creation and editing of texts, spreadsheets, presentations;</li>
+     <li>work with video and sound files, complex graphics and animations.</li>
      </ul>
 
 
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
-     requires acquiring licenses or signing a 
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/license.all.html">license agreement</a>
+     requires acquiring licenses or signing a
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/kworkstation/license.html">license agreement</a>
      in written form.
-   img: alt-server
+
+   img: alt-workstation
 

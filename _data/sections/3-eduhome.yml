@@ -1,0 +1,100 @@
+code: eduhome
+name_en: Education and home solutions
+name_ru: Образовательные и домашние решения
+order: 3
+bgcolor: f3f3f3
+
+members:
+
+ - code: alt-education
+   name_en: ALT Education
+   name_ru: Альт Образование
+   bgcolor: #a00...
+   descr_ru: |
+     Операционная система для образовательных учреждений всех уровней —
+     от дошкольного до&nbsp;высшего — которая соответствует госстандартам
+     и&nbsp;позволяет интегрировать рабочие места учеников и&nbsp;преподавателя.
+   descr_en: |
+     Operating system for all kinds of educational institutions from
+     preschool to high school which provides integration of both
+     students' and teacher's workplaces.
+   descr_full_ru: |
+     <a href="http://altlinux.org/education">Альт Образование 9</a> помогает решить задачу организации современного
+     эффективного учебного процесса, отвечающего всем требованиям
+     отечественного законодательства, в школах, колледжах, университетах
+     и иных образовательных учреждениях.
+     Дистрибутив включает в себя широкий набор пользовательских
+     и серверных приложений, который позволяет объединить рабочие места
+     учащихся и преподавателей и предоставить насыщенную функциональность.
+
+     <p>
+
+     Загруженную версию могут свободно использовать физические лица;
+     юридические лица могут воспользоваться ею для тестирования,
+     а&nbsp;для применения необходимо приобрести лицензии или заключить
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.ru.html">лицензионный договор</a>
+     в&nbsp;письменной форме.
+
+   descr_full_en: |
+     ALT Education 9 is aimed to ease the modern effective learning
+     process for educational institutions at any level, including
+     schools, colleges and universities.
+     The distribution includes a wide range of desktop and server
+     applications allowing to integrate students' and teacher's
+     workplaces providing rich functionality.
+
+     <p>
+
+     The downloaded version can be freely used by private persons;
+     legal entities can use it for testing but production use
+     requires acquiring licenses or signing a
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.all.html">license agreement</a>
+     in written form.
+
+   img: alt-edu
+
+
+ - name_ru: Симпли Линукс
+   name_en: Simply Linux
+   code: simply
+   img: simply
+   descr_ru: |
+     Операционная система для каждого. Она легка в использовании,
+     нетребовательна к ресурсам, функциональна и надежна.
+   descr_en: |
+     Operating system for everyone. Easy to use and lightweight,
+     functional and secure.
+   descr_full_ru: |
+     <a href="http://altlinux.org/simply"><b>Симпли Линукс</b></a> —
+     это простая в установке и удобная в работе операционная система,
+     дающая возможность пользователю решать все повседневные задачи,
+     не опасаясь вирусов и не затрачивая время на поиск необходимых
+     программ в сети Интернет и магазинах.
+     <p>
+
+     <p>
+     Загруженная версия доступна конечным пользователям
+     в соответствии с
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/license.ru.html">лицензионным договором</a>
+     без права на распространение. Системным интеграторам, дистрибьюторам и
+     OEM-производителям для получения прав на распространение следует обращаться
+     в ООО «Базальт СПО» по адресу <b>sales@basealt.ru</b> для заключения письменного договора.
+     </p>
+
+   descr_full_en: |
+     <p>
+     <a href="http://en.altlinux.org/simply"><b>Simply Linux</b></a>
+     is easy to install and use operating system that
+     enables users to perform all of their day-to-day tasks
+     without fearing virii or wasting their time searching
+     the Internet or stores for all the necessary software.
+
+     <p>
+     The downloadable version is available for end users
+     in accordance to the
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/license.en.html">license agreement</a>
+     without redistribution permission. Systems integrators, distributors and
+     OEM vendors should contact BaseALT Ltd at <b>sales@basealt.ru</b> for a written
+     distribution contract.
+     </p>
+
