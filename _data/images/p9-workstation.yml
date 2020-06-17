@@ -38,6 +38,13 @@ entries:
     arch: x86-64
     type: iso
 
+  - link: https://mirror.yandex.ru/altlinux/p9/images/kworkstation/alt-kworkstation-9.0-live-x86_64.iso
+    platform: p9
+    solution: alt-workstation
+    importance: 1
+    arch: x86-64
+    type: iso
+
   - link: https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-tegra-9.0-aarch64.tar.xz
     platform: p9
     solution: alt-workstation
