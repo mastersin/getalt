@@ -1,6 +1,24 @@
 <li class="link"><a href="{{ loc.link }}">
     <span class="dload">{{ site.txt_download[page.lang] }} </span>
     <span class="dload-title">
-      <b>{% if loc.board %}{{ loc.board }}{% else %}{{ loc.arch }}{% endif %}</b> ({{ loc.link | split: '/' | last }})
+      <b>{% if loc.board %}
+            {{ loc.board }}
+         {% else %}
+            {% if page.lang == 'ru' %}
+                {% if loc.link contains "-live-" %}
+                    Живая система
+                {% else %}
+                    Установка
+                {% endif %}
+            {% else %}
+                {% if loc.link contains "-live-" %}
+                    Live
+                {% else %}
+                    Install
+                {% endif %}
+            {% endif %}
+            {{ loc.arch }}
+         {% endif %}
+      </b> ({{ loc.link | split: '/' | last }})
     </span>
 </a></li>
