@@ -62,11 +62,11 @@ members:
    name_en: ALT KWorkstation
    name_ru: Альт Рабочая станция К
    descr_ru: |
-     Операционная система и набор приложений для организации рабочих мест
-     пользователей как в&nbsp;офисной среде, так и дома.
+     Операционная система с рабочим столом Plasma и набором приложений для
+     рабочих мест в офисной среде и для дома.
    descr_en: |
-     Operating system and application suite designed for workplace
-     at both office and home.
+     Operating system with Plasma desktop and application suite designed for
+     workplace at both office and home.
    descr_full_ru: |
      <a href="http://altlinux.org/kworkstation">Альт Рабочая станция К 9</a>
      представляет собой решение для организации рабочих мест конечных пользователей
@@ -88,11 +88,12 @@ members:
      а&nbsp;для применения необходимо приобрести лицензии или заключить
      <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/kworkstation/license.html">лицензионный договор</a>
      в&nbsp;письменной форме.
+
    descr_full_en: |
      ALT KWorkstation 9 is a solution for organizing workplaces of end users and is
      suitable for use both in the office environment and at home. The distribution
      can be used in the Active Directory infrastructure (domain authentication,
-     access to file and print resources) and a heterogeneous network running  <a href="server">ALT Server</a>.
+     access to file and print resources) and a heterogeneous network running <a href="server">ALT Server</a>.
      The system can be used to solve a wide range of tasks:
 
      work on the Internet: in a browser, with e-mail, for instant messaging;
@@ -112,5 +113,5 @@ members:
      <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/kworkstation/license.html">license agreement</a>
      in written form.
 
-   img: alt-workstation
+   img: alt-kworkstation
 
