@@ -90,15 +90,11 @@ members:
      в&nbsp;письменной форме.
 
    descr_full_en: |
-     ALT KWorkstation 9 is a solution for organizing workplaces of end users and is
+     <b>ALT KWorkstation 9</b> is a solution for organizing workplaces of end users and is
      suitable for use both in the office environment and at home. The distribution
      can be used in the Active Directory infrastructure (domain authentication,
      access to file and print resources) and a heterogeneous network running <a href="../alt-server">ALT Server</a>.
      The system can be used to solve a wide range of tasks:
-
-     work on the Internet: in a browser, with e-mail, for instant messaging;
-     creation and editing of texts, spreadsheets, presentations;
-     work with video and sound files, complex graphics and animations.
 
      <ul>
      <li>work on the Internet: in a browser, with e-mail, for instant messaging;</li>
