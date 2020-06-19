@@ -60,7 +60,7 @@ members:
 
  - code: alt-kworkstation
    name_en: ALT KWorkstation
-   name_ru: Альт Рабочая станция К
+   name_ru: Альт Рабочая станция&nbsp;К
    descr_ru: |
      Операционная система с рабочим столом Plasma и набором приложений для
      рабочих мест в офисной среде и для дома.
