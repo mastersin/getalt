@@ -86,7 +86,7 @@ members:
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
      а&nbsp;для применения необходимо приобрести лицензии или заключить
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/kworkstation/license.html">лицензионный договор</a>
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/kworkstation/license.ru.html">лицензионный договор</a>
      в&nbsp;письменной форме.
 
    descr_full_en: |
@@ -106,7 +106,7 @@ members:
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
      requires acquiring licenses or signing a
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/kworkstation/license.html">license agreement</a>
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/kworkstation/license.all.html">license agreement</a>
      in written form.
 
    img: alt-kworkstation
