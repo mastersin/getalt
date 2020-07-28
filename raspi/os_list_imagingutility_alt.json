@@ -1,0 +1,37 @@
+{
+    "os_list": [
+        {
+            "name": "ALT Workstation 9.1 (Raspberry Pi 4/3)",
+            "description": "ALT Workstation Linux OS for arm64 architectures",
+            "url": "https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-rpi4-9.1-aarch64.img.xz",
+            "icon": "https://getalt.org/raspi/logo-alt-ext.png",
+            "extract_size": 6710886400,
+            "extract_sha256": "4bb3277faadb9e6f9b74c9e0f12c7b9a9c4d0b04c9366aa81eda89baca781368",
+            "image_download_size": 1006170012,
+            "release_date": "2020-07-29",
+            "image_download_sha256": "d5d1558d28657ac03f4869301bc0192d1c966c605fb96163baf4a217eef00f30"
+        },
+        {
+            "name": "ALT Education 9.1 (Raspberry Pi 4/3)",
+            "description": "ALT Education Linux OS for arm64 architectures",
+            "url": "https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.1-rpi4-aarch64.img.xz",
+            "icon": "https://getalt.org/raspi/logo-alt-ext.png",
+            "extract_size": 9932111872,
+            "extract_sha256": "d017c2014147144e332a5d37c1fb8b4c2cfd6fce9bc4412cfed95e8d1e2faebe",
+            "image_download_size": 2024379516,
+            "release_date": "2020-07-29",
+            "image_download_sha256": "93c5cccd0a39dab1d5357c4515a93978247943db246a5b3865e5af3c8f9ee148"
+        },
+        {
+            "name": "Simply Linux 9.0 (Raspberry Pi 4)",
+            "description": "Simply (ALT Linux) OS for arm64 architectures",
+            "url": "https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-rpi4-9.0-aarch64.img.xz",
+            "icon": "https://getalt.org/raspi/logo-alt-sl9.png",
+            "extract_size": 8175747072,
+            "extract_sha256": "8d94968f503ac5bc30ff0ec2e12b2af93d4661d96d88399822428cfce651c48e",
+            "image_download_size": 1158566328,
+            "release_date": "2019-10-31",
+            "image_download_sha256": "d0e4e29a06f8f087d56f84728d73057435dc15f4e1a53fcb65511c471c0a2b0b"
+        }
+    ]
+}
