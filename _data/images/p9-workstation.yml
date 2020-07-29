@@ -47,7 +47,7 @@ entries:
     type: archive
     board: Nvidia Jetson Nano
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/workstation/mipsel/tavolga-alt-workstation-9.1-mipsel.recovery.tar
+  - link: https://mirror.yandex.ru/altlinux/p9/images/workstation/mipsel/alt-workstation-tavolga-9.1-mipsel.recovery.tar
     platform: p9
     solution: alt-workstation
     importance: 0
