@@ -17,7 +17,7 @@ entries:
     type: archive
     board: RPi3
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-rpi4-9.1-aarch64.img.xz
+  - link: https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.1-rpi4-aarch64.img.xz
     platform: p9
     solution: alt-education
     importance: 0
