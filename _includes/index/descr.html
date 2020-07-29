@@ -1,13 +1,11 @@
 {% if loc.code != 'starterkits' %}
   {%- for elem in site.data.images -%}
     {%- for i in elem[1].entries -%}
-      {%- if i.solution == loc.code and i.arch == "x86-64" and i.platform == "p9" and i.importance == 1 -%}
-        {%- unless i.board contains "Live" -%}
+      {%- if i.solution == loc.code and i.arch == "x86-64" and i.platform == "p9" and i.importance == 1 and i.live != 1 -%}
           <img onclick="document.location='{{i.link}}';return false;"
                src="/i/download.png"
                title="{{i.link}}"
                class="dload-icon">
-        {%- endunless -%}
       {%- endif -%}
     {%- endfor -%}
   {%- endfor -%}

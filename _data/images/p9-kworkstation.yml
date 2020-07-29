@@ -14,3 +14,4 @@ entries:
     importance: 0
     arch: x86-64
     type: iso
+    live: 1
