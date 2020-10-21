@@ -13,7 +13,7 @@ show: Gemfile
 	bundle exec jekyll serve -H $(shell hostname) -P 8080 -V --future
 
 build: Gemfile
-	bundle exec jekyll build -V --future
+	JEKYLL_ENV=production bundle exec jekyll build -V --future
 
 public: build
 	rsync -r --delete-after _site/ getalt:/var/www/vhosts/getalt.org/
