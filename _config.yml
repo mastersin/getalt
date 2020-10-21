@@ -66,3 +66,11 @@ txt_download:
   ru: Скачать
   en: Download
 
+txt_live:
+  ru: Живая система
+  en: Live
+
+txt_install:
+  ru: Установка
+  en: Install
+

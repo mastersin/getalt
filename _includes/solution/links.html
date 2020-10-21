@@ -4,18 +4,10 @@
       <b>{% if loc.board %}
             {{ loc.board }}
          {% else %}
-            {% if page.lang == 'ru' %}
-                {% if loc.link contains "-live-" %}
-                    Живая система
-                {% else %}
-                    Установка
-                {% endif %}
+            {% if loc.link contains "-live-" %}
+                {{ site.txt_live[page.lang] }}
             {% else %}
-                {% if loc.link contains "-live-" %}
-                    Live
-                {% else %}
-                    Install
-                {% endif %}
+                {{ site.txt_install[page.lang] }}
             {% endif %}
             {{ loc.arch }}
          {% endif %}
