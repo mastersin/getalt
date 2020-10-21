@@ -16,6 +16,9 @@ facebook_username: "Базальт-СПО-2244393775840589"
 youtube_username: "UCtCfzqL49AkFYQ7JQcL_iSw"
 host: 127.0.0.1
 
+# Development by default for testing on gh-pages
+environment: development
+
 # Build settings
 theme: minima
 plugins:
