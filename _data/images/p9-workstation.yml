@@ -62,3 +62,11 @@ entries:
     arch: aarch64
     type: iso
     board: Baikal-M UEFI
+
+  - link: https://mirror.yandex.ru/altlinux/p9/images/workstation/armh/alt-workstation-mcom02-9.1-armh.tar.xz
+    platform: p9
+    solution: alt-workstation
+    importance: 0
+    arch: mipsel
+    type: archive
+    board: Elvees mcom02 (salute el24pm2)
