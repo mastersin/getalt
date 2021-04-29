@@ -1,47 +1,47 @@
 ---
 
 entries:
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-9.0-aarch64.iso
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-9.1-aarch64.iso
     platform: p9
     solution: simply
     importance: 0
     arch: aarch64
     type: iso
-    board: ARM64 UEFI
+    board: ARM64 UEFI (Kunpeng, Baikal-M, ...)
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-live-9.0-aarch64.iso
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-live-9.1-aarch64.iso
     platform: p9
     solution: simply
     importance: 0
     arch: aarch64
     type: iso
-    board: ARM64 UEFI Live
+    board: ARM64 UEFI Live (Kunpeng, Baikal-M, ...)
     live: 1
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-9.0-aarch64.tar.xz
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-9.1-aarch64.tar.xz
     platform: p9
     solution: simply
     importance: 0
     arch: aarch64
     type: archive
-    board: RPi3
+    board: ARM64 RootFS (RPi3/4, Baikal-M, ...)
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-rpi4-9.0-aarch64.img.xz
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-rpi4-9.1-aarch64.img.xz
     platform: p9
     solution: simply
     importance: 0
     arch: aarch64
     type: image
-    board: RPi4
+    board: RPi4/3
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/i586/slinux-9.0-i586.iso
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/i586/slinux-9.1-i586.iso
     platform: p9
     solution: simply
     importance: 0
     arch: i586
     type: iso
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/i586/slinux-live-9.0-i586.iso
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/i586/slinux-live-9.1-i586.iso
     platform: p9
     solution: simply
     importance: 0
@@ -49,21 +49,21 @@ entries:
     type: iso
     live: 1
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-tegra-9.0-aarch64.tar.xz
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-tegra-9.1-aarch64.tar.xz
     platform: p9
     solution: simply
     importance: 0
     type: archive
     board: Nvidia Jetson Nano
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/x86_64/slinux-9.0-x86_64.iso
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/x86_64/slinux-9.1-x86_64.iso
     platform: p9
     solution: simply
     importance: 1
     arch: x86-64
     type: iso
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/x86_64/slinux-live-9.0-x86_64.iso
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/x86_64/slinux-live-9.1-x86_64.iso
     platform: p9
     solution: simply
     importance: 1
@@ -102,20 +102,3 @@ entries:
     arch: riscv64
     type: image
     board: RiscV64 QEmu Preview
-
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/simply-baikal_m-itx-20200326-preview2-aarch64.img.xz
-    platform: p9
-    solution: simply
-    importance: 0
-    arch: aarch64
-    type: image
-    board: Baikal-M ITX Preview
-
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/simply-baikal_m-dbm-20200326-preview-aarch64.img.xz
-    platform: p9
-    solution: simply
-    importance: 0
-    arch: aarch64
-    type: image
-    board: Baikal-M DBM Preview
-
