@@ -23,15 +23,15 @@
             "image_download_sha256": "93c5cccd0a39dab1d5357c4515a93978247943db246a5b3865e5af3c8f9ee148"
         },
         {
-            "name": "Simply Linux 9.0 (Raspberry Pi 4)",
+            "name": "Simply Linux 9.1 (Raspberry Pi 4/3)",
             "description": "Simply (ALT Linux) OS for arm64 architectures",
-            "url": "https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-rpi4-9.0-aarch64.img.xz",
+            "url": "https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-rpi4-9.1-aarch64.img.xz",
             "icon": "https://getalt.org/raspi/logo-alt-sl9.png",
-            "extract_size": 8175747072,
-            "extract_sha256": "8d94968f503ac5bc30ff0ec2e12b2af93d4661d96d88399822428cfce651c48e",
-            "image_download_size": 1158566328,
+            "extract_size": 7784628224,
+            "extract_sha256": "294286a84b745cf77498a0955dd30993537b59e81b52d566499b497d724eb8f1",
+            "image_download_size": 1190193964,
             "release_date": "2019-10-31",
-            "image_download_sha256": "d0e4e29a06f8f087d56f84728d73057435dc15f4e1a53fcb65511c471c0a2b0b"
+            "image_download_sha256": "ac8f9ce5ea2328327dfc0d8b5cdeb9b053009846939ebd71325efedb4ec47397"
         }
     ]
 }
