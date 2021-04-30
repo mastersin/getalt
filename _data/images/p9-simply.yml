@@ -7,7 +7,7 @@ entries:
     importance: 0
     arch: aarch64
     type: iso
-    board: ARM64 UEFI (Kunpeng, Baikal-M, ...)
+    board: ARM64 UEFI (including Baikal-M)
 
   - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-live-9.1-aarch64.iso
     platform: p9
@@ -15,7 +15,7 @@ entries:
     importance: 0
     arch: aarch64
     type: iso
-    board: ARM64 UEFI Live (Kunpeng, Baikal-M, ...)
+    board: ARM64 UEFI Live
     live: 1
 
   - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-9.1-aarch64.tar.xz
@@ -24,7 +24,7 @@ entries:
     importance: 0
     arch: aarch64
     type: archive
-    board: ARM64 RootFS (RPi3/4, Baikal-M, ...)
+    board: ARM64 RootFS (RPi3 and others)
 
   - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-rpi4-9.1-aarch64.img.xz
     platform: p9
@@ -32,7 +32,7 @@ entries:
     importance: 0
     arch: aarch64
     type: image
-    board: RPi4/3
+    board: RPi4 and RPi3
 
   - link: https://mirror.yandex.ru/altlinux/p9/images/simply/i586/slinux-9.1-i586.iso
     platform: p9
