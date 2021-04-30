@@ -71,6 +71,14 @@ entries:
     type: iso
     live: 1
 
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/armh/slinux-mcom02-9.1-armh.img.xz
+    platform: p9
+    solution: simply
+    importance: 0
+    arch: armh
+    type: image
+    board: Elvees mcom02 (salute el24pm2)
+
   - link: https://mirror.yandex.ru/altlinux/p9/images/simply/mipsel/slinux-bfk3-9.1-mipsel.tar.xz
     platform: p9
     solution: simply
