@@ -67,6 +67,6 @@ entries:
     platform: p9
     solution: alt-workstation
     importance: 0
-    arch: mipsel
-    type: archive
+    arch: armh
+    type: image
     board: Elvees mcom02 (salute el24pm2)
