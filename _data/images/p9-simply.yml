@@ -71,7 +71,7 @@ entries:
     type: iso
     live: 1
 
-  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/mipsel/slinux-bfk3-9.1-mipsel.tar.xz
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/mipsel/slinux-bfk3-9.1-mipsel.tar.xz
     platform: p9
     solution: simply
     importance: 0
