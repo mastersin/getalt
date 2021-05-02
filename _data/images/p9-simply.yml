@@ -87,7 +87,7 @@ entries:
     type: archive
     board: BFK3.1 development board
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/mipsel/tavolga-slinux-9.0-mipsel.recovery.tar
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/mipsel/slinux-tavolga-9.1-mipsel.recovery.tar
     platform: p9
     solution: simply
     importance: 0
