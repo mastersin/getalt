@@ -103,7 +103,7 @@ entries:
     type: archive
     board: MK150-02 Preview
 
-  - link: http://ftp.altlinux.org/pub/people/arei/images/slinux/slinux-hifive-unleashed-9.0-preview-riscv64.tar.xz
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/riscv/slinux-hifive-unleashed-9.1-riscv64.img.xz
     platform: p9
     solution: simply
     importance: 0
@@ -111,7 +111,7 @@ entries:
     type: archive
     board: HiFive Unleashed Preview
 
-  - link: http://ftp.altlinux.org/pub/people/arei/images/slinux/slinux-qemu-9.0-preview-riscv64.qcow2c
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/riscv/slinux-qemu-9.1-riscv64.qcow2c
     platform: p9
     solution: simply
     importance: 0
