@@ -95,21 +95,13 @@ entries:
     type: archive
     board: Tavolga Terminal
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/mipsel/mk150-slinux-preview-9.0-mipsel.tar.xz
-    platform: p9
-    solution: simply
-    importance: 0
-    arch: mipsel
-    type: archive
-    board: MK150-02 Preview
-
   - link: https://mirror.yandex.ru/altlinux/p9/images/simply/riscv/slinux-hifive-unleashed-9.1-riscv64.img.xz
     platform: p9
     solution: simply
     importance: 0
     arch: riscv64
     type: archive
-    board: HiFive Unleashed Preview
+    board: HiFive Unleashed
 
   - link: https://mirror.yandex.ru/altlinux/p9/images/simply/riscv/slinux-qemu-9.1-riscv64.qcow2c
     platform: p9
@@ -117,4 +109,12 @@ entries:
     importance: 0
     arch: riscv64
     type: image
-    board: RiscV64 QEmu Preview
+    board: RiscV64 QEmu
+
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/mipsel/mk150-slinux-preview-9.0-mipsel.tar.xz
+    platform: p9
+    solution: simply
+    importance: 0
+    arch: mipsel
+    type: archive
+    board: MK150-02 Preview
