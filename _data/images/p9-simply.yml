@@ -1,7 +1,7 @@
 ---
 
 entries:
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-9.1-aarch64.iso
+  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-9.1.1-aarch64.iso
     platform: p9
     solution: simply
     importance: 0
