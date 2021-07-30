@@ -7,7 +7,7 @@ entries:
     importance: 0
     arch: aarch64
     type: iso
-    board: ARM64 UEFI
+    board: ARM64 UEFI (including Baikal-M)
 
   - link: https://mirror.yandex.ru/altlinux/p9/images/server/ppc64le/alt-server-9.2-ppc64le.iso
     platform: p9

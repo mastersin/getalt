@@ -7,7 +7,7 @@ entries:
     importance: 0
     arch: aarch64
     type: iso
-    board: ARM64 UEFI
+    board: ARM64 UEFI (including Baikal-M)
 
   - link: https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-9.2-aarch64.tar.xz
     platform: p9
@@ -15,7 +15,7 @@ entries:
     importance: 0
     arch: aarch64
     type: archive
-    board: RPi3
+    board: ARM64 RootFS (RPi3 and others)
 
   - link: https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-rpi4-9.1-aarch64.img.xz
     platform: p9
