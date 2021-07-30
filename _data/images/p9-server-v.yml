@@ -1,29 +1,26 @@
 ---
 
 entries:
-  - link: https://mirror.yandex.ru/altlinux/p9/images/server-v/aarch64/alt-server-v-9.1-aarch64.iso
+  - link: https://mirror.yandex.ru/altlinux/p9/images/server-v/aarch64/alt-server-v-9.2-aarch64.iso
     platform: p9
     solution: alt-server-v
     importance: 0
     arch: aarch64
     type: iso
     board: ARM64 UEFI
-    md5: 24e3f185214fae2270907e64ef0c98d3
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/server-v/ppc64le/alt-server-v-9.1-ppc64le.iso
+  - link: https://mirror.yandex.ru/altlinux/p9/images/server-v/ppc64le/alt-server-v-9.2-ppc64le.iso
     platform: p9
     solution: alt-server-v
     importance: 0
     arch: ppc64le
     type: iso
     board: POWER8/9
-    md5: b84be0862975f8a650038152defd9cb3
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/server-v/x86_64/alt-server-v-9.1-x86_64.iso
+  - link: https://mirror.yandex.ru/altlinux/p9/images/server-v/x86_64/alt-server-v-9.2-x86_64.iso
     platform: p9
     solution: alt-server-v
     importance: 1
     arch: x86-64
     type: iso
-    md5: 2f4bf5de9277898ecd1d727ea5a7390c
 
