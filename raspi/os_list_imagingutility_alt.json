@@ -1,26 +1,26 @@
 {
     "os_list": [
         {
-            "name": "ALT Workstation 9.1 (Raspberry Pi 4/3)",
+            "name": "ALT Workstation 9.2 (Raspberry Pi 4/3)",
             "description": "ALT Workstation Linux OS for arm64 architectures",
-            "url": "https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-rpi4-9.1-aarch64.img.xz",
-            "icon": "https://getalt.org/raspi/logo-alt-ext.png",
-            "extract_size": 6710886400,
-            "extract_sha256": "4bb3277faadb9e6f9b74c9e0f12c7b9a9c4d0b04c9366aa81eda89baca781368",
+            "url": "https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-rpi4-9.2-aarch64.img.xz",
+            "icon": "https://getalt.org/raspi/logo-alt-ws.png",
+            "extract_size": 7784628224,
+            "extract_sha256": "8a44f01c6cd818804e09d1837f9c03d8edc463df69e1c53cbcc678a3fde9a49b",
             "image_download_size": 1006170012,
-            "release_date": "2020-07-29",
-            "image_download_sha256": "d5d1558d28657ac03f4869301bc0192d1c966c605fb96163baf4a217eef00f30"
+            "release_date": "2021-08-04",
+            "image_download_sha256": "9104691310517326fa3743885a95f93a9c4a0e45362b49603b59e2dd61a69552"
         },
         {
-            "name": "ALT Education 9.1 (Raspberry Pi 4/3)",
+            "name": "ALT Education 9.2 (Raspberry Pi 4/3)",
             "description": "ALT Education Linux OS for arm64 architectures",
-            "url": "https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.1-rpi4-aarch64.img.xz",
-            "icon": "https://getalt.org/raspi/logo-alt-ext.png",
-            "extract_size": 9932111872,
-            "extract_sha256": "d017c2014147144e332a5d37c1fb8b4c2cfd6fce9bc4412cfed95e8d1e2faebe",
+            "url": "https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.2-rpi4-20210524-aarch64.img.xz",
+            "icon": "https://getalt.org/raspi/logo-alt-edu.png",
+            "extract_size": 7784628224,
+            "extract_sha256": "c8d8cd8d2256aa23069a39c56dd26c5218dc738eb2d7dadd04dff40e9aca3f32",
             "image_download_size": 2024379516,
-            "release_date": "2020-07-29",
-            "image_download_sha256": "93c5cccd0a39dab1d5357c4515a93978247943db246a5b3865e5af3c8f9ee148"
+            "release_date": "2021-05-24",
+            "image_download_sha256": "16924b2e45bc40f36266d9d4e1b151c111408cb6f1fc78e340eaa9ee5e1ea254"
         },
         {
             "name": "Simply Linux 9.1 (Raspberry Pi 4/3)",
@@ -30,7 +30,7 @@
             "extract_size": 7784628224,
             "extract_sha256": "294286a84b745cf77498a0955dd30993537b59e81b52d566499b497d724eb8f1",
             "image_download_size": 1190193964,
-            "release_date": "2019-10-31",
+            "release_date": "2021-04-28",
             "image_download_sha256": "ac8f9ce5ea2328327dfc0d8b5cdeb9b053009846939ebd71325efedb4ec47397"
         }
     ]
