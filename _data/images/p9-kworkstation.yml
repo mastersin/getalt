@@ -1,14 +1,14 @@
 ---
 
 entries:
-  - link: https://mirror.yandex.ru/altlinux/p9/images/kworkstation/alt-kworkstation-9.1.1-install-x86_64.iso
+  - link: https://mirror.yandex.ru/altlinux/p9/images/kworkstation/alt-kworkstation-9.2-install-x86_64.iso
     platform: p9
     solution: alt-kworkstation
     importance: 1
     arch: x86-64
     type: iso
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/kworkstation/alt-kworkstation-9.1-live-x86_64.iso
+  - link: https://mirror.yandex.ru/altlinux/p9/images/kworkstation/alt-kworkstation-9.2-live-x86_64.iso
     platform: p9
     solution: alt-kworkstation
     importance: 0
