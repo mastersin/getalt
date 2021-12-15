@@ -1,10 +1,14 @@
 {% if loc.code != 'starterkits' %}
   {%- for elem in site.data.images -%}
     {%- for i in elem[1].entries -%}
-      {%- if i.solution == loc.code and i.arch == "x86-64" and i.platform == "p9" and i.importance == 1 and i.live != 1 -%}
+      {%- if i.solution == loc.code and i.arch == "x86-64" and i.status == "release" and i.importance == 1 and i.live != 1 -%}
+        {% assign icon = "download" %}
+        {% if i.index_icon %}
+            {% assign icon = i.index_icon %}
+        {% endif %}
           <img onclick="document.location='{{i.link}}';return false;"
-               src="/i/download.png"
-               title="{{i.link}}"
+               src="/i/{{ icon }}.png"
+               title="{{i.link}} ({{ i.icon }})"
                class="dload-icon">
       {%- endif -%}
     {%- endfor -%}

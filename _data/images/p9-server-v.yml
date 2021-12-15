@@ -7,6 +7,7 @@ entries:
     importance: 0
     arch: aarch64
     type: iso
+    status: release
     board: ARM64 UEFI
 
   - link: https://mirror.yandex.ru/altlinux/p9/images/server-v/ppc64le/alt-server-v-9.2-ppc64le.iso
@@ -15,6 +16,7 @@ entries:
     importance: 0
     arch: ppc64le
     type: iso
+    status: release
     board: POWER8/9
 
   - link: https://mirror.yandex.ru/altlinux/p9/images/server-v/x86_64/alt-server-v-9.2-x86_64.iso
@@ -23,4 +25,5 @@ entries:
     importance: 1
     arch: x86-64
     type: iso
+    status: release
 

@@ -7,6 +7,7 @@ bgcolor: f3f3f3
 members:
 
  - code: alt-education
+   branch: p10
    name_en: ALT Education
    name_ru: Альт Образование
    bgcolor: #a00...
@@ -19,7 +20,7 @@ members:
      preschool to high school which provides integration of both
      students' and teacher's workplaces.
    descr_full_ru: |
-     <a href="http://altlinux.org/education">Альт Образование 9</a> помогает решить задачу организации современного
+     <a href="http://altlinux.org/education">Альт Образование 10</a> помогает решить задачу организации современного
      эффективного учебного процесса, отвечающего всем требованиям
      отечественного законодательства, в школах, колледжах, университетах
      и иных образовательных учреждениях.
@@ -32,11 +33,11 @@ members:
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
      а&nbsp;для применения необходимо приобрести лицензии или заключить
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.ru.html">лицензионный договор</a>
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/education/license.ru.html">лицензионный договор</a>
      в&nbsp;письменной форме.
 
    descr_full_en: |
-     ALT Education 9 is aimed to ease the modern effective learning
+     ALT Education 10 is aimed to ease the modern effective learning
      process for educational institutions at any level, including
      schools, colleges and universities.
      The distribution includes a wide range of desktop and server
@@ -48,7 +49,7 @@ members:
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
      requires acquiring licenses or signing a
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/license.all.html">license agreement</a>
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/education/license.all.html">license agreement</a>
      in written form.
 
    img: alt-edu
@@ -57,6 +58,7 @@ members:
  - name_ru: Симпли Линукс
    name_en: Simply Linux
    code: simply
+   branch: p9
    img: simply
    descr_ru: |
      Операционная система для каждого. Она легка в использовании,

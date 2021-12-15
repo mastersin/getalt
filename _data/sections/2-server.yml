@@ -6,6 +6,7 @@ bgcolor: f5f5f5
 members:
 
  - code: alt-server
+   branch: p10
    name_ru: Альт Сервер
    name_en: ALT Server
    descr_ru: |
@@ -16,7 +17,7 @@ members:
      IT infrastructure.
    img: arm
    descr_full_ru: |
-     <a href="http://altlinux.org/server">Альт Сервер 9</a> предоставляет
+     <a href="http://altlinux.org/server">Альт Сервер 10</a> предоставляет
      надёжную основу для построения информационной
      инфраструктуры предприятия, включая&colon;
 
@@ -31,10 +32,10 @@ members:
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
      а&nbsp;для применения необходимо приобрести лицензии или заключить
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/license.ru.html">лицензионный договор</a> в&nbsp;письменной форме.
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/server/license.ru.html">лицензионный договор</a> в&nbsp;письменной форме.
      </a>
    descr_full_en: |
-     ALT Server 9 provides reliable foundation for enterprise IT infrastructure,
+     ALT Server 10 provides reliable foundation for enterprise IT infrastructure,
      including&colon;
 
      <ul>
@@ -49,11 +50,12 @@ members:
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
      requires acquiring licenses or signing a 
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/license.all.html">license agreement</a>
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/server/license.all.html">license agreement</a>
      in written form.
    img: alt-server
 
  - code: alt-server-v
+   branch: p9
    name_ru: Альт Сервер Виртуализации
    name_en: ALT Virtualization Server
    descr_ru: |

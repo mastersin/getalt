@@ -12,15 +12,15 @@
             "image_download_sha256": "9104691310517326fa3743885a95f93a9c4a0e45362b49603b59e2dd61a69552"
         },
         {
-            "name": "ALT Education 9.2 (Raspberry Pi 4/3)",
+            "name": "ALT Education 10.0 (Raspberry Pi 4/3)",
             "description": "ALT Education Linux OS for arm64 architectures",
-            "url": "https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.2-rpi4-20210524-aarch64.img.xz",
+            "url": "https://mirror.yandex.ru/altlinux/p10/images/education/aarch64/alt-education-10.0-rpi4-aarch64.img.xz",
             "icon": "https://getalt.org/raspi/logo-alt-edu.png",
-            "extract_size": 7784628224,
-            "extract_sha256": "c8d8cd8d2256aa23069a39c56dd26c5218dc738eb2d7dadd04dff40e9aca3f32",
-            "image_download_size": 2024379516,
-            "release_date": "2021-05-24",
-            "image_download_sha256": "16924b2e45bc40f36266d9d4e1b151c111408cb6f1fc78e340eaa9ee5e1ea254"
+            "extract_size": 12095324160,
+            "extract_sha256": "b1142275fbab21fe645ef24d32d6651f695180505029f56ad0ad86af5766cad6",
+            "image_download_size": 2211454936,
+            "release_date": "2021-12-15",
+            "image_download_sha256": "414abec291a318e7b9bf5259c04420fb357f17b89ead3199f6aeebc0b443b995"
         },
         {
             "name": "Simply Linux 9.1 (Raspberry Pi 4/3)",
