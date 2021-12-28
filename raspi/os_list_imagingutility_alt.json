@@ -1,15 +1,15 @@
 {
     "os_list": [
         {
-            "name": "ALT Workstation 9.2 (Raspberry Pi 4/3)",
+            "name": "ALT Workstation 10.0 (Raspberry Pi 4/3)",
             "description": "ALT Workstation Linux OS for arm64 architectures",
-            "url": "https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-rpi4-9.2-aarch64.img.xz",
+            "url": "https://mirror.yandex.ru/altlinux/p10/images/workstation/aarch64/alt-workstation-10.0-rpi4-aarch64.img.xz",
             "icon": "https://getalt.org/raspi/logo-alt-ws.png",
-            "extract_size": 7784628224,
-            "extract_sha256": "8a44f01c6cd818804e09d1837f9c03d8edc463df69e1c53cbcc678a3fde9a49b",
-            "image_download_size": 1006170012,
-            "release_date": "2021-08-04",
-            "image_download_sha256": "9104691310517326fa3743885a95f93a9c4a0e45362b49603b59e2dd61a69552"
+            "extract_size": 8874098688,
+            "extract_sha256": "f7809ec56b00319e8d597ba6c8e3db4d2329d0769e61530ccad2c67c10207b1c",
+            "image_download_size": 1548652348,
+            "release_date": "2021-12-16",
+            "image_download_sha256": "f30f71847e5f7c699943bceb943adae35ad68c7779567e256f82c5fea2c7d7ba"
         },
         {
             "name": "ALT Education 10.0 (Raspberry Pi 4/3)",
