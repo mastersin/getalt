@@ -23,7 +23,6 @@ entries:
     importance: 0
     arch: aarch64
     type: image
-    status: release
     board: RPi4 and RPi3
 
   - link: https://mirror.yandex.ru/altlinux/p9/images/workstation/i586/alt-workstation-9.2-i586.iso
