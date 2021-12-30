@@ -17,7 +17,7 @@ members:
      IT infrastructure.
    img: arm
    descr_full_ru: |
-     <a href="http://altlinux.org/server">Альт Сервер 10</a> предоставляет
+     <a href="http://altlinux.org/server"><b>Альт Сервер 10</b></a> предоставляет
      надёжную основу для построения информационной
      инфраструктуры предприятия, включая&colon;
 
@@ -35,7 +35,7 @@ members:
      <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/server/license.ru.html">лицензионный договор</a> в&nbsp;письменной форме.
      </a>
    descr_full_en: |
-     ALT Server 10 provides reliable foundation for enterprise IT infrastructure,
+     <b>ALT Server 10</b> provides reliable foundation for enterprise IT infrastructure,
      including&colon;
 
      <ul>
@@ -64,7 +64,7 @@ members:
    descr_en: |
      Operating system for enterprise virtualization.
    descr_full_ru: |
-     <a href="http://altlinux.org/server-v">Альт Сервер Виртуализации 10</a>
+     <a href="http://altlinux.org/server-v"><b>Альт Сервер Виртуализации 10</b></a>
      предоставляет четыре основных типа установки&colon;
 
      <ul>
@@ -84,7 +84,7 @@ members:
      <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/server-v/license.ru.html">лицензионный договор</a> в&nbsp;письменной форме.
 
    descr_full_en: |
-     ALT Virtualization Server 10 provides four main installation types&colon;
+     <b>ALT Virtualization Server 10</b> provides four main installation types&colon;
 
      <ul>
      <li>basic KVM hypervisor;</li>

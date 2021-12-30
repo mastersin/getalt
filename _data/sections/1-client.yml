@@ -37,7 +37,7 @@ members:
      <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/workstation/license.ru.html">лицензионный договор</a>
      в&nbsp;письменной форме.
    descr_full_en: |
-     ALT Workstation 10 installed on a laptop or desktop provides
+     <b>ALT Workstation 10</b> installed on a laptop or desktop provides
      a classic personal workplace allowing to&colon;
 
      <ul>
@@ -70,7 +70,7 @@ members:
      Operating system with Plasma desktop and application suite designed for
      workplace at both office and home.
    descr_full_ru: |
-     <a href="http://altlinux.org/kworkstation">Альт Рабочая станция К 9</a>
+     <a href="http://altlinux.org/kworkstation"><b>Альт Рабочая станция К 9</b></a>
      представляет собой решение для организации рабочих мест конечных пользователей
      и подходит для применения как в офисной среде, так и дома. Дистрибутив может
      использоваться в инфраструктуре Active Directory (аутентификация в домене,
