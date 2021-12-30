@@ -4,7 +4,20 @@ layout: default
         {%- include solution/name.html -%}
           <div class="solution1">
               <div class="bolda">
-                <img src="/i/ss/{{ page.code }}.png" class="ss">
+                {%- for solution in section.members -%}
+                  {%- if solution.code == page.code -%}
+                    {% assign platform = solution.branch %}
+                  {%- endif -%}
+                {%- endfor -%}
+
+                {% assign page_png = page.code | prepend: "/i/ss/" | append: ".png"  %}
+                {% assign page_platform_png = page.code | prepend: "/i/ss/" | append: "-" | append: platform | append: ".png"  %}
+                {% assign file_exists = site.static_files | where: "path", page_platform_png  %}
+                {% if file_exists.size != 0 %}
+                    {% assign page_png = page_platform_png %}
+                {% endif %}
+
+                <img src="{{ page_png }}" class="ss">
                 {% include solution/descr.html%}
               </div>
               <div class="bolda">
