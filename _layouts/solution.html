@@ -22,8 +22,8 @@ layout: default
                   {% endfor %}
 
                   {% assign main_links = image_list | where: "solution", page.code | where: "status", "release" | where_exp:"item","item.importance == 1"  %}
-                  {% assign secondary_links1 = image_list | where: "solution", page.code | where_exp: "item", "item.importance != 1" | where: "status", "release" | where_exp:"i","i.arch == 'i586'" %}
-                  {% assign secondary_links2 = image_list | where: "solution", page.code | where_exp: "item", "item.importance != 1" | where: "status", "release" | where_exp:"i","i.arch != 'i586'" %}
+                  {% assign secondary_links1 = image_list | where: "solution", page.code | where_exp: "item", "item.importance != 1" | where: "status", "release" | where_exp:"i","i.arch == 'i586'" | sort: "platform" %}
+                  {% assign secondary_links2 = image_list | where: "solution", page.code | where_exp: "item", "item.importance != 1" | where: "status", "release" | where_exp:"i","i.arch != 'i586'" | sort: "platform" %}
 
                   {% assign links_class = "links0" %}
                   {% if secondary_links1.size > 0 or secondary_links2.size > 0 %}

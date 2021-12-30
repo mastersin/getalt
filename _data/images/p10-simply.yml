@@ -1,0 +1,83 @@
+---
+
+entries:
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/aarch64/slinux-10.0-aarch64.iso
+    platform: p10
+    solution: simply
+    importance: 0
+    arch: aarch64
+    type: iso
+    status: release
+    board: ARM64 UEFI (including Baikal-M)
+
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/aarch64/slinux-live-10.0-aarch64.iso
+    platform: p10
+    solution: simply
+    importance: 0
+    arch: aarch64
+    type: iso
+    status: release
+    board: ARM64 UEFI Live
+    live: 1
+
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/aarch64/slinux-10.0-aarch64.img.xz
+    platform: p10
+    solution: simply
+    importance: 0
+    arch: aarch64
+    type: archive
+    status: release
+    board: ARM64 RootFS (RPi3 and others)
+
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/aarch64/slinux-10.0-rpi4-aarch64.img.xz
+    platform: p10
+    solution: simply
+    importance: 0
+    arch: aarch64
+    type: image
+    status: release
+    board: RPi4 and RPi3
+
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/riscv64/slinux-10.0-riscv64.img.xz
+    platform: p10
+    solution: simply
+    importance: 0
+    arch: riscv64
+    type: image
+    status: release
+    board: HiFive Unleashed/Unmatched/QEmu
+
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/i586/slinux-10.0-i586.iso
+    platform: p10
+    solution: simply
+    importance: 0
+    arch: i586
+    type: iso
+    status: release
+
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/i586/slinux-live-10.0-i586.iso
+    platform: p10
+    solution: simply
+    importance: 0
+    arch: i586
+    type: iso
+    status: release
+    live: 1
+
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/x86_64/slinux-10.0-x86_64.iso
+    platform: p10
+    solution: simply
+    importance: 1
+    index_icon: download-latest
+    arch: x86-64
+    type: iso
+    status: release
+
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/x86_64/slinux-live-10.0-x86_64.iso
+    platform: p10
+    solution: simply
+    importance: 1
+    arch: x86-64
+    type: iso
+    status: release
+    live: 1

@@ -1,0 +1,30 @@
+---
+
+entries:
+  - link: https://mirror.yandex.ru/altlinux/p10/images/server-v/aarch64/alt-server-v-10.0-aarch64.iso
+    platform: p10
+    solution: alt-server-v
+    importance: 0
+    arch: aarch64
+    type: iso
+    status: release
+    board: ARM64 UEFI
+
+  - link: https://mirror.yandex.ru/altlinux/p10/images/server-v/ppc64le/alt-server-v-10.0-ppc64le.iso
+    platform: p10
+    solution: alt-server-v
+    importance: 0
+    arch: ppc64le
+    type: iso
+    status: release
+    board: POWER8/9
+
+  - link: https://mirror.yandex.ru/altlinux/p10/images/server-v/x86_64/alt-server-v-10.0-x86_64.iso
+    platform: p10
+    solution: alt-server-v
+    importance: 1
+    index_icon: download-latest
+    arch: x86-64
+    type: iso
+    status: release
+

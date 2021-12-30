@@ -55,7 +55,7 @@ members:
    img: alt-server
 
  - code: alt-server-v
-   branch: p9
+   branch: p10
    name_ru: Альт Сервер Виртуализации
    name_en: ALT Virtualization Server
    descr_ru: |
@@ -64,7 +64,7 @@ members:
    descr_en: |
      Operating system for enterprise virtualization.
    descr_full_ru: |
-     <a href="http://altlinux.org/server-v">Альт Сервер Виртуализации 9</a>
+     <a href="http://altlinux.org/server-v">Альт Сервер Виртуализации 10</a>
      предоставляет четыре основных типа установки&colon;
 
      <ul>
@@ -81,10 +81,10 @@ members:
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
      а&nbsp;для применения необходимо приобрести лицензии или заключить
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server-v/license.ru.html">лицензионный договор</a> в&nbsp;письменной форме.
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/server-v/license.ru.html">лицензионный договор</a> в&nbsp;письменной форме.
 
    descr_full_en: |
-     ALT Virtualization Server 9 provides four main installation types&colon;
+     ALT Virtualization Server 10 provides four main installation types&colon;
 
      <ul>
      <li>basic KVM hypervisor;</li>
@@ -100,7 +100,7 @@ members:
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
      requires acquiring licenses or signing a
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server-v/license.all.html">license agreement</a> in written form.
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/server-v/license.all.html">license agreement</a> in written form.
 
    img: alt-server-v
 
