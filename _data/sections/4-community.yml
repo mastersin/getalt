@@ -19,7 +19,7 @@ members:
      of derivative solutions.
    descr_full_ru: |
      <a href="http://altlinux.org/starterkits"><b>Стартовые наборы</b></a>
-     Девятой платформы — ежеквартальные сборки для опытных пользователей.
+     Десятой платформы — ежеквартальные сборки для опытных пользователей.
      Они не являются полноценными дистрибутивами (например, не содержат
      документации к выпуску и не подлежат технической поддержке), но
      позволяют&colon;
@@ -44,7 +44,7 @@ members:
      </ul>
      <p>
      Каждый стартовый набор как составное произведение предоставляется под
-     <a href="http://nightly.altlinux.org/p9/license.ru.html">свободной лицензией GPL</a>,
+     <a href="http://nightly.altlinux.org/p10/license.ru.html">свободной лицензией GPL</a>,
      то есть получатель имеет свободу&colon;
      </p>
      <ul>
@@ -70,7 +70,7 @@ members:
 
    descr_full_en: |
      <p>
-     Platform 9 <a href="http://en.altlinux.org/starterkits"><b>Starter kits</b></a>
+     Platform 10 <a href="http://en.altlinux.org/starterkits"><b>Starter kits</b></a>
      are quarterly builds for experienced users. They are
      not full-fledged distributions (for example, there is no release
      documentation and no technical support) but allow to&colon;</p>
@@ -94,7 +94,7 @@ members:
 
      <p>
      Each starter kit itself is
-     <a href="http://nightly.altlinux.org/p9/license.all.html">free software licensed under GPL</a>
+     <a href="http://nightly.altlinux.org/p10/license.all.html">free software licensed under GPL</a>
      as a composite work, so that recipient has the freedom to&colon;</p>
 
      <ul>
