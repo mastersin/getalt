@@ -1,7 +1,7 @@
 ---
 
 entries:
-  - link: http://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p10/images/server-v/aarch64/alt-server-v-10.0-aarch64.iso
+  - link: https://mirror.yandex.ru/altlinux/p10/images/server-v/aarch64/alt-server-v-10.0-aarch64.iso
     platform: p10
     solution: alt-server-v
     importance: 0
@@ -10,7 +10,7 @@ entries:
     status: release
     board: ARM64 UEFI
 
-  - link: http://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p10/images/server-v/ppc64le/alt-server-v-10.0-ppc64le.iso
+  - link: https://mirror.yandex.ru/altlinux/p10/images/server-v/ppc64le/alt-server-v-10.0-ppc64le.iso
     platform: p10
     solution: alt-server-v
     importance: 0
@@ -19,7 +19,7 @@ entries:
     status: release
     board: POWER8/9
 
-  - link: http://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p10/images/server-v/x86_64/alt-server-v-10.0-x86_64.iso
+  - link: https://mirror.yandex.ru/altlinux/p10/images/server-v/x86_64/alt-server-v-10.0-x86_64.iso
     platform: p10
     solution: alt-server-v
     importance: 1

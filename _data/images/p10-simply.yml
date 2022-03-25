@@ -1,7 +1,7 @@
 ---
 
 entries:
-  - link: http://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p10/images/simply/aarch64/slinux-10.0-aarch64.iso
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/aarch64/slinux-10.0-aarch64.iso
     platform: p10
     solution: simply
     importance: 0
@@ -10,7 +10,7 @@ entries:
     status: release
     board: ARM64 UEFI (including Baikal-M)
 
-  - link: http://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p10/images/simply/aarch64/slinux-live-10.0-aarch64.iso
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/aarch64/slinux-live-10.0-aarch64.iso
     platform: p10
     solution: simply
     importance: 0
@@ -20,7 +20,7 @@ entries:
     board: ARM64 UEFI Live
     live: 1
 
-  - link: http://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p10/images/simply/aarch64/slinux-10.0-aarch64.img.xz
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/aarch64/slinux-10.0-aarch64.img.xz
     platform: p10
     solution: simply
     importance: 0
@@ -29,7 +29,7 @@ entries:
     status: release
     board: ARM64 RootFS (RPi3 and others)
 
-  - link: http://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p10/images/simply/aarch64/slinux-10.0-rpi4-aarch64.img.xz
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/aarch64/slinux-10.0-rpi4-aarch64.img.xz
     platform: p10
     solution: simply
     importance: 0
@@ -38,7 +38,7 @@ entries:
     status: release
     board: RPi4 and RPi3
 
-  - link: http://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p10/images/simply/riscv64/slinux-10.0-riscv64.img.xz
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/riscv64/slinux-10.0-riscv64.img.xz
     platform: p10
     solution: simply
     importance: 0
@@ -47,7 +47,7 @@ entries:
     status: release
     board: HiFive Unleashed/Unmatched/QEmu
 
-  - link: http://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p10/images/simply/i586/slinux-10.0-i586.iso
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/i586/slinux-10.0-i586.iso
     platform: p10
     solution: simply
     importance: 0
@@ -55,7 +55,7 @@ entries:
     type: iso
     status: release
 
-  - link: http://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p10/images/simply/i586/slinux-live-10.0-i586.iso
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/i586/slinux-live-10.0-i586.iso
     platform: p10
     solution: simply
     importance: 0
@@ -64,7 +64,7 @@ entries:
     status: release
     live: 1
 
-  - link: http://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p10/images/simply/x86_64/slinux-10.0-x86_64.iso
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/x86_64/slinux-10.0-x86_64.iso
     platform: p10
     solution: simply
     importance: 1
@@ -73,7 +73,7 @@ entries:
     type: iso
     status: release
 
-  - link: http://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p10/images/simply/x86_64/slinux-live-10.0-x86_64.iso
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/x86_64/slinux-live-10.0-x86_64.iso
     platform: p10
     solution: simply
     importance: 1
