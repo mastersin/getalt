@@ -7,7 +7,6 @@ entries:
     importance: 1
     arch: x86-64
     type: iso
-    status: release
 
   - link: https://mirror.yandex.ru/altlinux/p9/images/kworkstation/alt-kworkstation-9.2-live-x86_64.iso
     platform: p9
@@ -16,4 +15,3 @@ entries:
     arch: x86-64
     type: iso
     live: 1
-    status: release

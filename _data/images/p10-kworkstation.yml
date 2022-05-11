@@ -1,0 +1,20 @@
+---
+
+entries:
+  - link: https://mirror.yandex.ru/altlinux/p10/images/kworkstation/alt-kworkstation-10-install-x86_64.iso
+    platform: p10
+    solution: alt-kworkstation
+    importance: 1
+    index_icon: download-latest
+    arch: x86-64
+    type: iso
+    status: release
+
+  - link: https://mirror.yandex.ru/altlinux/p10/images/kworkstation/alt-kworkstation-10-live-x86_64.iso
+    platform: p10
+    solution: alt-kworkstation
+    importance: 0
+    arch: x86-64
+    type: iso
+    live: 1
+    status: release
