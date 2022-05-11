@@ -1,3 +1,3 @@
-http://getalt.org/_data/sections/1-client.yml
-http://getalt.org/_data/sections/2-server.yml
-http://getalt.org/_data/sections/3-eduhome.yml
+https://getalt.org/_data/sections/1-client.yml
+https://getalt.org/_data/sections/2-server.yml
+https://getalt.org/_data/sections/3-eduhome.yml
