@@ -1,0 +1,6 @@
+http://getalt.org/_data/images/p10-workstation.yml
+http://getalt.org/_data/images/p10-kworkstation.yml
+http://getalt.org/_data/images/p10-education.yml
+http://getalt.org/_data/images/p10-server.yml
+http://getalt.org/_data/images/p10-server-v.yml
+http://getalt.org/_data/images/p10-simply.yml
