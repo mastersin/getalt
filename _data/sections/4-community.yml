@@ -9,6 +9,7 @@ members:
    name_en: Other
    code: starterkits
    img: starterkits
+   branch: p10
    descr_ru: |
      Стартовые наборы представляют из себя свободно распространяемые
      сборки на основе стабильного репозитория Альт, предназначенные
