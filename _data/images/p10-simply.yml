@@ -1,7 +1,7 @@
 ---
 
 entries:
-  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/aarch64/slinux-10.0-aarch64.iso
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/aarch64/slinux-10.1-aarch64.iso
     platform: p10
     solution: simply
     importance: 0
@@ -10,7 +10,7 @@ entries:
     status: release
     board: ARM64 UEFI (including Baikal-M)
 
-  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/aarch64/slinux-live-10.0-aarch64.iso
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/aarch64/slinux-live-10.1-aarch64.iso
     platform: p10
     solution: simply
     importance: 0
@@ -20,7 +20,7 @@ entries:
     board: ARM64 UEFI Live
     live: 1
 
-  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/aarch64/slinux-10.0-aarch64.img.xz
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/aarch64/slinux-10.1-aarch64.img.xz
     platform: p10
     solution: simply
     importance: 0
@@ -47,7 +47,7 @@ entries:
     status: release
     board: HiFive Unleashed/Unmatched/QEmu
 
-  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/i586/slinux-10.0-i586.iso
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/i586/slinux-10.1-i586.iso
     platform: p10
     solution: simply
     importance: 0
@@ -55,7 +55,7 @@ entries:
     type: iso
     status: release
 
-  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/i586/slinux-live-10.0-i586.iso
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/i586/slinux-live-10.1-i586.iso
     platform: p10
     solution: simply
     importance: 0
@@ -64,7 +64,7 @@ entries:
     status: release
     live: 1
 
-  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/x86_64/slinux-10.0-x86_64.iso
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/x86_64/slinux-10.1-x86_64.iso
     platform: p10
     solution: simply
     importance: 1
@@ -73,7 +73,7 @@ entries:
     type: iso
     status: release
 
-  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/x86_64/slinux-live-10.0-x86_64.iso
+  - link: https://mirror.yandex.ru/altlinux/p10/images/simply/x86_64/slinux-live-10.1-x86_64.iso
     platform: p10
     solution: simply
     importance: 1
