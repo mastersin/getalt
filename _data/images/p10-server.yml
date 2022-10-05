@@ -1,7 +1,7 @@
 ---
 
 entries:
-  - link: https://mirror.yandex.ru/altlinux/p10/images/server/aarch64/alt-server-10.0-aarch64.iso
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/server/aarch64/alt-server-10.0-aarch64.iso
     platform: p10
     solution: alt-server
     importance: 0
@@ -10,7 +10,7 @@ entries:
     status: release
     board: ARM64 UEFI (including Baikal-M)
 
-  - link: https://mirror.yandex.ru/altlinux/p10/images/server/ppc64le/alt-server-10.0-ppc64le.iso
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/server/ppc64le/alt-server-10.0-ppc64le.iso
     platform: p10
     solution: alt-server
     importance: 0
@@ -19,7 +19,7 @@ entries:
     status: release
     board: POWER8/9
 
-  - link: https://mirror.yandex.ru/altlinux/p10/images/server/x86_64/alt-server-10.0-x86_64.iso
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/server/x86_64/alt-server-10.0-x86_64.iso
     platform: p10
     solution: alt-server
     importance: 1

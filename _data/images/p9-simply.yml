@@ -1,7 +1,7 @@
 ---
 
 entries:
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-9.1.1-aarch64.iso
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/aarch64/slinux-9.1.1-aarch64.iso
     platform: p9
     solution: simply
     importance: 0
@@ -9,7 +9,7 @@ entries:
     type: iso
     board: ARM64 UEFI (including Baikal-M)
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-live-9.1-aarch64.iso
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/aarch64/slinux-live-9.1-aarch64.iso
     platform: p9
     solution: simply
     importance: 0
@@ -18,7 +18,7 @@ entries:
     board: ARM64 UEFI Live
     live: 1
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-9.1-aarch64.tar.xz
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/aarch64/slinux-9.1-aarch64.tar.xz
     platform: p9
     solution: simply
     importance: 0
@@ -26,7 +26,7 @@ entries:
     type: archive
     board: ARM64 RootFS (RPi3 and others)
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-rpi4-9.1-aarch64.img.xz
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/aarch64/slinux-rpi4-9.1-aarch64.img.xz
     platform: p9
     solution: simply
     importance: 0
@@ -34,14 +34,14 @@ entries:
     type: image
     board: RPi4 and RPi3
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/i586/slinux-9.1-i586.iso
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/i586/slinux-9.1-i586.iso
     platform: p9
     solution: simply
     importance: 0
     arch: i586
     type: iso
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/i586/slinux-live-9.1-i586.iso
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/i586/slinux-live-9.1-i586.iso
     platform: p9
     solution: simply
     importance: 0
@@ -49,7 +49,7 @@ entries:
     type: iso
     live: 1
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-tegra-9.1-aarch64.tar.xz
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/aarch64/slinux-tegra-9.1-aarch64.tar.xz
     platform: p9
     solution: simply
     importance: 0
@@ -57,14 +57,14 @@ entries:
     status: release
     board: Nvidia Jetson Nano
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/x86_64/slinux-9.1-x86_64.iso
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/x86_64/slinux-9.1-x86_64.iso
     platform: p9
     solution: simply
     importance: 1
     arch: x86-64
     type: iso
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/x86_64/slinux-live-9.1-x86_64.iso
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/x86_64/slinux-live-9.1-x86_64.iso
     platform: p9
     solution: simply
     importance: 1
@@ -72,7 +72,7 @@ entries:
     type: iso
     live: 1
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/armh/slinux-mcom02-9.1-armh.img.xz
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/armh/slinux-mcom02-9.1-armh.img.xz
     platform: p9
     solution: simply
     importance: 0
@@ -81,7 +81,7 @@ entries:
     status: release
     board: Elvees mcom02 (salute el24pm2)
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/mipsel/slinux-bfk3-9.1-mipsel.tar.xz
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/mipsel/slinux-bfk3-9.1-mipsel.tar.xz
     platform: p9
     solution: simply
     importance: 0
@@ -90,7 +90,7 @@ entries:
     status: release
     board: BFK3.1 development board
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/mipsel/slinux-tavolga-9.1-mipsel.recovery.tar
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/mipsel/slinux-tavolga-9.1-mipsel.recovery.tar
     platform: p9
     solution: simply
     importance: 0
@@ -99,7 +99,7 @@ entries:
     status: release
     board: Tavolga Terminal
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/riscv/slinux-hifive-unleashed-9.1-riscv64.img.xz
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/riscv/slinux-hifive-unleashed-9.1-riscv64.img.xz
     platform: p9
     solution: simply
     importance: 0
@@ -107,7 +107,7 @@ entries:
     type: archive
     board: HiFive Unleashed
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/riscv/slinux-qemu-9.1-riscv64.qcow2c
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/riscv/slinux-qemu-9.1-riscv64.qcow2c
     platform: p9
     solution: simply
     importance: 0
@@ -115,7 +115,7 @@ entries:
     type: image
     board: RiscV64 QEmu
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/simply/mipsel/mk150-slinux-preview-9.0-mipsel.tar.xz
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/mipsel/mk150-slinux-preview-9.0-mipsel.tar.xz
     platform: p9
     solution: simply
     importance: 0

@@ -1,7 +1,7 @@
 ---
 
 entries:
-  - link: https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.2-20210520-aarch64.iso
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/alt-education-9.2-20210520-aarch64.iso
     platform: p9
     solution: alt-education
     importance: 0
@@ -9,7 +9,7 @@ entries:
     type: iso
     board: ARM64 UEFI (including Baikal-M)
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.2-rpi4-20210524-aarch64.img.xz
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/alt-education-9.2-rpi4-20210524-aarch64.img.xz
     platform: p9
     solution: alt-education
     importance: 0
@@ -17,14 +17,14 @@ entries:
     type: image
     board: RPi4 and RPi3
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/education/i586/alt-education-9.2-20210520-i586.iso
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/i586/alt-education-9.2-20210520-i586.iso
     platform: p9
     solution: alt-education
     importance: 0
     arch: i586
     type: iso
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.1-tegra-aarch64.tar.xz
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/alt-education-9.1-tegra-aarch64.tar.xz
     platform: p9
     solution: alt-education
     importance: 0
@@ -32,7 +32,7 @@ entries:
     type: archive
     board: Nvidia Jetson Nano
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/education/x86_64/alt-education-9.2-20210520-x86_64.iso
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/x86_64/alt-education-9.2-20210520-x86_64.iso
     platform: p9
     solution: alt-education
     importance: 1

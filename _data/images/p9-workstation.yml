@@ -1,7 +1,7 @@
 ---
 
 entries:
-  - link: https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-9.2-aarch64.iso
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/aarch64/alt-workstation-9.2-aarch64.iso
     platform: p9
     solution: alt-workstation
     importance: 0
@@ -9,7 +9,7 @@ entries:
     type: iso
     board: ARM64 UEFI (including Baikal-M)
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-9.2-aarch64.tar.xz
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/aarch64/alt-workstation-9.2-aarch64.tar.xz
     platform: p9
     solution: alt-workstation
     importance: 0
@@ -17,7 +17,7 @@ entries:
     type: archive
     board: ARM64 RootFS (RPi3 and others)
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-rpi4-9.2-aarch64.img.xz
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/aarch64/alt-workstation-rpi4-9.2-aarch64.img.xz
     platform: p9
     solution: alt-workstation
     importance: 0
@@ -25,21 +25,21 @@ entries:
     type: image
     board: RPi4 and RPi3
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/workstation/i586/alt-workstation-9.2-i586.iso
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/i586/alt-workstation-9.2-i586.iso
     platform: p9
     solution: alt-workstation
     importance: 0
     arch: i586
     type: iso
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/workstation/x86_64/alt-workstation-9.2-x86_64.iso
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/x86_64/alt-workstation-9.2-x86_64.iso
     platform: p9
     solution: alt-workstation
     importance: 1
     arch: x86-64
     type: iso
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-tegra-9.2-aarch64.tar.xz
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/aarch64/alt-workstation-tegra-9.2-aarch64.tar.xz
     platform: p9
     solution: alt-workstation
     importance: 0
@@ -48,7 +48,7 @@ entries:
     status: release
     board: Nvidia Jetson Nano
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/workstation/mipsel/alt-workstation-tavolga-9.2-mipsel.recovery.tar
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/mipsel/alt-workstation-tavolga-9.2-mipsel.recovery.tar
     platform: p9
     solution: alt-workstation
     importance: 0
@@ -57,7 +57,7 @@ entries:
     status: release
     board: Tavolga Terminal
 
-  - link: https://mirror.yandex.ru/altlinux/p9/images/workstation/armh/alt-workstation-mcom02-9.2-armh.img.xz
+  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/armh/alt-workstation-mcom02-9.2-armh.img.xz
     platform: p9
     solution: alt-workstation
     importance: 0

@@ -3,7 +3,7 @@
         {
             "name": "ALT Workstation 10.0 (Raspberry Pi 4/3)",
             "description": "ALT Workstation Linux OS for arm64 architectures",
-            "url": "https://mirror.yandex.ru/altlinux/p10/images/workstation/aarch64/alt-workstation-10.0-rpi4-aarch64.img.xz",
+            "url": "http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/workstation/aarch64/alt-workstation-10.0-rpi4-aarch64.img.xz",
             "icon": "https://getalt.org/raspi/logo-alt-ws.png",
             "extract_size": 8874098688,
             "extract_sha256": "f7809ec56b00319e8d597ba6c8e3db4d2329d0769e61530ccad2c67c10207b1c",
@@ -14,7 +14,7 @@
         {
             "name": "ALT Education 10.0 (Raspberry Pi 4/3)",
             "description": "ALT Education Linux OS for arm64 architectures",
-            "url": "https://mirror.yandex.ru/altlinux/p10/images/education/aarch64/alt-education-10.0-rpi4-aarch64.img.xz",
+            "url": "http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/education/aarch64/alt-education-10.0-rpi4-aarch64.img.xz",
             "icon": "https://getalt.org/raspi/logo-alt-edu.png",
             "extract_size": 12095324160,
             "extract_sha256": "b1142275fbab21fe645ef24d32d6651f695180505029f56ad0ad86af5766cad6",
@@ -25,7 +25,7 @@
         {
             "name": "Simply Linux 10.0 (Raspberry Pi 4/3)",
             "description": "Simply (ALT Linux) OS for arm64 architectures",
-            "url": "https://mirror.yandex.ru/altlinux/p10/images/simply/aarch64/slinux-10.0-rpi4-aarch64.img.xz",
+            "url": "http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/simply/aarch64/slinux-10.0-rpi4-aarch64.img.xz",
             "icon": "https://getalt.org/raspi/logo-alt-sl10.png",
             "extract_size": 7800356864,
             "extract_sha256": "fcd5ea40369e9452f02857fb72c90dc55062d760e0a22d770053b7b5eb434bcc",

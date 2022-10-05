@@ -1,6 +1,6 @@
 [
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-9.0-aarch64.iso",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/aarch64/alt-workstation-9.0-aarch64.iso",
 		"variant":"workstation",
 		"version":"9.0",
 		"arch":"aarch64",
@@ -9,7 +9,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-9.0-aarch64.tar.xz",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/aarch64/alt-workstation-9.0-aarch64.tar.xz",
 		"variant":"workstation",
 		"version":"9.0",
 		"arch":"aarch64",
@@ -18,7 +18,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/workstation/aarch64/alt-workstation-tegra-9.0-aarch64.tar.xz",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/aarch64/alt-workstation-tegra-9.0-aarch64.tar.xz",
 		"variant":"workstation",
 		"version":"9.0",
 		"arch":"aarch64",
@@ -27,7 +27,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/workstation/i586/alt-workstation-9.0-i586.iso",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/i586/alt-workstation-9.0-i586.iso",
 		"variant":"workstation",
 		"version":"9.0",
 		"arch":"i586",
@@ -36,7 +36,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/workstation/x86_64/alt-workstation-9.0-x86_64.iso",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/workstation/x86_64/alt-workstation-9.0-x86_64.iso",
 		"variant":"workstation",
 		"version":"9.0",
 		"arch":"x86_64",
@@ -45,7 +45,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/server/aarch64/alt-server-9.0-aarch64.iso",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/aarch64/alt-server-9.0-aarch64.iso",
 		"variant":"server",
 		"version":"9.0",
 		"arch":"aarch64",
@@ -54,7 +54,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/server/ppc64le/alt-server-9.0-ppc64le.iso",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/ppc64le/alt-server-9.0-ppc64le.iso",
 		"variant":"server",
 		"version":"9.0",
 		"arch":"ppc64le",
@@ -63,7 +63,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/server/x86_64/alt-server-9.0-x86_64.iso",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/server/x86_64/alt-server-9.0-x86_64.iso",
 		"variant":"server",
 		"version":"9.0",
 		"arch":"x86_64",
@@ -72,7 +72,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.0-aarch64.iso",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/alt-education-9.0-aarch64.iso",
 		"variant":"education",
 		"version":"9.0",
 		"arch":"aarch64",
@@ -81,7 +81,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.0-aarch64.tar.xz",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/alt-education-9.0-aarch64.tar.xz",
 		"variant":"education",
 		"version":"9.0",
 		"arch":"aarch64",
@@ -90,7 +90,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/education/aarch64/alt-education-9.0-tegra-aarch64.tar.xz",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/aarch64/alt-education-9.0-tegra-aarch64.tar.xz",
 		"variant":"education",
 		"version":"9.0",
 		"arch":"aarch64",
@@ -99,7 +99,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/education/i586/alt-education-9.0-i586.iso",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/i586/alt-education-9.0-i586.iso",
 		"variant":"education",
 		"version":"9.0",
 		"arch":"i586",
@@ -108,7 +108,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/education/x86_64/alt-education-9.0-x86_64.iso",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/education/x86_64/alt-education-9.0-x86_64.iso",
 		"variant":"education",
 		"version":"9.0",
 		"arch":"x86_64",
@@ -117,7 +117,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-8.990_rc1-aarch64.iso",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/aarch64/slinux-8.990_rc1-aarch64.iso",
 		"variant":"simply",
 		"version":"9.0",
 		"arch":"aarch64",
@@ -126,7 +126,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-8.990_rc1-aarch64.tar.xz",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/aarch64/slinux-8.990_rc1-aarch64.tar.xz",
 		"variant":"simply",
 		"version":"9.0",
 		"arch":"aarch64",
@@ -135,7 +135,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/simply/aarch64/slinux-tegra-8.990_rc1-aarch64.tar.xz",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/aarch64/slinux-tegra-8.990_rc1-aarch64.tar.xz",
 		"variant":"simply",
 		"version":"9.0",
 		"arch":"aarch64",
@@ -144,7 +144,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/simply/i586/slinux-8.990_rc1-i586.iso",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/i586/slinux-8.990_rc1-i586.iso",
 		"variant":"simply",
 		"version":"9.0",
 		"arch":"i586",
@@ -153,7 +153,7 @@
 		"md5":""
 	},
 	{
-		"link":"https://mirror.yandex.ru/altlinux/p9/images/simply/x86_64/slinux-8.990_rc1-x86_64.iso",
+		"link":"http://ftp.altlinux.org/pub/distributions/ALTLinux/p9/images/simply/x86_64/slinux-8.990_rc1-x86_64.iso",
 		"variant":"simply",
 		"version":"9.0",
 		"arch":"x86_64",
