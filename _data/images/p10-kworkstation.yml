@@ -1,7 +1,7 @@
 ---
 
 entries:
-  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/kworkstation/alt-kworkstation-10-install-x86_64.iso
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/kworkstation/alt-kworkstation-10-install-x86_64.iso
     platform: p10
     solution: alt-kworkstation
     importance: 1
@@ -10,7 +10,7 @@ entries:
     type: iso
     status: release
 
-  - link: http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/kworkstation/alt-kworkstation-10-live-x86_64.iso
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/kworkstation/alt-kworkstation-10-live-x86_64.iso
     platform: p10
     solution: alt-kworkstation
     importance: 0
