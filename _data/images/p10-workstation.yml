@@ -50,6 +50,6 @@ entries:
     solution: alt-workstation
     importance: 1
     arch: x86-64
-    index_icon: download
+    index_icon: download-latest
     type: iso
     status: release
