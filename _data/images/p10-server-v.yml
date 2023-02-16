@@ -23,7 +23,7 @@ entries:
     platform: p10
     solution: alt-server-v
     importance: 1
-    index_icon: download
+    index_icon: download-latest
     arch: x86-64
     type: iso
     status: release
