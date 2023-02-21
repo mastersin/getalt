@@ -38,15 +38,6 @@ entries:
     status: release
     board: RPi4 and RPi3
 
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/simply/riscv64/slinux-10.0-riscv64.img.xz
-    platform: p10
-    solution: simply
-    importance: 0
-    arch: riscv64
-    type: image
-    status: release
-    board: HiFive Unleashed/Unmatched/QEmu
-
   - link: http://ftp.altlinux.org/pub/people/iv/images/riscv64/slinux-20230209-riscv64/slinux-20230209-riscv64.img.xz
     platform: p10
     solution: simply
@@ -54,7 +45,7 @@ entries:
     arch: riscv64
     type: image
     status: release
-    board: VisionFive v1 (TechPreview)
+    board: HiFive Unleashed/Unmatched, QEMU, VisionFive v1 (TechPreview)
 
   - link: http://ftp.altlinux.org/pub/people/iv/images/riscv64/slinux-20230209-riscv64/slinux-20230209-riscv64.tar.xz
     platform: p10
@@ -63,7 +54,7 @@ entries:
     arch: riscv64
     type: archive
     status: release
-    board: VisionFive v1 RootFS (TechPreview)
+    board: RootFS for riscv64 (TechPreview)
 
   - link: https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/simply/i586/slinux-10.1-i586.iso
     platform: p10
