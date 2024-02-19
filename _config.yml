@@ -10,9 +10,7 @@ description_en: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 vk_username: altlinux
-instagram_username: basealt
 github_username:  altlinux
-facebook_username: "Базальт-СПО-2244393775840589"
 youtube_username: "UCtCfzqL49AkFYQ7JQcL_iSw"
 host: 127.0.0.1
 
