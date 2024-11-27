@@ -18,6 +18,20 @@ build: Gemfile
 public: build
 	rsync -r --delete-after _site/ getalt:/var/www/vhosts/getalt.org/
 
+.jekyll-cache:
+	mkdir -p .jekyll-cache
+	chmod 777 .jekyll-cache
+
+Gemfile.lock:
+	touch Gemfile.lock
+	chmod 666 Gemfile.lock
+
+docker-build: Gemfile Gemfile.lock .jekyll-cache
+	docker run --rm --volume="$$PWD:/srv/jekyll" -e JEKYLL_ENV=production -it jekyll/jekyll jekyll build
+
+docker-public: docker-build
+	rsync -r --delete-after _site/ getalt:/var/www/vhosts/getalt.org/
+
 # Generate YAML files with image lists grouped by solution. This
 # thing is written in Ruby to better integrate with Jekyll-based
 # infrastructure.
