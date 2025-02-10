@@ -1,7 +1,7 @@
 ---
 
 entries:
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/server/aarch64/alt-server-10.2-aarch64.iso
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/server/aarch64/alt-server-10.4-aarch64.iso
     platform: p10
     solution: alt-server
     importance: 0
@@ -19,7 +19,7 @@ entries:
     status: release
     board: POWER8/9
 
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/server/x86_64/alt-server-10.2-x86_64.iso
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/server/x86_64/alt-server-10.4-x86_64.iso
     platform: p10
     solution: alt-server
     importance: 1
