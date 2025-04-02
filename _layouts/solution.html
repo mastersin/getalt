@@ -23,47 +23,75 @@ layout: default
               <div class="bolda">
 		{%- include solution/dload_text.html -%}
               </div>
+
+              {% assign platforms = site.data.platforms.show-platforms %}
+              {% assign platforms_text = site.data.platforms.text-en %}
               <div class="links-wrapper">
-		  {% if page.code != 'starterkits'%}
+                <div class="switcher">
+                    {% if page.lang == 'ru'%}
+                      <b>{{ site.data.platforms.text-ru }}</b>
+                    {% else %}
+                      <b>{{ site.data.platforms.text-en }}</b>
+                    {% endif %}
 
-                  {% comment %}
-                  Build a flat array of entries from several YAML files.
-                  {% endcomment %}
-                  {% assign image_list = empty_array %}
-                  {% for elem in site.data.images %}
-                    {% assign image_list = image_list | concat: elem[1].entries %}
-                  {% endfor %}
-
-                  {% assign main_links = image_list | where: "solution", page.code | where: "status", "release" | where_exp:"item","item.importance == 1"  %}
-                  {% assign secondary_links1 = image_list | where: "solution", page.code | where_exp: "item", "item.importance != 1" | where: "status", "release" | where_exp:"i","i.arch == 'i586'" | sort: "platform" %}
-                  {% assign secondary_links2 = image_list | where: "solution", page.code | where_exp: "item", "item.importance != 1" | where: "status", "release" | where_exp:"i","i.arch != 'i586'" | sort: "platform" %}
-
-                  {% assign links_class = "links0" %}
-                  {% if secondary_links1.size > 0 or secondary_links2.size > 0 %}
-                    {% assign links_class = "links1" %}
-                  {% endif %}
-                  <div class="{{ links_class }}">
-                    <h2>{{ site.txt_main_links[page.lang] }}</h2>
-                    <ul>
-                    {% for loc in main_links %}
-                      {% include solution/links.html notonly="x86-64"%}
+                    {% for p in platforms%}
+                      <button onclick="showVersion('{{p}}')">{{p}}</button>
                     {% endfor %}
-                    </ul>
-                  </div>
-                  {% if secondary_links2.size > 0  or secondary_links2.size > 0%}
-                  <div class="links1">
-                    <h2>{{ site.txt_secondary_links[page.lang] }}</h2>
-                    <ul>
-
-                    {% for loc in secondary_links1 %}
-                      {% include solution/links.html %}
-                    {% endfor %}
-                    {% for loc in secondary_links2 %}
-                      {% include solution/links.html %}
-                    {% endfor %}
-                    </ul>
-                  </div>
-                  {% endif %}
-                  {% endif %}
+                </div>
               </div>
+
+              {% for p in platforms%}
+                <div class="links-wrapper" id="{{p}}">
+		                {% if page.code != 'starterkits'%}
+
+                    {% comment %}
+                    Build a flat array of entries from several YAML files.
+                    {% endcomment %}
+                    {% assign image_list = empty_array %}
+                    {% for elem in site.data.images %}
+                      {% assign filtered_platform_entries = elem[1].entries | where: "platform", p %}
+                      {% assign image_list = image_list | concat:  filtered_platform_entries %}
+                    {% endfor %}
+
+                    {% assign main_links = image_list | where: "solution", page.code | where_exp:"item","item.importance == 1"  %}
+                    {% assign secondary_links1 = image_list | where: "solution", page.code | where_exp: "item", "item.importance != 1" | where_exp:"i","i.arch == 'i586'" %}
+                    {% assign secondary_links2 = image_list | where: "solution", page.code | where_exp: "item", "item.importance != 1" | where_exp:"i","i.arch != 'i586'" %}
+
+                    {% assign links_class = "links0" %}
+                    {% if secondary_links1.size > 0 or secondary_links2.size > 0 %}
+                      {% assign links_class = "links1" %}
+                    {% endif %}
+                    <div class="{{ links_class }}">
+                      <h2>{{ site.txt_main_links[page.lang] }}</h2>
+                      <ul>
+                      {% for loc in main_links %}
+                        {% include solution/links.html notonly="x86-64"%}
+                      {% endfor %}
+                      </ul>
+                    </div>
+                    {% if secondary_links1.size > 0  or secondary_links2.size > 0%}
+                    <div class="links1">
+                      <h2>{{ site.txt_secondary_links[page.lang] }}</h2>
+                      <ul>
+
+                      {% for loc in secondary_links1 %}
+                        {% include solution/links.html %}
+                      {% endfor %}
+                      {% for loc in secondary_links2 %}
+                        {% include solution/links.html %}
+                      {% endfor %}
+                      </ul>
+                    </div>
+                    {% endif %}
+                    {% endif %}
+                </div>
+              {% endfor %}
           </div>
+
+<script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      var platforms = {{ site.data.platforms.show-platforms | jsonify }};
+      initializePlatforms(platforms); // Вызов функции для инициализации
+  });
+</script>

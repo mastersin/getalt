@@ -1,0 +1,6 @@
+text-en: "Platform: "
+text-ru: "Платформа: "
+
+show-platforms:
+  - "p11"
+  - "p10"

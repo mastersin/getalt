@@ -176,6 +176,37 @@ text-align: left;
   float: right;
 }
 
+.switcher {
+  background-color: #ddd;
+  color: #111;
+  font-size: 16px;
+  float: none;
+  padding: 10px;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #ccc;
+  color: #3f3f3f;
+  padding: 8px 16px;
+  margin: 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+  &:hover {
+    background-color: #ffc900;
+    color: #333;
+  }
+  &.active {
+    background-color: #ffc900;
+    color: #333;
+  }
+}
+
 a {
   color: #000 ;
 }
