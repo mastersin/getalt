@@ -1,0 +1,29 @@
+---
+
+entries:
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/workstation/aarch64/alt-workstation-11.0-aarch64.iso
+    platform: p11
+    solution: alt-workstation
+    importance: 0
+    arch: aarch64
+    type: iso
+    status: release
+    board: ARM64 UEFI (including Baikal-M)
+
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/workstation/aarch64/alt-workstation-11.0-aarch64.img.xz
+    platform: p11
+    solution: alt-workstation
+    importance: 0
+    arch: aarch64
+    type: archive
+    status: release
+    board: ARM64 image
+
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/workstation/x86_64/alt-workstation-11.0-x86_64.iso
+    platform: p11
+    solution: alt-workstation
+    importance: 1
+    arch: x86-64
+    index_icon: download-latest
+    type: iso
+    status: release

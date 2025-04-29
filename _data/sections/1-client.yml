@@ -5,7 +5,7 @@ order: 1
 bgcolor: f8f8f8
 members:
  - code: alt-workstation
-   branch: p10
+   branch: p11
    name_en: ALT Workstation
    name_ru: Альт Рабочая станция
    descr_ru: |
@@ -15,7 +15,7 @@ members:
      Operating system and application suite designed for workplace
      at both office and home.
    descr_full_ru: |
-     <a href="http://altlinux.org/workstation">Альт Рабочая станция 10</a>
+     <a href="http://altlinux.org/workstation">Альт Рабочая станция 11</a>
      после установки на ноутбук или настольную систему
      — это классическое персональное рабочее место
      с&nbsp;программами, которые помогут&colon;
@@ -34,10 +34,10 @@ members:
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
      а&nbsp;для применения необходимо приобрести лицензии или заключить
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/workstation/license.ru.html">лицензионный договор</a>
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p11/images/workstation/license.ru.html">лицензионный договор</a>
      в&nbsp;письменной форме.
    descr_full_en: |
-     <b>ALT Workstation 10</b> installed on a laptop or desktop provides
+     <b>ALT Workstation 11</b> installed on a laptop or desktop provides
      a classic personal workplace allowing to&colon;
 
      <ul>
@@ -54,7 +54,7 @@ members:
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
      requires acquiring licenses or signing a
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/workstation/license.all.html">license agreement</a>
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p11/images/workstation/license.all.html">license agreement</a>
      in written form.
 
    img: alt-workstation
