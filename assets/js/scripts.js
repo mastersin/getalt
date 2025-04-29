@@ -14,8 +14,8 @@ function showVersion(version) {
   }
 }
 
-function initializePlatforms(platforms) {
+function initializePlatforms(platforms, platform) {
   if (platforms.length > 0) {
-      showVersion(platforms[0]);
+      showVersion(platform);
   }
 }

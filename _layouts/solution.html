@@ -4,10 +4,13 @@ layout: default
         {%- include solution/name.html -%}
           <div class="solution1">
               <div class="bolda">
+                {%- for sections_hash in site.data.sections -%}
+                {%- assign section = sections_hash[1] -%}
                 {%- for solution in section.members -%}
                   {%- if solution.code == page.code -%}
                     {% assign platform = solution.branch %}
                   {%- endif -%}
+                {%- endfor -%}
                 {%- endfor -%}
 
                 {% assign page_png = page.code | prepend: "/i/ss/" | append: ".png"  %}
@@ -35,14 +38,17 @@ layout: default
                     {% endif %}
 
                     {% for p in platforms%}
+                    {% if p <= platform %}
                       <button onclick="showVersion('{{p}}')">{{p}}</button>
+                    {% endif %}
                     {% endfor %}
                 </div>
               </div>
 
               {% for p in platforms%}
+                {% if p <= platform %}
                 <div class="links-wrapper" id="{{p}}">
-		                {% if page.code != 'starterkits'%}
+                    {% if page.code != 'starterkits'%}
 
                     {% comment %}
                     Build a flat array of entries from several YAML files.
@@ -85,6 +91,7 @@ layout: default
                     {% endif %}
                     {% endif %}
                 </div>
+                {% endif %}
               {% endfor %}
           </div>
 
@@ -92,6 +99,6 @@ layout: default
 <script>
   document.addEventListener("DOMContentLoaded", function() {
       var platforms = {{ site.data.platforms.show-platforms | jsonify }};
-      initializePlatforms(platforms); // Вызов функции для инициализации
+      initializePlatforms(platforms, "{{platform}}"); // Вызов функции для инициализации
   });
 </script>
