@@ -5,7 +5,7 @@ entries:
     platform: p10
     solution: alt-kworkstation
     importance: 1
-    index_icon: download-latest
+    index_icon: download
     arch: x86-64
     type: iso
     status: release
