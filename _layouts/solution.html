@@ -27,6 +27,7 @@ layout: default
 		{%- include solution/dload_text.html -%}
               </div>
 
+              {% if page.code != 'starterkits'%}
               {% assign platforms = site.data.platforms.show-platforms %}
               {% assign platforms_text = site.data.platforms.text-en %}
               <div class="links-wrapper">
@@ -48,8 +49,6 @@ layout: default
               {% for p in platforms%}
                 {% if p <= platform %}
                 <div class="links-wrapper" id="{{p}}">
-                    {% if page.code != 'starterkits'%}
-
                     {% comment %}
                     Build a flat array of entries from several YAML files.
                     {% endcomment %}
@@ -89,10 +88,10 @@ layout: default
                       </ul>
                     </div>
                     {% endif %}
-                    {% endif %}
                 </div>
                 {% endif %}
               {% endfor %}
+              {% endif %}
           </div>
 
 <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
