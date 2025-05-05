@@ -60,7 +60,7 @@ members:
    img: alt-workstation
 
  - code: alt-kworkstation
-   branch: p10
+   branch: p11
    name_en: ALT KWorkstation
    name_ru: Альт Рабочая станция&nbsp;К
    descr_ru: |
@@ -70,7 +70,7 @@ members:
      Operating system with Plasma desktop and application suite designed for
      workplace at both office and home.
    descr_full_ru: |
-     <a href="http://altlinux.org/kworkstation"><b>Альт Рабочая станция К 10</b></a>
+     <a href="http://altlinux.org/kworkstation"><b>Альт Рабочая станция К 11</b></a>
      представляет собой решение для организации рабочих мест конечных пользователей
      и подходит для применения как в офисной среде, так и дома. Дистрибутив может
      использоваться в инфраструктуре Active Directory (аутентификация в домене,
@@ -88,11 +88,11 @@ members:
      Загруженную версию могут свободно использовать физические лица;
      юридические лица могут воспользоваться ею для тестирования,
      а&nbsp;для применения необходимо приобрести лицензии или заключить
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/kworkstation/license.ru.html">лицензионный договор</a>
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p11/images/kworkstation/license.ru.html">лицензионный договор</a>
      в&nbsp;письменной форме.
 
    descr_full_en: |
-     <b>ALT KWorkstation 10</b> is a solution for organizing workplaces of end users and is
+     <b>ALT Workstation K 11</b> is a solution for organizing workplaces of end users and is
      suitable for use both in the office environment and at home. The distribution
      can be used in the Active Directory infrastructure (domain authentication,
      access to file and print resources) and a heterogeneous network running <a href="../alt-server">ALT Server</a>.
@@ -108,7 +108,7 @@ members:
      The downloaded version can be freely used by private persons;
      legal entities can use it for testing but production use
      requires acquiring licenses or signing a
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/kworkstation/license.all.html">license agreement</a>
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p11/images/kworkstation/license.all.html">license agreement</a>
      in written form.
 
    img: alt-kworkstation
