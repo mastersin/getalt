@@ -1,3 +1,5 @@
+https://getalt.org/_data/images/p11-workstation.yml
+https://getalt.org/_data/images/p11-kworkstation.yml
 https://getalt.org/_data/images/p10-workstation.yml
 https://getalt.org/_data/images/p10-kworkstation.yml
 https://getalt.org/_data/images/p10-education.yml
