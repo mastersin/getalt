@@ -1,0 +1,21 @@
+---
+
+entries:
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/server/aarch64/alt-server-11.0-aarch64.iso
+    platform: p11
+    solution: alt-server
+    importance: 0
+    arch: aarch64
+    type: iso
+    status: release
+    board: ARM64 UEFI
+
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/server/x86_64/alt-server-11.0-x86_64.iso
+    platform: p11
+    solution: alt-server
+    importance: 1
+    index_icon: download-latest
+    arch: x86-64
+    type: iso
+    status: release
+
