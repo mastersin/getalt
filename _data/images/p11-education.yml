@@ -1,0 +1,40 @@
+---
+
+entries:
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/education/aarch64/alt-education-11.0-aarch64.iso
+    platform: p11
+    solution: alt-education
+    importance: 0
+    arch: aarch64
+    type: iso
+    status: release
+    board: ARM64 UEFI
+
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/education/aarch64/alt-education-live-11.0-aarch64.iso
+    platform: p11
+    solution: alt-education
+    importance: 0
+    arch: aarch64
+    type: iso
+    live: 1
+    status: release
+    board: ARM64 UEFI Live
+
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/education/x86_64/alt-education-11.0-x86_64.iso
+    platform: p11
+    solution: alt-education
+    importance: 1
+    index_icon: download-latest
+    arch: x86-64
+    type: iso
+    status: release
+
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/education/x86_64/alt-education-live-11.0-x86_64.iso
+    platform: p11
+    solution: alt-education
+    importance: 1
+    arch: x86-64
+    type: iso
+    live: 1
+    status: release
+
