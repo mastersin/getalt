@@ -7,5 +7,5 @@ https://getalt.org/_data/images/p10-workstation.yml
 https://getalt.org/_data/images/p10-kworkstation.yml
 https://getalt.org/_data/images/p10-education.yml
 https://getalt.org/_data/images/p10-server.yml
-https://getalt.org/_data/images/p10-virtualization.yml
+https://getalt.org/_data/images/p10-server-v.yml
 https://getalt.org/_data/images/p10-simply.yml
