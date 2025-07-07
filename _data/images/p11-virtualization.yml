@@ -3,7 +3,7 @@
 entries:
   - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/virtualization/aarch64/virtualization-pve-11.0-aarch64.iso
     platform: p11
-    solution: alt-server-v
+    solution: virtualization
     importance: 0
     arch: aarch64
     type: iso
@@ -12,7 +12,7 @@ entries:
 
   - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/virtualization/x86_64/virtualization-pve-11.0-x86_64.iso
     platform: p11
-    solution: alt-server-v
+    solution: virtualization
     importance: 1
     index_icon: download
     arch: x86-64

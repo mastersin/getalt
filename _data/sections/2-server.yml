@@ -52,53 +52,64 @@ members:
      in written form.
    img: alt-server
 
- - code: alt-server-v
-   branch: p10
-   name_ru: Альт Сервер Виртуализации
-   name_en: ALT Virtualization Server
+ - code: virtualization
+   branch: p11
+   name_ru: Образ для репозитория p11: ALT Virtualization 11
+   name_en: ALT Virtualization
    descr_ru: |
      Операционная система для предоставления функций виртуализации
      в корпоративной инфраструктуре.
    descr_en: |
-     Operating system for enterprise virtualization.
+    Image for p11 repository: ALT Virtualization 11
+
    descr_full_ru: |
-     <a href="http://altlinux.org/server-v"><b>Альт Сервер Виртуализации 10</b></a>
-     предоставляет четыре основных типа установки&colon;
-
-     <ul>
-     <li>базовый гипервизор KVM;</li>
-     <li>кластер виртуализации PVE (для x86_64 и aarch64);</li>
-     <li>облачная виртуализация OpenNebula;</li>
-     <li>контейнерная виртуализация (LXC/LXD, Docker/Podman).</li>
-     </ul>
-
-     Доступен инструментарий управления средствами виртуализации.
+     <a href="https://www.altlinux.org/Альт_Виртуализация_11_редакция_PVE">Альт Виртуализация 11
+     редакция PVE</a> это платформа комплексной виртуализации с открытым исходным кодом,
+     предназначенная для централизованного управления виртуальными машинами (VM на базе KVM/QEMU), контейнерами (LXC), кластерной инфраструктурой, сетями и
+     сетевыми настройками, а так же различными типами хранилищ данных.
 
      <p>
 
-     Загруженную версию могут свободно использовать физические лица;
-     юридические лица могут воспользоваться ею для тестирования,
-     а&nbsp;для применения необходимо приобрести лицензии или заключить
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/server-v/license.ru.html">лицензионный договор</a> в&nbsp;письменной форме.
+     Основные функции и возможности:
+     <ul">
+     <li>Консолидация серверов: на одном физическом сервере можно разместить несколько виртуальных машин или контейнеров, что оптимизирует использование аппаратных ресурсов;</li>
+     <li>Изоляция и безопасность: виртуализация позволяет создавать изолированные окружения для различных приложений и сервисов, предотвращая взаимное влияние;</li>
+     <li>Тестирование и разработка: можно создавать тестовые окружения, которые легко масштабируются и воспроизводятся;</li>
+     <li>Управление ресурсами: платформа позволяет точно назначать ресурсы (CPU, ОЗУ и хранилище) для каждой виртуальной машины или контейнера;</li>
+     <li>Отказоустойчивость и высокая доступность: поддерживает кластеризацию, что позволяет создавать высокодоступные кластеры из нескольких серверов. В случае сбоя на одном из серверов виртуальные машины автоматически переносятся на другие узлы;</li>
+     <li>Мониторинг и управление: встроенные инструменты позволяют отслеживать состояние виртуальных машин, контейнеров и физических серверов, а также проводить анализ использования ресурсов;</li>
+     <li>Резервное копирование и восстановление: предоставляет средства для создания резервных копий виртуальных машин и контейнеров, что помогает обеспечить безопасное хранение данных и восстановление систем в случае сбоев;</li>
+     </ul>
+
+     Альт Виртуализация 11 редакция PVE предоставляет возможность миграции ИТ-инфраструктур из других систем виртуализации, в том числе встроенный инструмент для импорта ВМ напрямую из хранилищ VMware ESXi.
+     Дистрибутив Альт Виртуализация 11 входит в реестр Минцифры (регистрационный номер ПО: <a href="https://reestr.digital.gov.ru/reestr/307837/?sphrase_id=610725">6487)</a>. С его функциональными характеристиками можно ознакомиться на <a href="https://www.basealt.ru/alt-virtualization">сайте производителя</a> &ndash; ООО «Базальт СПО».
+     Исходные тексты содержащихся в этих образах свободных программ можно получить в <a href="https://ftp.altlinux.org/pub/distributions/ALTLinux/p11/branch/files/SRPMS/">src.rpm-пакетах</a> и из <a href="https://git.altlinux.org/">git-репозиториев.</a>
+     Для записи ISO-образов на USB Flash воспользуйтесь <a href="https://www.altlinux.org/Запись_образов_на_DVD_и_USB_Flash">инструкцией</a>.
+     Cоздание образа корневой файловой системы из aarch64-архива описано <a href="https://www.altlinux.org/Write/rootfs">здесь</a>.
 
    descr_full_en: |
-     <b>ALT Virtualization Server 10</b> provides four main installation types&colon;
+
+     <a href="https://www.altlinux.org/Альт_Виртуализация_11_редакция_PVE">ALT Virtualization 11 PVE edition</a> &ndash; is an open source, comprehensive virtualization platform designed for centralized management of virtual machines (KVM/QEMU-based VMs), containers (LXC), cluster infrastructure, networks and network settings, and various types of  data storage.
+     Key features and functionality:
 
      <ul>
-     <li>basic KVM hypervisor;</li>
-     <li>PVE virtualization cluster (for x86_64 and aarch64);</li>
-     <li>OpenNebula cloud virtualization;</li>
-     <li>container virtualization (LXC/LXD, Docker/Podman);</li>
+     <li>Server consolidation: multiple virtual machines or containers can be hosted on a single physical server, optimizing the use of hardware resources;</li>
+     <li>Isolation and security: virtualization allows you to create isolated environments for different applications and services, preventing mutual impact;</li>
+     <li>Testing and development: you can create test environments that are easily scaled and reproduced;</li>
+     <li>Resource management: the platform allows you to accurately assign resources (CPU, RAM and storage) to each virtual machine or container;</li>
+     <li>Fault tolerance and high availability: supports clustering, which allows you to create  highly available clusters of multiple servers. In case of a failure on one server, virtual machines are automatically migrated to other hosts;</li>
+     <li>Monitoring and management: built-in tools allow you to monitor the status of virtual machines, containers and physical servers, as well as analyze resource utilization;</li>
+     <li>Backup and recovery: provides tools for creating backups of virtual machines and containers to help ensure safe data service and system recovery in case of failures;</li>
      </ul>
 
-     Virtualization management tools are included.
+     ALT Virtualization 11 PVE edition provides the ability to migrate IT infrastructures from other virtualization systems, including a built-in tool for importing VMs directly from VMware ESXi storage.
+     The ALT Virtualization 11 distribution is included in the register of the Ministry for Digital Development, Communications and Mass Media (software registration number: <a href="https://reestr.digital.gov.ru/reestr/307837/?sphrase_id=610725">6487)</a>. Its functional characteristics can be found on the <a href="https://www.basealt.ru/alt-virtualization">on the website of the manufacturer</a> &ndash; Basealt LLC.
 
-     <p>
+     The source code of the free software contained in these images can be obtained from <a href="https://ftp.altlinux.org/pub/distributions/ALTLinux/p11/branch/files/SRPMS/">src.rpm packages</a> and <a href="https://git.altlinux.org/">git repositories.</a>
 
-     The downloaded version can be freely used by private persons;
-     legal entities can use it for testing but production use
-     requires acquiring licenses or signing a
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/server-v/license.all.html">license agreement</a> in written form.
+     To burn ISO images to USB Flash, please use <a href="https://www.altlinux.org/Запись_образов_на_DVD_и_USB_Flash">the instructions</a>.
+     Creating a root file system image from an aarch64 archive is described <a href="https://www.altlinux.org/Write/rootfs">here</a>.
+
 
    img: alt-server-v
 
