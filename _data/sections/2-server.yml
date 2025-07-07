@@ -54,21 +54,21 @@ members:
 
  - code: virtualization
    branch: p11
-   name_ru: Образ для репозитория p11: ALT Virtualization 11
-   name_en: ALT Virtualization
+   name_ru: Альт Виртуализация 11
+   name_en: ALT Virtualization 11
    descr_ru: |
      Операционная система для предоставления функций виртуализации
      в корпоративной инфраструктуре.
    descr_en: |
-    Image for p11 repository: ALT Virtualization 11
+     Operating system for enterprise virtualization.
 
    descr_full_ru: |
      <a href="https://www.altlinux.org/Альт_Виртуализация_11_редакция_PVE">Альт Виртуализация 11
-     редакция PVE</a> это платформа комплексной виртуализации с открытым исходным кодом,
+     редакция PVE</a> - это платформа комплексной виртуализации с открытым исходным кодом,
      предназначенная для централизованного управления виртуальными машинами (VM на базе KVM/QEMU), контейнерами (LXC), кластерной инфраструктурой, сетями и
      сетевыми настройками, а так же различными типами хранилищ данных.
 
-     <p>
+     <p><br>
 
      Основные функции и возможности:
      <ul">
@@ -90,6 +90,9 @@ members:
    descr_full_en: |
 
      <a href="https://www.altlinux.org/Альт_Виртуализация_11_редакция_PVE">ALT Virtualization 11 PVE edition</a> &ndash; is an open source, comprehensive virtualization platform designed for centralized management of virtual machines (KVM/QEMU-based VMs), containers (LXC), cluster infrastructure, networks and network settings, and various types of  data storage.
+
+     <br>
+     <br>
      Key features and functionality:
 
      <ul>
