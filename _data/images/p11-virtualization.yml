@@ -14,7 +14,7 @@ entries:
     platform: p11
     solution: virtualization
     importance: 1
-    index_icon: download
+    index_icon: download-latest
     arch: x86-64
     type: iso
     status: release
