@@ -1,7 +1,7 @@
 ---
 layout: solution
 lang: en
-permalink: /en/virtualization/
-code: virtualization
-keywords: alt server-v, get alt server-v, altlinux, basealt, download alt server-v, alt server distribution, alt virtualization server, virtualization server, BaseALT Ltd, opensource, linux
+permalink: /en/alt-virtualization/
+code: alt-virtualization
+keywords: alt virtualization, get alt virtualization, altlinux, basealt, download alt virtualization, alt virtualization distribution, alt virtualization, virtualization server, BaseALT Ltd, opensource, linux
 ---

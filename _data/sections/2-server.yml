@@ -54,11 +54,11 @@ members:
      <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p11/images/server/license.all.html">license agreement</a>
      in written form.
 
- - code: virtualization
+ - code: alt-virtualization
    branch: p11
    name_ru: Альт Виртуализация 11
    name_en: ALT Virtualization 11
-   img: alt-server-v
+   img: alt-virtualization
 
    descr_ru: |
      Операционная система для предоставления функций виртуализации

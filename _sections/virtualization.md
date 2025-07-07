@@ -1,6 +1,6 @@
 ---
 layout: refresh
 lang: ru
-permalink: /virtualization/
-code: virtualization
+permalink: /alt-virtualization/
+code: alt-virtualization
 ---

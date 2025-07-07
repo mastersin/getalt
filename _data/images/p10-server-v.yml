@@ -3,7 +3,7 @@
 entries:
   - link: https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/server-v/aarch64/alt-server-v-10.4-aarch64.iso
     platform: p10
-    solution: virtualization
+    solution: alt-virtualization
     importance: 0
     arch: aarch64
     type: iso
@@ -12,7 +12,7 @@ entries:
 
   - link: https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/server-v/ppc64le/alt-server-v-10.0-ppc64le.iso
     platform: p10
-    solution: virtualization
+    solution: alt-virtualization
     importance: 0
     arch: ppc64le
     type: iso
@@ -21,7 +21,7 @@ entries:
 
   - link: https://download.basealt.ru/pub/distributions/ALTLinux/p10/images/server-v/x86_64/alt-server-v-10.4-x86_64.iso
     platform: p10
-    solution: virtualization
+    solution: alt-virtualization
     importance: 1
     index_icon: download
     arch: x86-64
