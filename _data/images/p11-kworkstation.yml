@@ -1,7 +1,7 @@
 ---
 
 entries:
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/kworkstation/alt-kworkstation-11-install-x86_64.iso
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/kworkstation/alt-kworkstation-11.1-install-x86_64.iso
     platform: p11
     solution: alt-kworkstation
     importance: 1
@@ -10,7 +10,7 @@ entries:
     type: iso
     status: release
 
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/kworkstation/alt-kworkstation-11-live-x86_64.iso
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/kworkstation/alt-kworkstation-11.1-live-x86_64.iso
     platform: p11
     solution: alt-kworkstation
     importance: 0
