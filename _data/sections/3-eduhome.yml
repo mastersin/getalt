@@ -58,7 +58,7 @@ members:
  - name_ru: Симпли Линукс
    name_en: Simply Linux
    code: simply
-   branch: p10
+   branch: p11
    img: simply
    descr_ru: |
      Операционная система для каждого. Она легка в использовании,
@@ -77,7 +77,7 @@ members:
      <p>
      Загруженная версия доступна конечным пользователям
      в соответствии с
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/simply/license.ru.html">лицензионным договором</a>
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p11/images/simply/license.ru.html">лицензионным договором</a>
      без права на распространение. Системным интеграторам, дистрибьюторам и
      OEM-производителям для получения прав на распространение следует обращаться
      в ООО «Базальт СПО» по адресу <b>sales@basealt.ru</b> для заключения письменного договора.
@@ -94,7 +94,7 @@ members:
      <p>
      The downloadable version is available for end users
      in accordance to the
-     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p10/images/simply/license.en.html">license agreement</a>
+     <a href="http://ftp.altlinux.org/pub/distributions/ALTLinux/p11/images/simply/license.en.html">license agreement</a>
      without redistribution permission. Systems integrators, distributors and
      OEM vendors should contact BaseALT Ltd at <b>sales@basealt.ru</b> for a written
      distribution contract.
