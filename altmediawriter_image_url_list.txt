@@ -3,6 +3,7 @@ https://getalt.org/_data/images/p11-kworkstation.yml
 https://getalt.org/_data/images/p11-education.yml
 https://getalt.org/_data/images/p11-server.yml
 https://getalt.org/_data/images/p11-virtualization.yml
+https://getalt.org/_data/images/p11-simply.yml
 https://getalt.org/_data/images/p10-workstation.yml
 https://getalt.org/_data/images/p10-kworkstation.yml
 https://getalt.org/_data/images/p10-education.yml
