@@ -1,7 +1,7 @@
 ---
 
 entries:
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/workstation/aarch64/alt-workstation-11.0-aarch64.iso
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/workstation/aarch64/alt-workstation-11.1-aarch64.iso
     platform: p11
     solution: alt-workstation
     importance: 0
@@ -10,7 +10,7 @@ entries:
     status: release
     board: ARM64 UEFI (including Baikal-M)
 
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/workstation/aarch64/alt-workstation-11.0-aarch64.img.xz
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/workstation/aarch64/alt-workstation-11.1-aarch64.img.xz
     platform: p11
     solution: alt-workstation
     importance: 0
@@ -19,7 +19,7 @@ entries:
     status: release
     board: ARM64 image
 
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/workstation/aarch64/alt-workstation-11.0-aarch64.tar.xz
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/workstation/aarch64/alt-workstation-11.1-aarch64.tar.xz
     platform: p11
     solution: alt-workstation
     importance: 0
@@ -28,7 +28,7 @@ entries:
     status: release
     board: ARM64 RootFS
 
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/workstation/x86_64/alt-workstation-11.0-x86_64.iso
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/workstation/x86_64/alt-workstation-11.1-x86_64.iso
     platform: p11
     solution: alt-workstation
     importance: 1
