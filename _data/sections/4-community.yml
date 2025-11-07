@@ -20,7 +20,7 @@ members:
      of derivative solutions.
    descr_full_ru: |
      <a href="http://altlinux.org/starterkits"><b>Стартовые наборы</b></a>
-     Десятой платформы — ежеквартальные сборки для опытных пользователей.
+     Одиннадцатой платформы — ежеквартальные сборки для опытных пользователей.
      Они не являются полноценными дистрибутивами (например, не содержат
      документации к выпуску и не подлежат технической поддержке), но
      позволяют&colon;
@@ -71,7 +71,7 @@ members:
 
    descr_full_en: |
      <p>
-     Platform 10 <a href="http://en.altlinux.org/starterkits"><b>Starter kits</b></a>
+     Platform 11 <a href="http://en.altlinux.org/starterkits"><b>Starter kits</b></a>
      are quarterly builds for experienced users. They are
      not full-fledged distributions (for example, there is no release
      documentation and no technical support) but allow to&colon;</p>
