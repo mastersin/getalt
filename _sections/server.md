@@ -2,5 +2,5 @@
 layout: refresh
 lang: ru
 permalink: /server/
-code: server
+code: alt-server
 ---
