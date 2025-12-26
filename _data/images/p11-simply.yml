@@ -1,17 +1,34 @@
 ---
 
 entries:
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/simply/aarch64/slinux-11.0-aarch64.iso
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/simply/aarch64/slinux-11.1-aarch64.iso
     platform: p11
     solution: simply
     importance: 0
     arch: aarch64
     type: iso
     status: release
-    board: ARM64 UEFI (including Baikal-M)
+    board: ARM64 UEFI
 
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/simply/aarch64/slinux-11.1-aarch64.tar.xz
+    platform: p11
+    solution: simply
+    importance: 0
+    arch: aarch64
+    type: archive
+    status: release
+    board: ARM64 RootFS
 
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/simply/x86_64/slinux-11.0-x86_64.iso
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/simply/aarch64/slinux-11.1-aarch64.img.xz
+    platform: p11
+    solution: simply
+    importance: 0
+    arch: aarch64
+    type: image
+    status: release
+    board: ARM64 Image
+
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/simply/x86_64/slinux-11.1-x86_64.iso
     platform: p11
     solution: simply
     importance: 1
