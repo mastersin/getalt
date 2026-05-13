@@ -1,7 +1,7 @@
 ---
 
 entries:
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/virtualization/aarch64/virtualization-pve-11.0-aarch64.iso
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/virtualization/aarch64/alt-virtualization-pve-11.1-aarch64.iso
     platform: p11
     solution: alt-virtualization
     importance: 0
@@ -10,7 +10,7 @@ entries:
     status: release
     board: ARM64 UEFI
 
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/virtualization/x86_64/virtualization-pve-11.0-x86_64.iso
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/virtualization/x86_64/alt-virtualization-pve-11.1-x86_64.iso
     platform: p11
     solution: alt-virtualization
     importance: 1
