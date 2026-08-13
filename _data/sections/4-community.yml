@@ -60,6 +60,119 @@ members:
 
     <a>Creating an image of the root file system from the aarch64 archive is described <a href="https://altmobile.org/en/">in the ALT Mobile knowledge base</a>.</p>
 
+ - name_ru: Альт Оркестрация
+   name_en: Alt Orchestra
+   code: alt-orchestra
+   img: alt-orchestra
+   branch: p11
+
+   descr_ru: |
+     Альт Оркестрация – специализированный дистрибутив Linux предназначенный 
+     для работы с Kubernetes, ориентированный на обеспечение безопасности, 
+     предсказуемости и эффективности в Kubernetes-средах.
+
+   descr_en: |
+     Alt Orchestra is a specialized Linux distribution developed by Bazalt SPO 
+     based on Talos OS, designed for working with Kubernetes and focused on 
+     ensuring security, predictability, and efficiency in Kubernetes environments.
+
+   descr_full_ru: |
+     <p><a href="https://www.basealt.ru/alt-orchestra"><b>Альт Оркестрация</b></a> - специализированный 
+     дистрибутив Linux предназначенный для работы с Kubernetes, ориентированный на обеспечение 
+     безопасности, предсказуемости и эффективности в Kubernetes-средах. Он не заменяет 
+     Kubernetes, а служит высоконадежной и безопасной базовой платформой для его работы.
+     <br>
+     <p><b>Основные отличия:</b>
+     <br>
+     <b>1. Неизменяемая минималистичная архитектура.</b> Корневая файловая система 
+     монтируется в режиме только для чтения (read-only), что делает систему неизменяемой 
+     (immutable). Любые изменения в системе, будь то обновление ядра, изменение конфигурации 
+     компонента Kubernetes или установка нового программного обеспечения, применяются только 
+     через процесс обновления. Архитектура Альт Оркестрации также характеризуется крайним 
+     минимализмом. Она включает в себя только те компоненты и службы, которые абсолютно 
+     необходимы для работы Kubernetes. Все остальные службы, бинарные файлы, пакеты, демоны 
+     и библиотеки, которые могут потребоваться для общего администрирования сервера, но не 
+     для выполнения контейнеров, удалены.
+     <br>
+     <b>2. API-центричное управление.</b> Традиционный доступ через shell и SSH отсутствует. 
+     Все операции выполняются через CLI-утилиту talosctl, которая взаимодействует с узлами 
+     через gRPC API, который защищен с помощью взаимной аутентификации на основе сертификатов 
+     (mutual TLS, mTLS).
+     <br><p>
+     <b>3. Безопасность по умолчанию.</b>
+     <br>В систему включены:
+     <ul><li>интеграция с TPM;</li>
+     <li>шифрование дисков;</li>
+     <li>безопасная загрузка.</li></ul>
+     <p>Таким образом, Альт Оркестрация представляет целостную систему безопасности, 
+     где каждый компонент, от аппаратной части до уровня управления, спроектирован для 
+     достижения максимальной защищенности. Иммутабельность, минимализм, встроенные аппаратные 
+     механизмы защиты и строгий API-ориентированный подход к управлению создают многоуровневую 
+     защиту, которая значительно снижает риски, связанные с эксплуатацией уязвимостей и ошибками 
+     конфигурации, делая его привлекательным выбором для организаций, для которых безопасность 
+     является абсолютным приоритетом.
+     <br>
+     <p>Подробнее об операционной системе можно узнать в <a href="https://alt-orchestra.altlinux.team/docs/">
+     <b>Базе Знаний</b></a> Альт Оркестрации.
+     <p>Права конечного пользователя в отношении операционной системы изложены 
+     <a href="https://www.basealt.ru/fileadmin/docs/EULA_ALT_Orchestra.pdf"> в лицензионном соглашении с 
+     конечным пользователем (EULA) </a>, которое включено в состав дистрибутива и опубликовано на 
+     <a href="https://www.basealt.ru/alt-orchestra">сайте</a>.
+     В соответствии с EULA физическим лицам право использования предоставляется безвозмездно; юридическим лицам, государственным, муниципальным органам и иным хозяйствующим субъектам нужно приобретать лицензию или заключать договор в письменном виде.</p>
+     <p>ISO-образ дистрибутива можно скачать со <a href="https://altlinux.space/alt-orchestra/-/packages/generic/alt-orchestra/v11.0">
+     <b>страницы загрузки дистрибутива</b></a> или сформировать самостоятельно с помощью 
+     <a href="https://factory.altlinux.space/"><b>Генератора образов Альт Оркестрации</b></a></p>
+
+
+   descr_full_en: |
+
+     <p><a href="https://www.basealt.ru/alt-orchestra"><b>Alt Orchestra</b></a> - is a specialized 
+     Linux distribution developed by Bazalt SPO based on Talos OS, designed for working with 
+     Kubernetes and focused on ensuring security, predictability, and efficiency in Kubernetes 
+     environments. It does not replace Kubernetes; rather, it serves as a highly reliable and secure 
+     foundational platform for its operation.
+     <br>
+     <p><b>Key differences:</b>
+     <br>
+     <b>1. Immutable, minimalist architecture.</b> The root file system is mounted in read‑only mode, 
+     making the system immutable. Any changes to the system — whether updating the kernel, modifying 
+     the configuration of a Kubernetes component, or installing new software — are applied only through 
+     the update process. The Alt Orchestra architecture is also characterised by extreme minimalism: it 
+     includes only the components and services that are absolutely necessary for Kubernetes to operate. 
+     All other services, binary files, packages, daemons, and libraries that might be required for general 
+     server administration but not for running containers have been removed.
+     <br>
+     <b>2. API‑centric management.</b> Traditional access via shell and SSH is not available. All 
+     operations are performed using the talosctl CLI utility, which interacts with the nodes via a 
+     gRPC API secured with mutual authentication based on certificates (mutual TLS, mTLS).
+     <br><p>
+     <b>3. Security by default.</b>
+     <br>The system includes:
+     <ul>
+     <li>TPM integration;</li>
+     <li>disk encryption;</li>
+     <li>Secure Boot.</li></ul>
+     <p>Thus, Alt Orchestra represents a holistic security system where every component — 
+     from the hardware layer to the management level — is designed to achieve maximum protection. 
+     Immutability, minimalism, built‑in hardware protection mechanisms, and a strict API‑oriented 
+     management approach create multi‑layered protection that significantly reduces the risks 
+     associated with exploiting vulnerabilities and configuration errors, making it an attractive 
+     choice for organisations for which security is an absolute priority.
+     <br>
+     <p>More information about the operating system can be found in the Alt Orchestra <a href="https://alt-orchestra.altlinux.team/docs/">
+     <b> Knowledge Base</b></a>.
+     <p>The end‑user rights regarding the operating system are set out  
+     <a href="https://www.basealt.ru/fileadmin/docs/EULA_ALT_Orchestra.pdf"> in the 
+     End‑User License Agreement (EULA) </a>, which is included in the distribution and published on 
+     <a href="https://www.basealt.ru/alt-orchestra">the website.</a>.
+
+     According to the EULA, individuals are granted the right to use the system free of charge; legal entities, 
+     state and municipal bodies, and other economic entities must purchase a license or enter into a written agreement.
+     <p>The ISO image of the distribution can be downloaded from <a href="https://altlinux.space/alt-orchestra/-/packages/generic/alt-orchestra/v11.0">
+     <b>the distribution’s download page</b></a> or built independently using 
+     <a href="https://factory.altlinux.space/"><b>the Alt Orchestra Image Generator</b></a></p>
+
+
  - name_ru: Другие
    name_en: Other
    code: starterkits
