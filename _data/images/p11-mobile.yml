@@ -1,7 +1,7 @@
 ---
 
 entries:
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/mobile/aarch64/alt-mobile-phosh-def-11.0-aarch64.img.xz
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/mobile/aarch64/alt-mobile-phosh-def-11.0.1-aarch64.img.xz
     platform: p11
     solution: alt-mobile
     importance: 1
@@ -10,7 +10,7 @@ entries:
     status: release
     board: ARM64 image
 
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/mobile/aarch64/alt-mobile-phosh-def-11.0-aarch64.tar.xz
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/mobile/aarch64/alt-mobile-phosh-def-11.0.1-aarch64.tar.xz
     platform: p11
     solution: alt-mobile
     importance: 1
@@ -19,7 +19,7 @@ entries:
     status: release
     board: ARM64 RootFS
 
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/mobile/aarch64/alt-mobile-phosh-pine-11.0-aarch64.img.xz
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/mobile/aarch64/alt-mobile-phosh-pine-11.0.1-aarch64.img.xz
     platform: p11
     solution: alt-mobile
     importance: 0
@@ -28,7 +28,7 @@ entries:
     status: release
     board: ARM64 image (PINE64)
 
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/mobile/aarch64/alt-mobile-phosh-pine-11.0-aarch64.tar.xz
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/mobile/aarch64/alt-mobile-phosh-pine-11.0.1-aarch64.tar.xz
     platform: p11
     solution: alt-mobile
     importance: 0
@@ -37,7 +37,7 @@ entries:
     status: release
     board: ARM64 RootFS (PINE64)
 
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/mobile/x86_64/alt-mobile-phosh-def-11.0-x86_64.img.xz
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/mobile/x86_64/alt-mobile-phosh-def-11.0.1-x86_64.img.xz
     platform: p11
     solution: alt-mobile
     importance: 1
@@ -47,7 +47,7 @@ entries:
     status: release
     board: x86-64 image
 
-  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/mobile/x86_64/alt-mobile-phosh-tablet-def-11.0-x86_64.img.xz
+  - link: https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/mobile/x86_64/alt-mobile-phosh-tablet-def-11.0.1-x86_64.img.xz
     platform: p11
     solution: alt-mobile
     importance: 0
