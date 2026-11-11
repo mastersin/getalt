@@ -1,4 +1,6 @@
-# getalt
-Test repo for getalt.org
+# getalt.org
 
-Jakyll files for Basealt.
+Проект переехал на [altlinux.space](https://altlinux.space/getalt/getalt.org).
+
+Этот репозиторий архивирован. Дальнейшая разработка ведётся по адресу:
+https://altlinux.space/getalt/getalt.org
